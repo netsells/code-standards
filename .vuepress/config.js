@@ -3,6 +3,8 @@ module.exports = {
 
     dest: 'docs',
 
+    base: '/code-standards/',
+
     themeConfig: {
         repo: 'https://github.com/netsells/code-standards',
         editLinks: true,
