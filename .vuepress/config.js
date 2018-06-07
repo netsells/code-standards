@@ -1,6 +1,8 @@
 module.exports = {
     title: 'Netsells Code Standards',
 
+    dest: 'docs',
+
     themeConfig: {
         repo: 'https://github.com/netsells/code-standards',
         editLinks: true,
