@@ -210,3 +210,8 @@ Class methods and static functions have meaningful names that describe the actio
 ### JSDoc
 
 All methods and functions must have a JSDoc block associated with it. This provides additonal intellisense and autocompletion to IDEs and code editors by defining what the function does and the input and output values. This also gives us the ability to automatically generate code API documentation via the JSDoc CLI tool.
+
+## jQuery Usage
+
+We like to keep jQuery usage to a minimum, other than for plugins. It should NOT be used to manipulate the dom. This should instead be encapsulated in a Vue component or directive.
+
