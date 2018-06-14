@@ -4,7 +4,7 @@
             <p>❌ Incorrect</p>
             <slot name="incorrect"/>
         </div>
-        <div v-if="$slots.correct || $slots.default" class="correct">
+        <div v-if="$slots.correct" class="correct">
             <p>✅ Correct</p>
             <slot/>
             <slot name="correct"/>

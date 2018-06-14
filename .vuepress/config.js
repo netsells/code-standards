@@ -25,6 +25,7 @@ module.exports = {
                     'frontend/css',
                     'frontend/javascript',
                     'frontend/vue',
+                    'frontend/blade',
                 ],
             },
             {
