@@ -25,3 +25,30 @@ for space in spaces {
     calculatePricing()
 }
 ```
+# Multiple Conditions
+
+For control statements that consist of multiple conditions where each condition must be true, it is preferred to use comas to separate them.
+ 
+
+Examples below:
+
+#### Incorrect
+
+```swift 
+if conditionA && conditionB {
+	doSomething()
+}
+```
+
+#### Correct
+
+```swift 
+if conditionA, conditionB {
+	doSomething()
+}
+```
+
+```swift 
+if let value = optional, value == condition {
+	doSomething()
+}
