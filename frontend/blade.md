@@ -77,5 +77,25 @@ Children of directives should be intended as per html indentation level (4 space
 
 ## Section directives
 
-Always end simple `@section` directives with an `@endsection`. Although `@stop` is identical in functionality, it is much less indicative of its purpose.
+Always end simple `@section` directives with an `@endsection`. Although `@stop` is identical in functionality, it is much less indicative of its purpose. `@endsection` was removed in Laravel 4, and readded in Laravel 5+.
 
+## Echo statement spacing
+
+Blade echo statements should always have a space either side of the content being output. This makes the code more readable.
+
+<code-highlight>
+<div slot="incorrect">
+
+```html
+{{$variable}}
+```
+
+</div>
+<div slot="correct">
+
+```html
+{{ $variable }}
+```
+
+</div>
+</code-highlight>
