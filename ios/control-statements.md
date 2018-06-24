@@ -1,10 +1,11 @@
 # Control Statements
 
-There are two common ways to write control statments with Swift. The first is where the condition is wrapped in brackets and then the other is written without brackets (unless required).
+There are two common ways to write control statements with Swift. The first is where the condition is wrapped in brackets and then the other is written without brackets (unless required).
 
-At Netsells control statements should not use brackets unless they are required. Examples below:
+Control statements should not use brackets unless they are required. Examples below:
 
-#### Incorrect
+<code-highlight>
+<div slot="incorrect">
 
 ```swift
 if(someCondition) {
@@ -12,7 +13,8 @@ if(someCondition) {
 }
 ```
 
-#### Correct
+</div>
+<div slot="correct">
 
 ```swift
 if someCondition {
@@ -25,34 +27,44 @@ for space in spaces {
     calculatePricing()
 }
 ```
+
+</div>
+</code-highlight>
+
+
 ## Multiple Conditions
 
 For control statements that consist of multiple conditions where each condition must be true, it is preferred to use comas to separate them.
- 
 
 Examples below:
 
-#### Incorrect
+<code-highlight>
+<div slot="incorrect">
 
-```swift 
+```swift
 if conditionA && conditionB {
 	doSomething()
 }
 ```
 
-#### Correct
+</div>
+<div slot="correct">
 
-```swift 
+```swift
 if conditionA, conditionB {
 	doSomething()
 }
 ```
 
-```swift 
+```swift
 if let value = optional, value == condition {
 	doSomething()
 }
 ```
+
+</div>
+</code-highlight>
+
 
 ## Guard Statements
 
@@ -62,16 +74,17 @@ Guard statements remove a level of indentation from your code making it clear to
 
 Examples below:
 
-#### Incorrect
+<code-highlight>
+<div slot="incorrect">
 
-```swift 
+```swift
 if !errorCondition {
 	doSomething()
 	doSomethingElse()
 }
 ```
 
-```swift 
+```swift
 for value in collection {
 	if condition {
 		doSomething(to: value)
@@ -79,47 +92,54 @@ for value in collection {
 }
 ```
 
-#### Correct
+</div>
+<div slot="correct">
 
-```swift 
+```swift
 guard !errorCondition else { return }
 
 doSomething()
 doSomethingElse()
 ```
 
-```swift 
+```swift
 for value in collection {
 	guard condition else { continue }
 	doSomething(to: value)
 }
-
 ```
+
+</div>
+</code-highlight>
+
 
 Ideally the else clause of a guard statement should perform a minimal amount of work as the bulk of the logic is meant to be contained in the same scope as the guard.
 
 For else clauses that consist of only ``` return ```, ```continue```, or similar keywords, it is preferred to keep them on the same line as the start of the guard statement. One exception to this rule is if the line of code is extremely long and breaking it up over multiple lines improves readability.
 
+<code-highlight>
+<div slot="incorrect">
 
-#### Incorrect
-
-
-```swift 
-guard !errorCondition else { 
-	return 
+```swift
+guard !errorCondition else {
+	return
 }
 
 doSomething()
 doSomethingElse()
 ```
 
-#### Correct
+</div>
+<div slot="correct">
 
-```swift 
+```swift
 guard !errorCondition else { return }
 
 doSomething()
 doSomethingElse()
 ```
+
+</div>
+</code-highlight>
 
 If you need something to happen in both the happy and unhappy paths then consider a ```defer { }``` statement at the beginning of the function to avoid code duplication. ```Defer``` ensures that work contained within the closure will be performed at the end of the function.
