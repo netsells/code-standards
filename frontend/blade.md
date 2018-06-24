@@ -75,4 +75,7 @@ Children of directives should be intended as per html indentation level (4 space
 </div>
 </code-highlight>
 
+## Section directives
+
+Always end simple `@section` directives with an `@endsection`. Although `@stop` is identical in functionality, it is much less indicative of its purpose.
 
