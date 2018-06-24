@@ -13,3 +13,13 @@ We make use of the latest version of the bootstrap framework to structure our we
 We make use of an automated approach of enforcing CSS code standards. These standards are constantly evolving to ensure we are making use of the best methods, and in order to catch more edge cases ensuring our code is consistent across the board.
 
 See [netsells/stylelint-config-netsells](https://github.com/netsells/stylelint-config-netsells)
+
+## Global Namespacing
+
+Page specific styles should be encapsulated within a top level class in relation to the template you are on. This avoids pollution of the global namespace. For example, when developing the homepage template, non-reusable styling should lay within a selector relevant to that page, for example:
+```css
+body.page-homepage {
+    ...
+}
+```
+
