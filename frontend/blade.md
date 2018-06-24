@@ -99,3 +99,35 @@ Blade echo statements should always have a space either side of the content bein
 
 </div>
 </code-highlight>
+
+## Indentation within Facades
+
+If a Facade generates HTML markup you should follow indentation guidelines as if it were a normal HTML element. Any example of this would be the [laravelcollective/html](https://laravelcollective.com/docs/5.2/html) package's form facades:
+
+<code-highlight>
+<div slot="incorrect">
+
+```html
+{!! Form::open() !!}
+<div class="form-group">
+    <label for="name">Name:</label>
+    <input id="name" name="name" class="form-control">Name:</label>
+</div>
+{!! Form::close() !!}
+```
+
+</div>
+<div slot="correct">
+
+```html
+{!! Form::open() !!} <!-- Generates <form> -->
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input id="name" name="name" class="form-control">Name:</label>
+    </div>
+{!! Form::close() !!} <!-- Generates </form> -->
+```
+
+</div>
+</code-highlight>
+
