@@ -35,6 +35,7 @@ module.exports = {
                     ['backend/', 'Introduction'],
                     'backend/php',
                     'backend/laravel',
+                    'backend/hatchly',
                 ],
             },
             {
