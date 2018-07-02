@@ -17,9 +17,15 @@ See [netsells/stylelint-config-netsells](https://github.com/netsells/stylelint-c
 ## Global Namespacing
 
 Page specific styles should be encapsulated within a top level class in relation to the template you are on. This avoids pollution of the global namespace. For example, when developing the homepage template, non-reusable styling should lay within a selector relevant to that page, for example:
+
 ```css
 body.page-homepage {
     ...
 }
 ```
+
+## Class and ID casing
+
+Classes and IDs should always be hyphenated, as opposed to camelCase, snake_case or any mixture of the two.
+
 
