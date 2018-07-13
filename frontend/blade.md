@@ -34,7 +34,7 @@ Top level directives (`@extends`, `@section`) should be separated by a blank lin
 </div>
 </code-highlight>
 
-## Intentation within directives
+## Indentation within directives
 
 Children of directives should be intended as per html indentation level (4 space).
 
@@ -48,7 +48,7 @@ Children of directives should be intended as per html indentation level (4 space
 </section>
 @endsection
 
-@if($foo === $bar)
+@if ($foo === $bar)
 <div>
     ...
 </div>
@@ -65,7 +65,7 @@ Children of directives should be intended as per html indentation level (4 space
     </section>
 @endsection
 
-@if($foo === $bar)
+@if ($foo === $bar)
     <div>
         ...
     </div>
