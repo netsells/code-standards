@@ -1,5 +1,19 @@
 # Laravel
 
+## Models
+### Ordering
+Our preferred ordering of items within a Laravel Model class is as follows:
+
+- Traits
+- Constants
+- Laravel specific fields ($table, $guarded, $fillable etc)
+- Public fields
+- Private fields
+- Relations
+- Scopes
+- Other Methods
+
+
 ## Routing
 
 The following guidelines are applicable to Laravel's [Routing](http://laravel.com/docs/routing).
