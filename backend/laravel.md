@@ -72,3 +72,6 @@ $router->get('profile', [
 
 </div>
 </code-highlight>
+
+## Validation
+Validation for request should be implemented by adding the validation rules to the `rules()` method on Request classes where possible - these help encapsulate validation and authorisation for the request. We discourage using `Validator::make()` unless it is absolutely necessary and Request classes can not be utilised.
