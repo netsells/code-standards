@@ -17,6 +17,14 @@ module.exports = {
         ],
         sidebar: [
             {
+                title: 'General',
+                collapsable: false,
+                children: [
+                    ['general/', 'Introduction'],
+                    'general/git',
+                ],
+            },
+            {
                 title: 'Frontend',
                 collapsable: false,
                 children: [
