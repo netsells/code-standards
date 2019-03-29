@@ -41,6 +41,7 @@ module.exports = {
                 collapsable: false,
                 children: [
                     ['backend/', 'Introduction'],
+                    'backend/apis',
                     'backend/php',
                     'backend/laravel',
                     'backend/hatchly',
