@@ -1,0 +1,19 @@
+a {
+    padding: 10px;
+    padding-left: 20px;
+}
+
+a {
+    transition-property: opacity;
+    -webkit-transition: opacity 1s linear;
+}
+
+/* the following examples are to be viewed as a single instance*/
+a {
+    transition-property: opacity;
+}
+a {
+    transition: opacity 1s linear;
+}
+
+

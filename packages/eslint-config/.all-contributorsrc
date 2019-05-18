@@ -1,0 +1,85 @@
+{
+  "projectName": "eslint-config-netsells",
+  "projectOwner": "netsells",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "readme.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "samturrell",
+      "name": "Sam Turrell",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5918348?v=4",
+      "profile": "http://samturrell.co.uk",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "BeccaAnderton18",
+      "name": "BeccaAnderton18",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/26109442?v=4",
+      "profile": "https://github.com/BeccaAnderton18",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "rowancollins89",
+      "name": "rowancollins89",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/8046913?v=4",
+      "profile": "https://github.com/rowancollins89",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "neveena",
+      "name": "Neveena",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6869002?v=4",
+      "profile": "https://github.com/neveena",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "martin91s",
+      "name": "martin91s",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/25647489?v=4",
+      "profile": "https://github.com/martin91s",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "wik-z",
+      "name": "Wiktor Zawierucha",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/26853175?v=4",
+      "profile": "https://github.com/wik-z",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "jdtjenkins",
+      "name": "jdtjenkins",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7649031?v=4",
+      "profile": "https://github.com/jdtjenkins",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "samboylett",
+      "name": "Sam Boylett",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/16099044?v=4",
+      "profile": "http://boylett.com",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
+}

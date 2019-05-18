@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "build": "vuepress build .",
-    "dev": "vuepress dev ."
+    "build": "vuepress build src",
+    "dev": "vuepress dev src"
   },
   "dependencies": {
-    "vuepress": "^0.10.0"
+    "lodash": "^4.17.11",
+    "vuepress": "^0.14.11"
   }
 }

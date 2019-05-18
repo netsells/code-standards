@@ -1,0 +1,6 @@
+{
+    "extends": "./",
+    "rules": {
+        "block-no-empty": null
+    }
+}

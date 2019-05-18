@@ -1,0 +1,29 @@
+{
+  "name": "@netsells/eslint-config",
+  "version": "1.8.0",
+  "description": "Eslint config for the Netsells organisation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ./index.js ./rules/**/*.js --fix",
+    "contributors:add": "all-contributors add",
+    "contributors:check": "all-contributors check",
+    "contributors:generate": "all-contributors generate"
+  },
+  "author": "Sam Turrell <sam@samturrell.co.uk> (http://samturrell.co.uk)",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-require-jsdoc-except": "^1.1.0",
+    "eslint-plugin-vue": "^4.5.0"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "^5.4.0",
+    "husky": "^0.15.0-rc.8"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run contributors:generate"
+    }
+  }
+}
