@@ -3,6 +3,7 @@
 
 > Disallow empty blocks.
 
+ 
 
 ## Examples
 
@@ -43,3 +44,4 @@ a {
 
  
 </code-highlight>
+

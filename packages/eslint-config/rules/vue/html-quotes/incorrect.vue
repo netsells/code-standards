@@ -1,0 +1,2 @@
+<div class='foo'></div>
+<div class=foo></div>

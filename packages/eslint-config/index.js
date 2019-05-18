@@ -1,8 +1,7 @@
+const glob = require('glob');
+const globRules = glob.sync(`${ __dirname }/rules/**/*.js`);
+
 module.exports = {
-    extends: [
-        './rules/javascript',
-        './rules/vue',
-    ].map(require.resolve),
     parserOptions: {
         ecmaVersion: 6,
         sourceType: 'module',
@@ -15,4 +14,7 @@ module.exports = {
     plugins: [
         'require-jsdoc-except',
     ],
+    //extends the all js files in the `./rules` directory
+    extends: globRules.map(require.resolve),
 };
+

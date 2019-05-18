@@ -34,6 +34,7 @@ module.exports = {
                     'frontend/stylelint/',
                     'frontend/javascript',
                     'frontend/vue',
+                    'frontend/eslint/',
                     'frontend/blade',
                 ],
             },

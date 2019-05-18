@@ -1,12 +1,12 @@
 # JavaScript
 
-We use the latest specification of ECMAScript on greenfield projects with a build pipeline (gulp/webpack), making for concise code that compiles for compatability in older browsers.
+We use the latest specification of ECMAScript on greenfield projects with a build pipeline (gulp/webpack), making for concise code that compiles for compatibility in older browsers.
 
 ## Linting
 
 We make use of an automated approach of enforcing JavaScript code standards. These standards are constantly evolving to ensure we are making use of the best methods, and in order to catch more edge cases ensuring our code is consistent across the board.
 
-See [netsells/eslint-config-netsells](https://github.com/netsells/eslint-config-netsells)
+See [Eslint](./eslint/).
 
 ## UI Framework
 

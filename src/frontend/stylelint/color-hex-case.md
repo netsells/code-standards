@@ -3,6 +3,7 @@
 
 > Sets the case of hex values to lowercase.
 
+ 
 
 ## Examples
 
@@ -39,3 +40,4 @@ a {
 
  
 </code-highlight>
+

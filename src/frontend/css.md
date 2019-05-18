@@ -12,7 +12,7 @@ We make use of the latest version of the bootstrap framework to structure our we
 
 We make use of an automated approach of enforcing CSS code standards. These standards are constantly evolving to ensure we are making use of the best methods, and in order to catch more edge cases ensuring our code is consistent across the board.
 
-See [netsells/stylelint-config-netsells](https://github.com/netsells/stylelint-config-netsells)
+See [Eslint](./stylelint/).
 
 ## Global Namespacing
 

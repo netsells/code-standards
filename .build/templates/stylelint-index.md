@@ -8,5 +8,5 @@ The following rules are currently configured.
 
 | Rule | Description | Link |
 |---|---|---|
-<% pages.forEach(({ name, description }, index) => { %>| [<%= name %>](./<%= name %>.md) | <%= description.replace(/(?:\r\n|\r|\n)/g, ' ') %> | [Link](https://stylelint.io/user-guide/rules/<%= name %>) |
+<% pages.forEach(({ name, rulename, filename, description }, index) => { %>| [<%= name %>](./<%= filename %>.md) | <%= description.replace(/(?:\r\n|\r|\n)/g, ' ') %> | [Link](https://stylelint.io/user-guide/rules/<%= rulename %>) |
 <% }); %>

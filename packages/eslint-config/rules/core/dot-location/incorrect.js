@@ -1,0 +1,2 @@
+const item = object.
+    property;

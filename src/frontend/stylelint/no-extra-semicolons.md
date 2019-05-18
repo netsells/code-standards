@@ -3,6 +3,7 @@
 
 > Disallow extra semicolons.
 
+ 
 
 ## Examples
 
@@ -41,3 +42,4 @@ a {
 
  
 </code-highlight>
+

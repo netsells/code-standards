@@ -2,7 +2,8 @@
 # <%= name %>
 
 > <%= description %>
-
+ 
+<% if (Object.keys(examples).length) { %>
 ## Examples
 
 <code-highlight>
@@ -17,3 +18,4 @@
 
 <% }); %> 
 </code-highlight>
+<% } %>

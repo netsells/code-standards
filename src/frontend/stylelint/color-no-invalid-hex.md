@@ -3,6 +3,7 @@
 
 > Disallow invalid hex colors.
 
+ 
 
 ## Examples
 
@@ -47,3 +48,4 @@ a {
 
  
 </code-highlight>
+

@@ -3,6 +3,7 @@
 
 > Disallow redundant values in shorthand properties.
 
+ 
 
 ## Examples
 
@@ -57,3 +58,4 @@ a {
 
  
 </code-highlight>
+
