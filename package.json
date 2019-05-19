@@ -1,5 +1,5 @@
 {
-  "name": "code-standards",
+  "private": true,
   "scripts": {
     "build": "vuepress build src",
     "dev": "vuepress dev src",
