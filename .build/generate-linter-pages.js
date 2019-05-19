@@ -59,7 +59,6 @@ const generatePages = ({
     }));
 
     pages.forEach((page) => {
-        console.log(page);
         const filePath = path.resolve(`${outputFolder}/${page.filename}.md`);
 
         fs.writeFileSync(filePath, page.template)

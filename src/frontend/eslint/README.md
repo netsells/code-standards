@@ -42,7 +42,6 @@ The following rules are currently configured.
 | [prefer-const](./prefer-const.md) | Flags variables that are defined using 'let' but then never reassigned  | [Link](https://eslint.org/docs/rules/prefer-const) |
 | [prefer-template](./prefer-template.md) | Encourage using template literals instead of '+' operator on strings  | [Link](https://eslint.org/docs/rules/prefer-template) |
 | [quotes](./quotes.md) | Enforce the use of single quotes when using JavaScript  | [Link](https://eslint.org/docs/rules/quotes) |
-| [require-jsdoc](./require-jsdoc.md) |  | [Link](https://eslint.org/docs/rules/require-jsdoc) |
 | [semi](./semi.md) | Require a semi-colon at the end of every line  | [Link](https://eslint.org/docs/rules/semi) |
 | [space-before-function-paren](./space-before-function-paren.md) | Require a space before function parenthesis   | [Link](https://eslint.org/docs/rules/space-before-function-paren) |
 | [template-curly-spacing](./template-curly-spacing.md) | Throw a warning when a regular string contains a text which looks like a template literal placeholder  | [Link](https://eslint.org/docs/rules/template-curly-spacing) |

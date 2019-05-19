@@ -30,8 +30,6 @@ a {
     transition: opacity 1s linear;
 }
 
-
-
 ```
 
 </div>

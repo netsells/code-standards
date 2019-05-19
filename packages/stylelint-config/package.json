@@ -11,17 +11,11 @@
   "author": "Rowan Collins <rowan.collins@netsells.co.uk>",
   "license": "ISC",
   "dependencies": {
-    "glob": "^7.1.2",
-    "scraperjs": "^1.2.0"
+    "glob": "^7.1.2"
   },
   "devDependencies": {
+    "scraperjs": "^1.2.0",
     "eslint": "^4.10.0",
-    "husky": "^0.15.0-rc.8",
     "stylelint": "^9.7.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
   }
 }

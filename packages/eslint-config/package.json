@@ -14,12 +14,6 @@
     "eslint-plugin-vue": "^5.2.2"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
-    "husky": "^0.15.0-rc.8"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
+    "babel-eslint": "^10.0.1"
   }
 }
