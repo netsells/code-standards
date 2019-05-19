@@ -7,7 +7,8 @@
     "generate:linters": "node ./.build/generate-linter-pages.js",
     "lint": "yarn lint:eslint && yarn lint:stylelint",
     "lint:eslint": "cd ./packages/eslint-config && yarn lint",
-    "lint:stylelint": "cd ./packages/stylelint-config && yarn lint"
+    "lint:stylelint": "cd ./packages/stylelint-config && yarn lint",
+    "lerna:publish": "lerna publish"
   },
   "dependencies": {
     "lodash": "^4.17.11",
