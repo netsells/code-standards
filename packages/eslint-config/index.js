@@ -1,5 +1,5 @@
 const glob = require('glob');
-const globRules = glob.sync(`${ __dirname }/rules/**/*.js`);
+const globRules = glob.sync(`${ __dirname }/rules/**/rule.js`);
 
 module.exports = {
     parserOptions: {
@@ -12,9 +12,13 @@ module.exports = {
         jquery: true,
     },
     plugins: [
+        'vue',
         'require-jsdoc-except',
     ],
-    //extends the all js files in the `./rules` directory
-    extends: globRules.map(require.resolve),
+    extends: [
+        'plugin:vue/base',
+        // extends the all js files in the `./rules` directory
+        ...globRules.map(require.resolve),
+    ],
 };
 

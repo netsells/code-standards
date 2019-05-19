@@ -1,4 +1,4 @@
-const _THROW = require('../../../../shared/throwables');
+const _THROW = require('../../../modules/throwables');
 
 module.exports = {
     rules: {

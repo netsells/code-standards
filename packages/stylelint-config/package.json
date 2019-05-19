@@ -6,8 +6,7 @@
   "scripts": {
     "lint:eslint": "eslint ./index.js ./build/**/*.js ./rules/**/*.js --fix",
     "lint:stylelint": "stylelint 'rules/**/correct.css' --fix",
-    "lint": "npm run lint:stylelint && npm run lint:eslint",
-    "create-rule": "node ./commands/create-rule/index.js"
+    "lint": "npm run lint:stylelint && npm run lint:eslint"
   },
   "author": "Rowan Collins <rowan.collins@netsells.co.uk>",
   "license": "ISC",
