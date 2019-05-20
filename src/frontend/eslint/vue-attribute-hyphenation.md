@@ -13,7 +13,6 @@
 
 ```vue
 <my-component :custom-attribute="true"></my-component>
-
 ```
 
 </div>
@@ -23,7 +22,6 @@
 
 ```vue
 <my-component :customAttribute="true"></my-component>
-
 ```
 
 </div>

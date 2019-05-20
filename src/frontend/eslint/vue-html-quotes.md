@@ -13,7 +13,6 @@
 
 ```vue
 <div class="foo"></div>
-
 ```
 
 </div>
@@ -24,7 +23,6 @@
 ```vue
 <div class='foo'></div>
 <div class=foo></div>
-
 ```
 
 </div>

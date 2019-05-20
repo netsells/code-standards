@@ -32,7 +32,6 @@ function setHeight(someNode) {
         someNode.height = "100px";
     } while ((someNode = someNode.parentNode) !== null);
 }
-
 ```
 
 </div>
@@ -53,7 +52,6 @@ function setHeight(someNode) {
         someNode.height = "100px";
     } while (someNode = someNode.parentNode);
 }
-
 ```
 
 </div>

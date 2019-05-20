@@ -23,7 +23,6 @@ export default {
         },
     },
 }
-
 ```
 
 </div>
@@ -35,7 +34,6 @@ export default {
 export default {
     props: ['status'],
 }
-
 ```
 
 </div>

@@ -27,7 +27,6 @@ a {
 @media screen and (orientation: landscape) {
     width: 500px;
 }
-
 ```
 
 </div>
@@ -55,7 +54,6 @@ a {
 @media screen and (orientation: landscape) {
     WiDtH: 500px;
 }
-
 ```
 
 </div>

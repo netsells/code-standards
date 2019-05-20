@@ -44,7 +44,6 @@ export default {
     'render',
     'renderError',
 };
-
 ```
 
 </div>

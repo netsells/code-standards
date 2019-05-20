@@ -13,7 +13,6 @@
 
 ```vue
 <div>{{ foo }}</div>
-
 ```
 
 </div>
@@ -24,7 +23,6 @@
 ```vue
 <div>{{foo}}</div>
 <div>{{    foo    }}</div>
-
 ```
 
 </div>

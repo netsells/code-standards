@@ -15,7 +15,6 @@
 if (error) {
     alert(error);
 }
-
 ```
 
 </div>

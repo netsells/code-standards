@@ -13,7 +13,6 @@
 
 ```vue
 <my-component :foo="bar"></my-component>
-
 ```
 
 </div>
@@ -23,7 +22,6 @@
 
 ```vue
 <my-component v-bind:foo="bar"></my-component>
-
 ```
 
 </div>

@@ -33,7 +33,6 @@ let foo = {
 };
 
 var foo = async() => 1
-
 ```
 
 </div>
@@ -63,7 +62,6 @@ let foo = {
 };
 
 var foo = async() => 1
-
 ```
 
 </div>

@@ -13,7 +13,6 @@
 
 ```js
 module.exports = FooBar;\n
-
 ```
 
 </div>
@@ -23,7 +22,6 @@ module.exports = FooBar;\n
 
 ```js
 module.exports = FooBar;
-
 ```
 
 </div>

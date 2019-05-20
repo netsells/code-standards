@@ -23,7 +23,6 @@ if (value === 'red') {
 if (x < -1 || 1 < x) {
     // ...
 }
-
 ```
 
 </div>
@@ -47,7 +46,6 @@ if (5 > count) {
 if (-1 < str.indexOf(substr)) {
     // ...
 }
-
 ```
 
 </div>

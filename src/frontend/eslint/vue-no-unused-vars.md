@@ -18,7 +18,6 @@
         <li v-for="i in 5">{{ i }}</li>
     </ol>
 </template>
-
 ```
 
 </div>
@@ -33,7 +32,6 @@
         <li v-for="i in 5">item</li>
     </ol>
 </template>
-
 ```
 
 </div>

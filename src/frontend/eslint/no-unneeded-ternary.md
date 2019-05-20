@@ -15,7 +15,6 @@
 const a = x === 2 ? 'yes' : 'No';
 const a = x !== false;
 const a = x ? 'Yes' : 'No';
-
 ```
 
 </div>
@@ -26,7 +25,6 @@ const a = x ? 'Yes' : 'No';
 ```js
 const a = x === 2 ? true : false;
 const b = x ? true : false;
-
 ```
 
 </div>

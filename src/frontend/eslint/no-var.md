@@ -21,7 +21,6 @@ let count = posts.length;
 if (additionalPosts.length) {
    count += additionalPosts.length;
 }
-
 ```
 
 </div>
@@ -31,7 +30,6 @@ if (additionalPosts.length) {
 
 ```js
 var count = posts.length;
-
 ```
 
 </div>
