@@ -1,0 +1,1 @@
+<textarea>{{ message }}</textarea>

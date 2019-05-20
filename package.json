@@ -1,9 +1,27 @@
 {
+  "private": true,
   "scripts": {
-    "build": "vuepress build .",
-    "dev": "vuepress dev ."
+    "build": "vuepress build src",
+    "dev": "vuepress dev src",
+    "generate": "yarn generate:linters",
+    "generate:linters": "node ./.build/generate-linter-pages.js",
+    "lint": "yarn lint:eslint && yarn lint:stylelint",
+    "lint:eslint": "cd ./packages/eslint-config && yarn lint",
+    "lint:stylelint": "cd ./packages/stylelint-config && yarn lint",
+    "lerna:publish": "lerna publish"
   },
   "dependencies": {
-    "vuepress": "^0.10.0"
+    "lodash": "^4.17.11",
+    "vuepress": "^0.14.11"
+  },
+  "devDependencies": {
+    "fs-extra": "^8.0.1",
+    "husky": "^2.3.0",
+    "lerna": "^3.14.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint && yarn generate && yarn build && git add ."
+    }
   }
 }

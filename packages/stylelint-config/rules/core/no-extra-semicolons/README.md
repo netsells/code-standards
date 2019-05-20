@@ -1,0 +1,1 @@
+Disallow extra semicolons.

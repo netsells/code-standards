@@ -1,0 +1,25 @@
+@media print {
+a {
+color: #000000;
+}
+
+@media print {
+    a,
+     b {
+        color: #000000;
+    }
+}
+
+a {
+/* blergh */
+    color: #000000;
+}
+
+a {
+    color: rgb(
+    255,
+    255,
+    255
+    );
+    top: 0;
+}

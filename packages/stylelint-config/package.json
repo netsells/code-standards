@@ -1,0 +1,21 @@
+{
+  "name": "@netsells/stylelint-config",
+  "version": "2.0.1",
+  "description": "Stylelint config for the Netsells organisation",
+  "main": "index.js",
+  "scripts": {
+    "lint:eslint": "eslint ./index.js ./build/**/*.js ./rules/**/*.js --fix",
+    "lint:stylelint": "stylelint 'rules/**/correct.css' --fix",
+    "lint": "npm run lint:stylelint && npm run lint:eslint"
+  },
+  "author": "Rowan Collins <rowan.collins@netsells.co.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "scraperjs": "^1.2.0",
+    "stylelint": "^9.7.1"
+  }
+}
