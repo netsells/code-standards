@@ -19,7 +19,6 @@ export default {
         };
     },
 }
-
 ```
 
 </div>
@@ -33,7 +32,6 @@ export default {
         foo: 'bar',
     },
 }
-
 ```
 
 </div>

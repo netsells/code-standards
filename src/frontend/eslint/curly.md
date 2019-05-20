@@ -25,7 +25,6 @@ if (foo) {
 } else {
     qux();
 }
-
 ```
 
 </div>
@@ -42,7 +41,6 @@ while (bar)
 if (foo) {
     baz();
 } else qux();
-
 ```
 
 </div>

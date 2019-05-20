@@ -24,7 +24,6 @@ const n = parseInt(foo, 10);
 // Strings
 const s = String(foo);
 foo = String(foo);
-
 ```
 
 </div>
@@ -46,7 +45,6 @@ const s = '' + foo;
 const s = `` + foo;
 foo += '';
 foo += ``;
-
 ```
 
 </div>

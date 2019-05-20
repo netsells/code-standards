@@ -15,7 +15,6 @@
 a {
     color: #ffffff;
 }
-
 ```
 
 </div>

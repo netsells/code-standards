@@ -15,7 +15,6 @@
 const num = 0.5;
 const ber = 2.0;
 const wang = -0.7;
-
 ```
 
 </div>
@@ -27,7 +26,6 @@ const wang = -0.7;
 const num = .5;
 const ber = 2.;
 const wang = -.7;
-
 ```
 
 </div>

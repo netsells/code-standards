@@ -13,7 +13,6 @@
 
 ```js
 const greeting = `Hello, ${name}`;
-
 ```
 
 </div>
@@ -23,7 +22,6 @@ const greeting = `Hello, ${name}`;
 
 ```js
 const greeting = "Hello, ${name}";
-
 ```
 
 </div>

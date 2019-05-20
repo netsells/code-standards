@@ -16,7 +16,6 @@
     class="foo"
     :style="bar"
 />
-
 ```
 
 </div>
@@ -27,7 +26,6 @@
 ```vue
 <div     class="foo"
          :style="bar"         />
-
 ```
 
 </div>

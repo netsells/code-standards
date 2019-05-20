@@ -17,7 +17,6 @@
         <li>{{ i }}</li><!-- "i" is defined and used. -->
     </ol>
 </template>
-
 ```
 
 </div>
@@ -31,7 +30,6 @@
         <li>item</li>
     </ol>
 </template>
-
 ```
 
 </div>

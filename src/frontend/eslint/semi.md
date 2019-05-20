@@ -13,7 +13,6 @@
 
 ```js
 const foo = 'bar';
-
 ```
 
 </div>
@@ -23,7 +22,6 @@ const foo = 'bar';
 
 ```js
 const foo = 'bar'
-
 ```
 
 </div>

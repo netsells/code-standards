@@ -14,7 +14,6 @@
 ```js
 import { merge, find } from 'module';
 import something from 'another-module';
-
 ```
 
 </div>
@@ -26,7 +25,6 @@ import something from 'another-module';
 import { merge } from 'module';
 import something from 'another-module';
 import { find } from 'module';
-
 ```
 
 </div>

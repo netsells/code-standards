@@ -13,7 +13,6 @@
 
 ```vue
 <textarea v-model="message" />
-
 ```
 
 </div>
@@ -23,7 +22,6 @@
 
 ```vue
 <textarea>{{ message }}</textarea>
-
 ```
 
 </div>

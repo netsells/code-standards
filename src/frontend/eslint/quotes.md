@@ -15,7 +15,6 @@
 const array = [];
 const array = [ 'red', 'green' ];
 const array = new Array(23);
-
 ```
 
 </div>
@@ -26,7 +25,6 @@ const array = new Array(23);
 ```js
 const array = [ , , ];
 const array = [ 'red', , 'green'];
-
 ```
 
 </div>

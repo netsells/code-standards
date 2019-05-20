@@ -27,7 +27,6 @@ a {
 a { 
     border-radius: 10px / 5px;
 }
-
 ```
 
 </div>
@@ -51,7 +50,6 @@ a {
 a { 
     border-radius: 1px 2px 1px 2px; 
 }
-
 ```
 
 </div>

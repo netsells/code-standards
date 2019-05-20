@@ -15,7 +15,6 @@
 const item = object
     .property;
 const item = object.property;
-
 ```
 
 </div>
@@ -26,7 +25,6 @@ const item = object.property;
 ```js
 const item = object.
     property;
-
 ```
 
 </div>

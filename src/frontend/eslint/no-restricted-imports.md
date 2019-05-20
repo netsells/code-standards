@@ -13,7 +13,6 @@
 
 ```js
 import flatten from 'lodash/flatten';
-
 ```
 
 </div>
@@ -23,7 +22,6 @@ import flatten from 'lodash/flatten';
 
 ```js
 import _ from 'lodash';
-
 ```
 
 </div>

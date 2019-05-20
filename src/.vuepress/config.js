@@ -66,4 +66,10 @@ module.exports = {
             },
         ],
     },
+
+    configureWebpack(config, isServer) {
+        if (!isServer && process.env.NODE_ENV === 'production') {
+            config.output.filename = 'assets/js/[name].[contenthash:8].js'
+        }
+    },
 };

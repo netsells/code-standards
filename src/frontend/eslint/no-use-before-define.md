@@ -22,7 +22,6 @@ const b = 1;
 function g() {
     return b;
 }
-
 ```
 
 </div>
@@ -41,7 +40,6 @@ function g() {
     return b;
 }
 const b = 1;
-
 ```
 
 </div>

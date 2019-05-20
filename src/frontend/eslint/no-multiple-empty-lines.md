@@ -15,7 +15,6 @@
 const foo = bar;
 
 const bar = foo;
-
 ```
 
 </div>
@@ -29,7 +28,6 @@ const foo = bar;
 
 
 const bar = foo;
-
 ```
 
 </div>

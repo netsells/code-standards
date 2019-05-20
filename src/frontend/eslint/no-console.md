@@ -15,7 +15,6 @@
 if (error) {
     console.log(error);
 }
-
 ```
 
 </div>

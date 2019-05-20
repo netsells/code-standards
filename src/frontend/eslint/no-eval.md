@@ -26,7 +26,6 @@ class A {
 
     }
 }
-
 ```
 
 </div>
@@ -50,7 +49,6 @@ this.eval("var a = 0");
 window.eval("var a = 0");
 
 global.eval("var a = 0");
-
 ```
 
 </div>

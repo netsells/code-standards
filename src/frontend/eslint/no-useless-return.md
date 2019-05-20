@@ -17,7 +17,6 @@ function foo() { return 5; }
 function foo() {
     return doSomething();
 }
-
 ```
 
 </div>
@@ -32,7 +31,6 @@ function foo() {
     doSomething();
     return;
 }
-
 ```
 
 </div>

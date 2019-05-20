@@ -23,7 +23,6 @@ if ("" === text) {
 if (obj.stuff !== undefined) {
     // code
 }
-
 ```
 
 </div>
@@ -43,7 +42,6 @@ if ("" == text) {
 if (obj.stuff != undefined) {
     // code
 }
-
 ```
 
 </div>
