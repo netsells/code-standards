@@ -1,3 +1,3 @@
 <template>
-    <span>Message: {{ msg }}</span>
+    <div :class="{ active: isActive }"></div>
 </template>
