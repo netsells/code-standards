@@ -1,5 +1,5 @@
 // file name: src/MyComponent.js
 new Vue({
-    name: 'MyComponent',
+    name: 'my-component',
     template: '<div />',
 });

@@ -13,7 +13,7 @@
 ```js
 // file name: src/MyComponent.js
 new Vue({
-    name: 'MyComponent',
+    name: 'my-component',
     template: '<div />',
 });
 ```
@@ -26,7 +26,7 @@ new Vue({
 ```js
 // file name: src/MyComponent.js
 new Vue({
-    name: 'MComponent',
+    name: 'm-component',
     template: '<div />',
 });
 ```
