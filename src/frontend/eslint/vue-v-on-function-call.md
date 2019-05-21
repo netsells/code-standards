@@ -10,7 +10,7 @@
  
 <div slot="correct">
 
-```html
+```vue
 <template>
     <button @click="closeModal">
     Close
@@ -26,7 +26,7 @@
  
 <div slot="incorrect">
 
-```html
+```vue
 <template>
     <button @click="closeModal()">
     Close
