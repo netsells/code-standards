@@ -12,7 +12,7 @@
 
 ```vue
 <template>
-    <span>Message: {{ msg }}</span>
+    <div :class="{ active: isActive }"></div>
 </template>
 ```
 
@@ -23,8 +23,8 @@
 
 ```vue
 <template>
-    <span>Message : {{ msg }}</span>
-    <span>Message :{{ msg }}</span>
+    <div :class="{ active : isActive }"></div>
+    <div :class="{ active :isActive }"></div>
 </template>
 ```
 
