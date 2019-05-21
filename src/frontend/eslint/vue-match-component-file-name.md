@@ -10,12 +10,14 @@
  
 <div slot="correct">
 
-```js
-// file name: src/MyComponent.js
-new Vue({
+```vue
+<!-- file name: src/MyComponent.vue -->
+<script>
+  export default {
     name: 'my-component',
-    template: '<div />',
-});
+    template: '<div />'
+  }
+</script>
 ```
 
 </div>
@@ -23,12 +25,14 @@ new Vue({
  
 <div slot="incorrect">
 
-```js
-// file name: src/MyComponent.js
-new Vue({
+```vue
+<!-- file name: src/MyComponent.vue -->
+<script>
+  export default {
     name: 'm-component',
-    template: '<div />',
-});
+    template: '<div />'
+  }
+</script>
 ```
 
 </div>
