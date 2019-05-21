@@ -61,6 +61,7 @@ The following rules are currently configured.
 | [vue/no-side-effects-in-computed-properties](./vue-no-side-effects-in-computed-properties.md) | It is considered a very bad practice to introduce side effects inside computed properties. It makes the code unpredictable and hard to understand.  | [Link](https://eslint.org/docs/rules/no-side-effects-in-computed-properties) |
 | [vue/no-textarea-mustache](./vue-no-textarea-mustache.md) | Disallows the use of mustaches within textareas  | [Link](https://eslint.org/docs/rules/no-textarea-mustache) |
 | [vue/no-unused-vars](./vue-no-unused-vars.md) | Disallow unused variable definitions of v-for directives or scope attributes  | [Link](https://eslint.org/docs/rules/no-unused-vars) |
+| [vue/object-curly-spacing](./vue-object-curly-spacing.md) | Enforce consistent spacing inside braces | [Link](https://eslint.org/docs/rules/object-curly-spacing) |
 | [vue/order-in-components](./vue-order-in-components.md) | Enforce order in Vue component data  | [Link](https://eslint.org/docs/rules/order-in-components) |
 | [vue/require-default-prop](./vue-require-default-prop.md) | This rule requires default value to be set for each props that are not marked as required.  | [Link](https://eslint.org/docs/rules/require-default-prop) |
 | [vue/require-prop-types](./vue-require-prop-types.md) | In committed code, prop definitions should always be as detailed as possible, specifying at least type(s).  | [Link](https://eslint.org/docs/rules/require-prop-types) |
