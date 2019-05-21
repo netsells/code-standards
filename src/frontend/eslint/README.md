@@ -67,5 +67,6 @@ The following rules are currently configured.
 | [vue/return-in-computed-property](./vue-return-in-computed-property.md) | Enforce that a return statement is present in computed property  | [Link](https://eslint.org/docs/rules/return-in-computed-property) |
 | [vue/this-in-template](./vue-this-in-template.md) | Disallow using "this" in template form  | [Link](https://eslint.org/docs/rules/this-in-template) |
 | [vue/v-bind-style](./vue-v-bind-style.md) | Enforce the shorthand v-bind: syntax (:)  | [Link](https://eslint.org/docs/rules/v-bind-style) |
+| [vue/v-on-function-call](./vue-v-on-function-call.md) | Enforce or forbid parentheses after method calls without arguments in  ``` v-on ``` directives | [Link](https://eslint.org/docs/rules/v-on-function-call) |
 | [vue/v-on-style](./vue-v-on-style.md) | Enforce the shorthand v-on: syntax (@)  | [Link](https://eslint.org/docs/rules/v-on-style) |
 
