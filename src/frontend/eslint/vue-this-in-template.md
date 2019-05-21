@@ -15,7 +15,6 @@
 <template>
     <div>{{ foo }}</div>
 </template>
-
 ```
 
 </div>
@@ -27,7 +26,6 @@
 <template>
     <div>{{ this.foo }}</div>
 </template>
-
 ```
 
 </div>

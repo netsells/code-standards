@@ -28,7 +28,6 @@ let a;
 if (true) {
     a = 1;
 }
-
 ```
 
 </div>
@@ -47,7 +46,6 @@ return a;
 for (let i in [1, 2, 3]) {
     console.log(i);
 }
-
 ```
 
 </div>

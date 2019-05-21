@@ -43,7 +43,6 @@ class A {
         // do nothing.
     }
 }
-
 ```
 
 </div>
@@ -69,7 +68,6 @@ class A {
 
     foo() {}
 }
-
 ```
 
 </div>

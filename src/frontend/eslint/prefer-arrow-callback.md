@@ -19,7 +19,6 @@ foo((a) => {
 foo(() => {
     return this.a;
 });
-
 ```
 
 </div>
@@ -35,7 +34,6 @@ foo(function(a) {
 foo(function() {
     return this.a;
 }.bind(this));
-
 ```
 
 </div>

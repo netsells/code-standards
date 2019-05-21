@@ -19,7 +19,6 @@ if (condition) {
 } else {
     // ...
 }
-
 ```
 
 </div>
@@ -43,7 +42,6 @@ if (condition) {
         // ...
     }
 }
-
 ```
 
 </div>

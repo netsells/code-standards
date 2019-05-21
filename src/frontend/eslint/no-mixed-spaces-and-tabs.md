@@ -16,7 +16,6 @@ function add(x, y) {
     // --->return x + y;
     return x + y;
 }
-
 ```
 
 </div>
@@ -38,7 +37,6 @@ function main() {
     var x = 5,
         y = 7;
 }
-
 ```
 
 </div>

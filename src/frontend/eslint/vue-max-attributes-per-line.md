@@ -20,7 +20,6 @@
     abc="123"
     xyz="321"
 ></my-component>
-
 ```
 
 </div>
@@ -34,7 +33,6 @@
 <my-component
     foo="bar" baz="qux"
 ><my-component>
-
 ```
 
 </div>

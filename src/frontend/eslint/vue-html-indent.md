@@ -20,7 +20,6 @@
         </my-component>
     </div>
 </template>
-
 ```
 
 </div>
@@ -37,7 +36,6 @@
     </my-component>
 </div>
 </template>
-
 ```
 
 </div>

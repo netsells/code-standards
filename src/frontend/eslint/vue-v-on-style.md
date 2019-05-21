@@ -13,7 +13,6 @@
 
 ```vue
 <my-component @change="updateValue"></my-component>
-
 ```
 
 </div>
@@ -23,7 +22,6 @@
 
 ```vue
 <my-component v-on:change="updateValue"></my-component>
-
 ```
 
 </div>

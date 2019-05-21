@@ -15,7 +15,6 @@
 const object = {
     key: 'value',
 };
-
 ```
 
 </div>
@@ -29,7 +28,6 @@ const object = {
     key :'value',
     key : 'value',
 };
-
 ```
 
 </div>

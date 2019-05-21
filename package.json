@@ -21,7 +21,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint && yarn generate && yarn build && git add ."
+      "pre-commit": "yarn lint && yarn generate && yarn build && git add docs"
     }
   }
 }

@@ -32,7 +32,7 @@ const generatePages = ({
             .filter(({ path }) => path)
             .map((template) => ({
                 ...template,
-                content: fs.readFileSync(template.path, 'utf8'),
+                content: fs.readFileSync(template.path, 'utf8').replace(/\n$/, ''),
                 language: new RegExp('\\.([0-9a-z]+)').exec(template.path)[1],
             })).reduce((examples, example) => ({
                 ...examples,

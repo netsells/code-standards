@@ -31,7 +31,6 @@ try {
 } finally {
     /* continue regardless of error */
 }
-
 ```
 
 </div>
@@ -56,7 +55,6 @@ try {
 } finally {
 
 }
-
 ```
 
 </div>

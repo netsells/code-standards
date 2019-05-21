@@ -15,7 +15,6 @@
 export default {
     name: 'my-component',
 }
-
 ```
 
 </div>
@@ -27,7 +26,6 @@ export default {
 export default {
     name: 'MyComponent',
 }
-
 ```
 
 </div>

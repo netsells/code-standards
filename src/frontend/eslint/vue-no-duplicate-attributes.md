@@ -17,7 +17,6 @@
     :class="{ foo: true }"
     abc="xyz"
 ></my-component>
-
 ```
 
 </div>
@@ -30,7 +29,6 @@
     :foo="bar"
     foo="xyz"
 ></my-component>
-
 ```
 
 </div>

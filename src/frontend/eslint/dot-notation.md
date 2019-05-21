@@ -16,7 +16,6 @@ const a = foo.bar;
 
 const b = 'Hello';
 const c = foo[b];
-
 ```
 
 </div>
@@ -26,7 +25,6 @@ const c = foo[b];
 
 ```js
 const a = foo['bar'];
-
 ```
 
 </div>

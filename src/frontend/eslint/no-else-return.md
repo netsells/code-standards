@@ -23,7 +23,6 @@ function foo() {
 
     return c;
 }
-
 ```
 
 </div>
@@ -41,7 +40,6 @@ function foo() {
         return c;
     }
 }
-
 ```
 
 </div>
