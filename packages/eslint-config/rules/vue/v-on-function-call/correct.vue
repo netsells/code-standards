@@ -1,8 +1,8 @@
 <template>
     <button @click="closeModal">
-    Close
+        Close
     </button>
     <button @click="closeModal(arg)">
-    Close
+        Close
     </button>
 </template>

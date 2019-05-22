@@ -1,5 +1,5 @@
 <template>
     <button @click="closeModal()">
-    Close
+        Close
     </button>
 </template>
