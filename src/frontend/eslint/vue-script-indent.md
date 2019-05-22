@@ -12,10 +12,9 @@
 
 ```vue
 <script>
-    let a = {
-        foo: 1,
-        bar: 2
-    }
+    export default {
+        name: 'my-component',
+    };
 </script>
 ```
 
@@ -26,10 +25,9 @@
 
 ```vue
 <script>
-let a = {
-    foo: 1,
-    bar: 2
-}
+export default {
+    name: 'my-component',
+};
 </script>
 ```
 
