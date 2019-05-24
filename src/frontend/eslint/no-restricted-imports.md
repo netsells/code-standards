@@ -13,6 +13,7 @@
 
 ```js
 import flatten from 'lodash/flatten';
+import myModule from '../../../../../../../../../modules/myModule';
 ```
 
 </div>
@@ -22,6 +23,7 @@ import flatten from 'lodash/flatten';
 
 ```js
 import _ from 'lodash';
+import myModule from '~/modules/myModule';
 ```
 
 </div>
