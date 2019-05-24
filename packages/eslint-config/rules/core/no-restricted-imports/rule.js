@@ -1,5 +1,8 @@
 module.exports = {
     rules: {
-        'no-restricted-imports': ['error', 'lodash'],
+        'no-restricted-imports': ['error', {
+            paths: ['lodash'],
+            patterns: ['~/*', '@/*'],
+        }],
     },
 };
