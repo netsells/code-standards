@@ -1,0 +1,1 @@
+Require or disallow a line break before tag's closing brackets
