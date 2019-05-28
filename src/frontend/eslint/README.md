@@ -51,7 +51,11 @@ The following rules are currently configured.
 | [vue/attribute-hyphenation](./vue-attribute-hyphenation.md) | Force attributes to be hyphenated rather than camelCase  | [Link](https://eslint.org/docs/rules/attribute-hyphenation) |
 | [vue/html-indent](./vue-html-indent.md) | Enforce 4 space continuous indentation  | [Link](https://eslint.org/docs/rules/html-indent) |
 | [vue/html-quotes](./vue-html-quotes.md) | Force double quote style in html syntax  | [Link](https://eslint.org/docs/rules/html-quotes) |
+<<<<<<< HEAD
 | [vue/key-spacing](./vue-key-spacing.md) | Enforce consistent spacing between keys and values in object literal properties | [Link](https://eslint.org/docs/rules/key-spacing) |
+=======
+| [vue/match-component-file-name](./vue-match-component-file-name.md) | Require component name property to match its file name | [Link](https://eslint.org/docs/rules/match-component-file-name) |
+>>>>>>> origin/master
 | [vue/max-attributes-per-line](./vue-max-attributes-per-line.md) | Limits the maximum number of attributes/properties per line to improve readability.  | [Link](https://eslint.org/docs/rules/max-attributes-per-line) |
 | [vue/mustache-interpolation-spacing](./vue-mustache-interpolation-spacing.md) | Expect one space between expression and curly brackets.  | [Link](https://eslint.org/docs/rules/mustache-interpolation-spacing) |
 | [vue/name-property-casing](./vue-name-property-casing.md) | Force kebab-case component names  | [Link](https://eslint.org/docs/rules/name-property-casing) |
@@ -62,11 +66,14 @@ The following rules are currently configured.
 | [vue/no-side-effects-in-computed-properties](./vue-no-side-effects-in-computed-properties.md) | It is considered a very bad practice to introduce side effects inside computed properties. It makes the code unpredictable and hard to understand.  | [Link](https://eslint.org/docs/rules/no-side-effects-in-computed-properties) |
 | [vue/no-textarea-mustache](./vue-no-textarea-mustache.md) | Disallows the use of mustaches within textareas  | [Link](https://eslint.org/docs/rules/no-textarea-mustache) |
 | [vue/no-unused-vars](./vue-no-unused-vars.md) | Disallow unused variable definitions of v-for directives or scope attributes  | [Link](https://eslint.org/docs/rules/no-unused-vars) |
+| [vue/object-curly-spacing](./vue-object-curly-spacing.md) | Enforce consistent spacing inside braces | [Link](https://eslint.org/docs/rules/object-curly-spacing) |
 | [vue/order-in-components](./vue-order-in-components.md) | Enforce order in Vue component data  | [Link](https://eslint.org/docs/rules/order-in-components) |
 | [vue/require-default-prop](./vue-require-default-prop.md) | This rule requires default value to be set for each props that are not marked as required.  | [Link](https://eslint.org/docs/rules/require-default-prop) |
 | [vue/require-prop-types](./vue-require-prop-types.md) | In committed code, prop definitions should always be as detailed as possible, specifying at least type(s).  | [Link](https://eslint.org/docs/rules/require-prop-types) |
 | [vue/return-in-computed-property](./vue-return-in-computed-property.md) | Enforce that a return statement is present in computed property  | [Link](https://eslint.org/docs/rules/return-in-computed-property) |
+| [vue/script-indent](./vue-script-indent.md) | Enforce consistent indentation in ```<script>``` | [Link](https://eslint.org/docs/rules/script-indent) |
 | [vue/this-in-template](./vue-this-in-template.md) | Disallow using "this" in template form  | [Link](https://eslint.org/docs/rules/this-in-template) |
 | [vue/v-bind-style](./vue-v-bind-style.md) | Enforce the shorthand v-bind: syntax (:)  | [Link](https://eslint.org/docs/rules/v-bind-style) |
+| [vue/v-on-function-call](./vue-v-on-function-call.md) | Enforce or forbid parentheses after method calls without arguments in ```v-on``` directives | [Link](https://eslint.org/docs/rules/v-on-function-call) |
 | [vue/v-on-style](./vue-v-on-style.md) | Enforce the shorthand v-on: syntax (@)  | [Link](https://eslint.org/docs/rules/v-on-style) |
 
