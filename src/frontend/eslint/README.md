@@ -52,11 +52,8 @@ The following rules are currently configured.
 | [vue/eqeqeq](./vue-eqeqeq.md) | Require the use of ```===``` and ```!==``` | [Link](https://eslint.org/docs/rules/eqeqeq) |
 | [vue/html-indent](./vue-html-indent.md) | Enforce 4 space continuous indentation  | [Link](https://eslint.org/docs/rules/html-indent) |
 | [vue/html-quotes](./vue-html-quotes.md) | Force double quote style in html syntax  | [Link](https://eslint.org/docs/rules/html-quotes) |
-<<<<<<< HEAD
 | [vue/key-spacing](./vue-key-spacing.md) | Enforce consistent spacing between keys and values in object literal properties | [Link](https://eslint.org/docs/rules/key-spacing) |
-=======
 | [vue/match-component-file-name](./vue-match-component-file-name.md) | Require component name property to match its file name | [Link](https://eslint.org/docs/rules/match-component-file-name) |
->>>>>>> origin/master
 | [vue/max-attributes-per-line](./vue-max-attributes-per-line.md) | Limits the maximum number of attributes/properties per line to improve readability.  | [Link](https://eslint.org/docs/rules/max-attributes-per-line) |
 | [vue/mustache-interpolation-spacing](./vue-mustache-interpolation-spacing.md) | Expect one space between expression and curly brackets.  | [Link](https://eslint.org/docs/rules/mustache-interpolation-spacing) |
 | [vue/name-property-casing](./vue-name-property-casing.md) | Force kebab-case component names  | [Link](https://eslint.org/docs/rules/name-property-casing) |
