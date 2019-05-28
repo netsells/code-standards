@@ -1,0 +1,1 @@
+Enforce specific casing for the component naming style in template
