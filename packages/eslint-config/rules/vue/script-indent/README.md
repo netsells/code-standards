@@ -1,0 +1,1 @@
+Enforce consistent indentation in ```<script>```
