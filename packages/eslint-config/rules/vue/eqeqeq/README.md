@@ -1,0 +1,1 @@
+Require the use of ```===``` and ```!==```
