@@ -1,0 +1,1 @@
+Require component name property to match its file name

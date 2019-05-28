@@ -51,6 +51,7 @@ The following rules are currently configured.
 | [vue/attribute-hyphenation](./vue-attribute-hyphenation.md) | Force attributes to be hyphenated rather than camelCase  | [Link](https://eslint.org/docs/rules/attribute-hyphenation) |
 | [vue/html-indent](./vue-html-indent.md) | Enforce 4 space continuous indentation  | [Link](https://eslint.org/docs/rules/html-indent) |
 | [vue/html-quotes](./vue-html-quotes.md) | Force double quote style in html syntax  | [Link](https://eslint.org/docs/rules/html-quotes) |
+| [vue/match-component-file-name](./vue-match-component-file-name.md) | Require component name property to match its file name | [Link](https://eslint.org/docs/rules/match-component-file-name) |
 | [vue/max-attributes-per-line](./vue-max-attributes-per-line.md) | Limits the maximum number of attributes/properties per line to improve readability.  | [Link](https://eslint.org/docs/rules/max-attributes-per-line) |
 | [vue/mustache-interpolation-spacing](./vue-mustache-interpolation-spacing.md) | Expect one space between expression and curly brackets.  | [Link](https://eslint.org/docs/rules/mustache-interpolation-spacing) |
 | [vue/name-property-casing](./vue-name-property-casing.md) | Force kebab-case component names  | [Link](https://eslint.org/docs/rules/name-property-casing) |
@@ -68,5 +69,6 @@ The following rules are currently configured.
 | [vue/script-indent](./vue-script-indent.md) | Enforce consistent indentation in ```<script>``` | [Link](https://eslint.org/docs/rules/script-indent) |
 | [vue/this-in-template](./vue-this-in-template.md) | Disallow using "this" in template form  | [Link](https://eslint.org/docs/rules/this-in-template) |
 | [vue/v-bind-style](./vue-v-bind-style.md) | Enforce the shorthand v-bind: syntax (:)  | [Link](https://eslint.org/docs/rules/v-bind-style) |
+| [vue/v-on-function-call](./vue-v-on-function-call.md) | Enforce or forbid parentheses after method calls without arguments in ```v-on``` directives | [Link](https://eslint.org/docs/rules/v-on-function-call) |
 | [vue/v-on-style](./vue-v-on-style.md) | Enforce the shorthand v-on: syntax (@)  | [Link](https://eslint.org/docs/rules/v-on-style) |
 
