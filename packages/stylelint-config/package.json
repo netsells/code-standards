@@ -1,6 +1,6 @@
 {
   "name": "@netsells/stylelint-config",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Stylelint config for the Netsells organisation",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,6 @@
     "eslint-plugin-require-jsdoc-except": "^1.3.0",
     "eslint-plugin-vue": "^5.2.2",
     "stylelint": "^9.7.1"
-  }
+  },
+  "gitHead": "6f4def5446469c28459507cf5e1f3f33047a513a"
 }

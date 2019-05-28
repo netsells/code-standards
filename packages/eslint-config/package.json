@@ -1,6 +1,6 @@
 {
   "name": "@netsells/eslint-config",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Eslint config for the Netsells organisation",
   "main": "index.js",
   "scripts": {
@@ -16,5 +16,6 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1"
-  }
+  },
+  "gitHead": "6f4def5446469c28459507cf5e1f3f33047a513a"
 }
