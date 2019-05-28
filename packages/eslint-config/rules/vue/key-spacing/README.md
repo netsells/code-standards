@@ -1,0 +1,1 @@
+Enforce consistent spacing between keys and values in object literal properties

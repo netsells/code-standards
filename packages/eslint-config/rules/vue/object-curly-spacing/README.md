@@ -1,0 +1,1 @@
+Enforce consistent spacing inside braces
