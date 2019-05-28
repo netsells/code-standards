@@ -49,12 +49,9 @@ The following rules are currently configured.
 | [yoda](./yoda.md) | Discourage code typed like yoda would speak  | [Link](https://eslint.org/docs/rules/yoda) |
 | [require-jsdoc-except/require-jsdoc](./require-jsdoc-except-require-jsdoc.md) | Exclude certain methods from requiring JSDoc definitions.  | [Link](https://eslint.org/docs/rules/require-jsdoc) |
 | [vue/attribute-hyphenation](./vue-attribute-hyphenation.md) | Force attributes to be hyphenated rather than camelCase  | [Link](https://eslint.org/docs/rules/attribute-hyphenation) |
-<<<<<<< HEAD
-| [vue/html-closing-bracket-newline](./vue-html-closing-bracket-newline.md) | Require or disallow a line break before tag's closing brackets | [Link](https://eslint.org/docs/rules/html-closing-bracket-newline) |
-=======
 | [vue/component-name-in-template-casing](./vue-component-name-in-template-casing.md) | Enforce specific casing for the component naming style in template | [Link](https://eslint.org/docs/rules/component-name-in-template-casing) |
 | [vue/eqeqeq](./vue-eqeqeq.md) | Require the use of ```===``` and ```!==``` | [Link](https://eslint.org/docs/rules/eqeqeq) |
->>>>>>> origin/master
+| [vue/html-closing-bracket-newline](./vue-html-closing-bracket-newline.md) | Require or disallow a line break before tag's closing brackets | [Link](https://eslint.org/docs/rules/html-closing-bracket-newline) |
 | [vue/html-indent](./vue-html-indent.md) | Enforce 4 space continuous indentation  | [Link](https://eslint.org/docs/rules/html-indent) |
 | [vue/html-quotes](./vue-html-quotes.md) | Force double quote style in html syntax  | [Link](https://eslint.org/docs/rules/html-quotes) |
 | [vue/key-spacing](./vue-key-spacing.md) | Enforce consistent spacing between keys and values in object literal properties | [Link](https://eslint.org/docs/rules/key-spacing) |
