@@ -8,6 +8,7 @@ The following rules are currently configured.
 
 | Rule | Description | Link |
 |---|---|---|
+| [array-bracket-newline](./array-bracket-newline.md) | This rule enforces line breaks after opening and before closing array brackets.  | [Link](https://eslint.org/docs/rules/array-bracket-newline) |
 | [arrow-spacing](./arrow-spacing.md) | Requires spacing before and after arrow functions arrow  | [Link](https://eslint.org/docs/rules/arrow-spacing) |
 | [comma-dangle](./comma-dangle.md) | Requires trailing commas when the last element or property is in a different line than the closing ] or } and disallows trailing commas when the last element or property is on the same line as the closing ] or }  | [Link](https://eslint.org/docs/rules/comma-dangle) |
 | [curly](./curly.md) | Forces formatting of curly brace conventions  | [Link](https://eslint.org/docs/rules/curly) |
