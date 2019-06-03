@@ -2,14 +2,31 @@ const _THROW = require('../../../modules/throwables');
 
 module.exports = {
     rules: {
-        'vue/order-in-components': [_THROW.ERROR, {
+        'vue/order-in-components': [
+_THROW.ERROR,
+{
             order: [
                 // Options / Misc
-                ['name', 'delimiters', 'functional', 'model'],
+                [
+'name',
+'delimiters',
+'functional',
+'model',
+],
                 // Options / Assets
-                ['components', 'directives', 'filters'],
+                [
+'components',
+'directives',
+'filters',
+],
                 // Options / Composition
-                ['parent', 'mixins', 'extends', 'provide', 'inject'],
+                [
+'parent',
+'mixins',
+'extends',
+'provide',
+'inject',
+],
                 'el',
                 'template',
                 'props',
@@ -22,6 +39,7 @@ module.exports = {
                 'render',
                 'renderError',
             ],
-        }],
+        },
+],
     },
 };

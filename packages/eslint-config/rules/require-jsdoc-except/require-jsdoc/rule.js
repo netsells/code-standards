@@ -2,7 +2,9 @@ const _THROW = require('../../../modules/throwables');
 
 module.exports = {
     rules: {
-        'require-jsdoc-except/require-jsdoc': [_THROW.WARNING, {
+        'require-jsdoc-except/require-jsdoc': [
+_THROW.WARNING,
+{
             require: {
                 FunctionDeclaration: true,
                 MethodDefinition: true,
@@ -25,6 +27,7 @@ module.exports = {
                 // Ignore the vue default prop method
                 'default',
             ],
-        }],
+        },
+],
     },
 };

@@ -11,10 +11,7 @@ module.exports = {
         node: true,
         jquery: true,
     },
-    plugins: [
-        'vue',
-        'require-jsdoc-except',
-    ],
+    plugins: ['vue', 'require-jsdoc-except'],
     extends: [
         'plugin:vue/base',
         // extends the all js files in the `./rules` directory
