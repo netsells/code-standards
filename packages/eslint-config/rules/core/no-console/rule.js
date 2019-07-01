@@ -1,5 +1,5 @@
 const _THROW = require('../../../modules/throwables');
-const Utils = require('../../../modules/Utils');
+const Utils = require('../../../modules/utils');
 
 module.exports = {
     rules: {
