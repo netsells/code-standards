@@ -21,11 +21,5 @@ module.exports = {
         // extends the all js files in the `./rules` directory
         ...globRules.map(require.resolve),
     ],
-
-    rules: {
-        // TODO: move to own files
-        '@netsells/netsells/no-global-timeouts': 1,
-        '@netsells/netsells/no-dom-listeners': 1,
-    },
 };
 
