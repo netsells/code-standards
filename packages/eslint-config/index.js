@@ -18,8 +18,9 @@ module.exports = {
     ],
     extends: [
         'plugin:vue/base',
+        'plugin:nuxt/recommended',
+
         // extends the all js files in the `./rules` directory
         ...globRules.map(require.resolve),
     ],
 };
-
