@@ -1398,6 +1398,11 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
+"@netsells/eslint-plugin-netsells@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@netsells/eslint-plugin-netsells/-/eslint-plugin-netsells-1.0.0.tgz#1c081b6f9b9ed7f40421d5bbb6bd660e069fb2a3"
+  integrity sha512-CMjB4tYD3CjpZqdx5tBVpp7KZdpBHQxgfQ7/Acgn736eb533t9c/MQsH+TdviUw7jzlI9m44I5/tRl/H99qoqg==
+
 "@nodelib/fs.stat@^1.1.2":
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.stat/-/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"

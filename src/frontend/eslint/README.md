@@ -47,6 +47,8 @@ The following rules are currently configured.
 | [template-curly-spacing](./template-curly-spacing.md) | Throw a warning when a regular string contains a text which looks like a template literal placeholder  | [Link](https://eslint.org/docs/rules/template-curly-spacing) |
 | [valid-jsdoc](./valid-jsdoc.md) | Require jsdoc data to be consistently valid  | [Link](https://eslint.org/docs/rules/valid-jsdoc) |
 | [yoda](./yoda.md) | Discourage code typed like yoda would speak  | [Link](https://eslint.org/docs/rules/yoda) |
+| [netsells/no-dom-listeners](./netsells-no-dom-listeners.md) | Prevent DOM listeners being manually added/removed using addEventListener/removeEventListener  | [Link](https://eslint.org/docs/rules/no-dom-listeners) |
+| [netsells/no-global-timeouts](./netsells-no-global-timeouts.md) | Prevent setTimeout and related functions being used in Vue components  | [Link](https://eslint.org/docs/rules/no-global-timeouts) |
 | [require-jsdoc-except/require-jsdoc](./require-jsdoc-except-require-jsdoc.md) | Exclude certain methods from requiring JSDoc definitions.  | [Link](https://eslint.org/docs/rules/require-jsdoc) |
 | [vue/attribute-hyphenation](./vue-attribute-hyphenation.md) | Force attributes to be hyphenated rather than camelCase  | [Link](https://eslint.org/docs/rules/attribute-hyphenation) |
 | [vue/component-name-in-template-casing](./vue-component-name-in-template-casing.md) | Enforce specific casing for the component naming style in template | [Link](https://eslint.org/docs/rules/component-name-in-template-casing) |

@@ -90,6 +90,11 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
+"@netsells/eslint-plugin-netsells@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@netsells/eslint-plugin-netsells/-/eslint-plugin-netsells-1.0.0.tgz#1c081b6f9b9ed7f40421d5bbb6bd660e069fb2a3"
+  integrity sha512-CMjB4tYD3CjpZqdx5tBVpp7KZdpBHQxgfQ7/Acgn736eb533t9c/MQsH+TdviUw7jzlI9m44I5/tRl/H99qoqg==
+
 acorn-jsx@^5.0.0:
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-5.0.1.tgz#32a064fd925429216a09b141102bfdd185fae40e"

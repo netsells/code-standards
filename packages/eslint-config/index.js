@@ -14,6 +14,7 @@ module.exports = {
     plugins: [
         'vue',
         'require-jsdoc-except',
+        '@netsells/eslint-plugin-netsells',
     ],
     extends: [
         'plugin:vue/base',

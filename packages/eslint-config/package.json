@@ -9,6 +9,7 @@
   "author": "Sam Turrell <sam@samturrell.co.uk> (http://samturrell.co.uk)",
   "license": "ISC",
   "dependencies": {
+    "@netsells/eslint-plugin-netsells": "^1.0.0",
     "eslint": "^5.16.0",
     "eslint-plugin-require-jsdoc-except": "^1.3.0",
     "eslint-plugin-vue": "^5.2.2",
