@@ -14,10 +14,15 @@ module.exports = {
     plugins: [
         'vue',
         'require-jsdoc-except',
+        'jquery',
         '@netsells/eslint-plugin-netsells',
     ],
     extends: [
         'plugin:vue/base',
+
+        // Help move us away from jQuery
+        'plugin:jquery/deprecated',
+
         // extends the all js files in the `./rules` directory
         ...globRules.map(require.resolve),
     ],
