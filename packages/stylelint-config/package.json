@@ -11,6 +11,7 @@
   "author": "Rowan Collins <rowan.collins@netsells.co.uk>",
   "license": "ISC",
   "dependencies": {
+    "eslint-plugin-jquery": "^1.5.1",
     "glob": "^7.1.2"
   },
   "devDependencies": {
