@@ -19,6 +19,7 @@ module.exports = {
     ],
     extends: [
         'plugin:vue/base',
+        'plugin:nuxt/recommended',
 
         // Help move us away from jQuery
         'plugin:jquery/deprecated',
@@ -27,4 +28,3 @@ module.exports = {
         ...globRules.map(require.resolve),
     ],
 };
-
