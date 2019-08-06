@@ -11,13 +11,14 @@
   "author": "Rowan Collins <rowan.collins@netsells.co.uk>",
   "license": "ISC",
   "dependencies": {
-    "eslint-plugin-nuxt": "^0.4.3",
     "glob": "^7.1.2"
   },
   "devDependencies": {
     "eslint": "^4.10.0",
     "eslint-plugin-require-jsdoc-except": "^1.3.0",
     "eslint-plugin-vue": "^5.2.2",
+    "eslint-plugin-nuxt": "^0.4.3",
+    "eslint-plugin-jquery": "^1.5.1",
     "stylelint": "^9.7.1"
   },
   "gitHead": "6f4def5446469c28459507cf5e1f3f33047a513a"
