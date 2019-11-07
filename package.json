@@ -6,8 +6,8 @@
     "generate": "yarn generate:linters",
     "generate:linters": "node ./.build/generate-linter-pages.js",
     "lint": "yarn lint:eslint && yarn lint:stylelint",
-    "lint:eslint": "cd ./packages/eslint-config && yarn lint",
-    "lint:stylelint": "cd ./packages/stylelint-config && yarn lint",
+    "lint:eslint": "cd ./packages/eslint-config && yarn && yarn lint",
+    "lint:stylelint": "cd ./packages/stylelint-config && yarn && yarn lint",
     "lerna:publish": "lerna publish"
   },
   "dependencies": {
