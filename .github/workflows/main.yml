@@ -1,7 +1,7 @@
 name: Build and Deploy
 on:
-  push:	
-    branches:	
+  push:
+    branches:
       - master
 jobs:
   build-and-deploy:
@@ -17,4 +17,4 @@ jobs:
         BASE_BRANCH: master # The branch the action should deploy from.
         BRANCH: gh-pages # The branch the action should deploy to.
         FOLDER: docs # The folder the action should deploy.
-        BUILD_SCRIPT: yarn && yarn build
+        BUILD_SCRIPT: yarn && yarn build && cd ./packages/eslint-config && yarn && cd ../packages/sylelint-config && yarn && cd ../../
