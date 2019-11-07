@@ -1,8 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "build": "vuepress build src",
-    "dev": "vuepress dev src",
+    "build": "yarn generate && vuepress build src",
+    "dev": "yarn generate && vuepress dev src",
     "generate": "yarn generate:linters",
     "generate:linters": "node ./.build/generate-linter-pages.js",
     "lint": "yarn lint:eslint && yarn lint:stylelint",
@@ -22,7 +22,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "yarn lint && yarn generate"
+      "pre-commit": "yarn lint"
     }
   }
 }
