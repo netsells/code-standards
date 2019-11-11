@@ -22,7 +22,7 @@ Write only one statement per line.
 
 Write only one declaration per line.
 
-If continuation lines are not indented automatically, indent them one tab stop (four spaces).
+Continuation lines should be indented at least one tab stop, in a way that expresses the structure of the statement.
 
 Add at least one blank line between method definitions and property definitions.
 

@@ -99,6 +99,6 @@ Each public method in a service should have it's own test file named for the met
 
 Services with multiple public methods should have a test base class dealing with initialisation etc.
 
-Unit test for filters do not need a folder - they can have a single file named for the filter e.g. MyFilterTests.
+Unit test for filters and orders do not need a folder - they can have a single file named for the filter e.g. MyFilterTests.
 
 Use Moq and FluentAssertions.
