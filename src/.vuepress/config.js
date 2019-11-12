@@ -64,6 +64,15 @@ module.exports = {
                     ['android/', 'Introduction'],
                 ],
             },
+            {
+                title: 'DotNet',
+                collapsable: false,
+                children: [
+                    ['dotNet/', 'Introduction'],
+                    'dotNet/c-sharp',
+                    'dotNet/general-guidelines.md'
+                ],
+            },
         ],
     },
 
