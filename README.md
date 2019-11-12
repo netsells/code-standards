@@ -28,8 +28,12 @@ npm run dev
 
 ### Building
 
-Make sure you build before deploying or the github pages documentation will not be updated.
+You can build the docs locally using the following command:
 
 ```bash
 npm run build
 ```
+
+### Deploying
+
+This project automatically builds and deploys to Github Pages using a Github Action. You don't need to commit any compiled Vuepress files.
