@@ -65,6 +65,19 @@ module.exports = {
                 ],
             },
             {
+                title: 'Flutter',
+                collapsable: false,
+                children: [
+                    ['flutter/', 'Introduction'],
+                    'flutter/effective-dart.md',
+                    'flutter/documentation.md',
+                    'flutter/clean-architecture.md',
+                    'flutter/stateful-widgets.md',
+                    'flutter/avoiding-code-generation.md',
+                    'flutter/testing.md',
+                ],
+            },
+            {
                 title: 'DotNet',
                 collapsable: false,
                 children: [
