@@ -54,7 +54,9 @@ module.exports = {
                 collapsable: false,
                 children: [
                     ['ios/', 'Introduction'],
-                    'ios/control-statements'
+                    'ios/branching',
+                    'ios/control-statements',
+                    'ios/general'
                 ],
             },
             {
