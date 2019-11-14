@@ -25,7 +25,7 @@ Android projects should use the Clean Architecture to ensure maintainability and
                 ** Activities, fragments, adapters, and views **
 ```
 
-*Consider splitting your project into `data`, `domain`, and `app` **modules** rather than packages in one module.*
+*Consider splitting your project into an `app` module, containing the data and presentation layers, and a `core` module containing the domain layer.*
 
 ## Domain Layer
 
