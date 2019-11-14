@@ -56,7 +56,8 @@ module.exports = {
                     ['ios/', 'Introduction'],
                     'ios/branching',
                     'ios/control-statements',
-                    'ios/general'
+                    'ios/general',
+                    'ios/naming'
                 ],
             },
             {
