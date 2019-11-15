@@ -65,6 +65,15 @@ module.exports = {
                 collapsable: false,
                 children: [
                     ['android/', 'Introduction'],
+                    'android/kotlin',
+                    'android/code-style',
+                    'android/clean-architecture',
+                    'android/mvvm',
+                    'android/dependency-injection',
+                    'android/network-requests',
+                    'android/local-databases',
+                    'android/coroutines',
+                    'android/testing'
                 ],
             },
             {
