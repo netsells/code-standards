@@ -57,7 +57,8 @@ module.exports = {
                     'ios/branching',
                     'ios/control-statements',
                     'ios/general',
-                    'ios/naming'
+                    'ios/naming',
+                    'ios/storyboards'
                 ],
             },
             {
