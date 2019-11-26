@@ -54,7 +54,16 @@ module.exports = {
                 collapsable: false,
                 children: [
                     ['ios/', 'Introduction'],
-                    'ios/control-statements'
+                    'ios/branching',
+                    'ios/control-statements',
+                    'ios/directory-structure',
+                    'ios/general',
+                    'ios/local-storage',
+                    'ios/naming',
+                    'ios/networking',
+                    'ios/security',
+                    'ios/storyboards',
+                    'ios/testing'
                 ],
             },
             {
@@ -62,6 +71,28 @@ module.exports = {
                 collapsable: false,
                 children: [
                     ['android/', 'Introduction'],
+                    'android/kotlin',
+                    'android/code-style',
+                    'android/clean-architecture',
+                    'android/mvvm',
+                    'android/dependency-injection',
+                    'android/network-requests',
+                    'android/local-databases',
+                    'android/coroutines',
+                    'android/testing'
+                ],
+            },
+            {
+                title: 'Flutter',
+                collapsable: false,
+                children: [
+                    ['flutter/', 'Introduction'],
+                    'flutter/effective-dart.md',
+                    'flutter/documentation.md',
+                    'flutter/clean-architecture.md',
+                    'flutter/stateful-widgets.md',
+                    'flutter/avoiding-code-generation.md',
+                    'flutter/testing.md',
                 ],
             },
             {
