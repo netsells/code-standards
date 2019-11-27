@@ -93,6 +93,7 @@ module.exports = {
                     'flutter/stateful-widgets.md',
                     'flutter/avoiding-code-generation.md',
                     'flutter/testing.md',
+                    'flutter/method-parameters.md'
                 ],
             },
             {
