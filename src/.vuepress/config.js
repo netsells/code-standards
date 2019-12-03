@@ -43,6 +43,7 @@ module.exports = {
                 collapsable: false,
                 children: [
                     ['backend/', 'Introduction'],
+                    'backend/general',
                     'backend/apis',
                     'backend/php',
                     'backend/laravel',
