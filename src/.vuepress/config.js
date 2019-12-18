@@ -58,6 +58,7 @@ module.exports = {
                     'ios/control-statements',
                     'ios/directory-structure',
                     'ios/general',
+                    'ios/libraries',
                     'ios/local-storage',
                     'ios/naming',
                     'ios/networking',
