@@ -43,6 +43,7 @@ module.exports = {
                 collapsable: false,
                 children: [
                     ['backend/', 'Introduction'],
+                    'backend/general',
                     'backend/apis',
                     'backend/php',
                     'backend/laravel',
@@ -94,6 +95,7 @@ module.exports = {
                     'flutter/stateful-widgets.md',
                     'flutter/avoiding-code-generation.md',
                     'flutter/testing.md',
+                    'flutter/method-parameters.md'
                 ],
             },
             {
