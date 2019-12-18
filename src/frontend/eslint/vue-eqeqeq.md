@@ -1,8 +1,7 @@
 [&#x2190; Back](./)
-# vue/eqeqeq
+# vue/eqeqeq <badge text="warn" type="warn" vertical="middle"/>
 
 > Require the use of ```===``` and ```!==```
- 
 
 ## Examples
 
@@ -10,26 +9,14 @@
  
 <div slot="correct">
 
-```vue
-<template>
-    <div v-if="type === 'A'">
-        A
-    </div>
-</template>
-```
+<<< @/packages/eslint-config/rules/vue/eqeqeq/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-```vue
-<template>
-    <div v-if="type == 'A'">
-        A
-    </div>
-</template>
-```
+<<< @/packages/eslint-config/rules/vue/eqeqeq/incorrect.vue
 
 </div>
 

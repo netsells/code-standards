@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# eqeqeq
+# eqeqeq <badge text="warn" type="warn" vertical="middle"/>
 
 > Forces equality operators to be type-safe
 
- 
 
 ## Examples
 
@@ -11,38 +10,14 @@
  
 <div slot="correct">
 
-```js
-if (x === y) {
-    // code
-}
-
-if ("" === text) {
-    // code
-}
-
-if (obj.stuff !== undefined) {
-    // code
-}
-```
+<<< @/packages/eslint-config/rules/core/eqeqeq/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-if (x == y) {
-    // code
-}
-
-if ("" == text) {
-    //code
-}
-
-if (obj.stuff != undefined) {
-    // code
-}
-```
+<<< @/packages/eslint-config/rules/core/eqeqeq/incorrect.js
 
 </div>
 

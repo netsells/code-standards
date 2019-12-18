@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-useless-return
+# no-useless-return <badge text="warn" type="warn" vertical="middle"/>
 
 > Reports the use of redundant return statements
 
- 
 
 ## Examples
 
@@ -11,27 +10,14 @@
  
 <div slot="correct">
 
-```js
-function foo() { return 5; }
-
-function foo() {
-    return doSomething();
-}
-```
+<<< @/packages/eslint-config/rules/core/no-useless-return/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-function foo() { return; }
-
-function foo() {
-    doSomething();
-    return;
-}
-```
+<<< @/packages/eslint-config/rules/core/no-useless-return/incorrect.js
 
 </div>
 

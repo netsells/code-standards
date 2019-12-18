@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# vue/no-side-effects-in-computed-properties
+# vue/no-side-effects-in-computed-properties <badge text="warn" type="warn" vertical="middle"/>
 
 > It is considered a very bad practice to introduce side effects inside computed properties. It makes the code unpredictable and hard to understand.
 
- 
 
 ## Examples
 
@@ -11,39 +10,14 @@
  
 <div slot="correct">
 
-```js
-export default {
-    computed: {
-        fullName () {
-            return `${this.firstName} ${this.lastName}`;
-        },
-
-        reversedArray () {
-            return this.array.slice(0).reverse();
-        },
-    },
-}
-```
+<<< @/packages/eslint-config/rules/vue/no-side-effects-in-computed-properties/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-export default {
-    computed: {
-        fullName () {
-            this.firstName = 'lorem'; // <- side effect
-            return `${this.firstName} ${this.lastName}`;
-        },
-
-        reversedArray () {
-            return this.array.reverse(); // <- side effect
-        },
-    },
-}
-```
+<<< @/packages/eslint-config/rules/vue/no-side-effects-in-computed-properties/incorrect.js
 
 </div>
 

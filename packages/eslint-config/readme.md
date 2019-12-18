@@ -8,7 +8,7 @@ This repository contains the defacto-standard eslint configuration used on all N
 
 Add the config to your project dependencies:
 
-```bash
+```bash 
 yarn add @netsells/eslint-config eslint@^4.10.0
 ```
 

@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-sparse-arrays
+# no-sparse-arrays <badge text="warn" type="warn" vertical="middle"/>
 
 > Disallows array literals with empty slots
 
- 
 
 ## Examples
 
@@ -11,23 +10,14 @@
  
 <div slot="correct">
 
-```js
-var items = [];
-var items = new Array(23);
-
-// trailing comma (after the last element) is not a problem
-var colors = [ "red", "blue", ];
-```
+<<< @/packages/eslint-config/rules/core/no-sparse-arrays/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-var items = [,];
-var colors = [ "red",, "blue" ];
-```
+<<< @/packages/eslint-config/rules/core/no-sparse-arrays/incorrect.js
 
 </div>
 

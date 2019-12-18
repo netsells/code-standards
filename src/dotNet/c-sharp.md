@@ -17,7 +17,6 @@
 
 ## Layout
 
-
 Write only one statement per line.
 
 Write only one declaration per line.
@@ -30,7 +29,7 @@ Use blank lines to separate code into logical groups
 
 Use parentheses to make clauses in an expression apparent:
 
-``` C#
+``` csharp
 if ((val1 > val2) && (val1 > val3))
 {
     // Take appropriate action.
@@ -41,7 +40,7 @@ if ((val1 > val2) && (val1 > val3))
 
 Use PascalCasing for class names and method names:
 
-``` C#
+``` csharp
 public class ClientActivity
 {
 	public void ClearStatistics()
@@ -57,7 +56,7 @@ public class ClientActivity
 
 Use camelCasing for method arguments and local variables:
 
-``` C#
+``` csharp
 public class UserLog
 {
 	public void Add(LogEvent logEvent)
@@ -70,7 +69,7 @@ public class UserLog
 
 Do not use Hungarian notation or any other type identification in identifiers
 
-``` C#
+``` csharp
 // Correct
 int counter;
 string name;
@@ -82,7 +81,7 @@ string strName;
 
 Do not use Screaming Caps for constants or readonly variables:
 
-``` C#
+``` csharp
 // Correct
 public const string ShippingType = "DropShip";
 
@@ -92,7 +91,7 @@ public const string SHIPPINGTYPE = "DropShip";
 
 Use meaningful names for variables. The following example uses seattleCustomers for customers who are located in Seattle:
 
-``` C#
+``` csharp
 var seattleCustomers = from customer in customers
 where customer.City == "Seattle" 
 select customer.Name;
@@ -100,7 +99,7 @@ select customer.Name;
 
 Avoid using Abbreviations. Exceptions: abbreviations commonly used as names, such as Id, Xml, Ftp, Uri.
 
-``` C#
+``` csharp
 // Correct
 UserGroup userGroup;
 Assignment employeeAssignment; 
@@ -118,7 +117,7 @@ UriPart uriPart;
 
 Do not use Underscores in identifiers. Exception: private or protected fields should be prefixed with an underscore
 
-``` C#
+``` csharp
 // Correct
 public DateTime clientAppointment;
 public TimeSpan timeLeft; 
@@ -133,7 +132,7 @@ private DateTime _registrationDate;
 
 Do use predefined type names (C# aliases) like int, float, string for local, parameter and member declarations.
 
-``` C#
+``` csharp
 // Correct
 string firstName;
 int lastIndex;
@@ -147,14 +146,14 @@ Boolean isSaved;
 
 Do use implicit type var for local variable declarations
 
-``` C#
+``` csharp
 var stream = File.Create(path);
 var customers = new Dictionary();
 ```
 
 Use noun or noun phrases to name a class.
 
-``` C#
+``` csharp
 public class Employee
 {
 }
@@ -170,7 +169,7 @@ public class DocumentCollection
 
 Prefix interfaces with the letter I. Interface names are noun (phrases) or adjectives.
 
-``` C#
+``` csharp
 public interface IShape
 {
 }
@@ -186,7 +185,7 @@ public interface IGroupable
 
 Do name source files according to their main classes. Exception: file names with partial classes reflect their source or purpose, e.g. designer, generated, etc.
 
-``` C#
+``` csharp
 // Located in Task.cs
 public partial class Task
 {
@@ -200,7 +199,7 @@ public partial class Task
 
 Organise namespaces and code folders with a clearly defined structure:
 
-``` C#
+``` csharp
 // Examples
 namespace Company.Product.Module.SubModule
 {
@@ -217,7 +216,7 @@ namespace Product.Layer.Module.Group
 
 Vertically align curly brackets:
 
-``` C#
+``` csharp
 // Correct
 class Program
 {
@@ -230,7 +229,7 @@ class Program
 
 Declare all member variables at the top of a class, with static variables at the very top.
 
-``` C#
+``` csharp
 // Correct
 public class Account
 {
@@ -250,7 +249,7 @@ public class Account
 
 Use singular names for enums.
 
-``` C#
+``` csharp
 // Correct
 public enum Color
 {
@@ -265,7 +264,7 @@ public enum Color
 
 Do not explicitly specify a type of an enum or values of enums (except enums stored in db fields):
 
-``` C#
+``` csharp
 // Avoid
 public enum Direction : long
 {
@@ -287,7 +286,7 @@ public enum Direction
 
 Do not use an "Enum" suffix in enum type names:
 
-``` C#
+``` csharp
 // Avoid
 public enum CoinEnum
 {
@@ -311,7 +310,7 @@ public enum Coin
 
 Do not create names of parameters in methods (or constructors) which differ only by the register:
 
-``` C#
+``` csharp
 // Avoid
 private void MyFunction(string name, string Name)
 {
@@ -321,7 +320,7 @@ private void MyFunction(string name, string Name)
 
 Use suffix Exception at creation of the new classes comprising the information on exception:
 
-``` C#
+``` csharp
 // Correct
 public class BarcodeReadException : System.Exception
 {
@@ -330,7 +329,7 @@ public class BarcodeReadException : System.Exception
 
 Use suffix Any, Is, Have or similar keywords for boolean identifier :
 
-``` C#
+``` csharp
 // Correct
 public static bool IsNullOrEmpty(string value) 
 {

@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# color-named
+# color-named <badge text="warn" type="warn" vertical="middle"/>
 
 > Colors must never be named.
 
- 
 
 ## Examples
 
@@ -11,30 +10,14 @@
  
 <div slot="correct">
 
-```css
-a { 
-    color: #000000; 
-}
-
-a {
-    color: $blue; 
-}
-```
+<<< @/packages/stylelint-config/rules/core/color-named/correct.css
 
 </div>
 
  
 <div slot="incorrect">
 
-```css
-a { 
-    color: black; 
-}
-
-a {
-    color: white; 
-}
-```
+<<< @/packages/stylelint-config/rules/core/color-named/incorrect.css
 
 </div>
 

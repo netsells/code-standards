@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-use-before-define
+# no-use-before-define <badge text="error" type="error" vertical="middle"/>
 
 > Prevents use of an identifier that has not yet been declared
 
- 
 
 ## Examples
 
@@ -11,36 +10,14 @@
  
 <div slot="correct">
 
-```js
-const a = 10;
-alert(a);
-
-function f() {};
-f();
-
-const b = 1;
-function g() {
-    return b;
-}
-```
+<<< @/packages/eslint-config/rules/core/no-use-before-define/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-alert(a);
-const a = 10;
-
-f();
-function f() {};
-
-function g() {
-    return b;
-}
-const b = 1;
-```
+<<< @/packages/eslint-config/rules/core/no-use-before-define/incorrect.js
 
 </div>
 

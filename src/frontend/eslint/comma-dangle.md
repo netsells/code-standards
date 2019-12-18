@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# comma-dangle
+# comma-dangle <badge text="warn" type="warn" vertical="middle"/>
 
 > Requires trailing commas when the last element or property is in a different line than the closing ] or } and disallows trailing commas when the last element or property is on the same line as the closing ] or }
 
- 
 
 ## Examples
 
@@ -11,44 +10,14 @@
  
 <div slot="correct">
 
-```js
-let object = { a: 'b', c: 'd' };
-
-let object = {
-    a: 'b',
-    c: 'd',
-};
-
-let array = ['a', 'b', 'c'];
-
-let array = [
-    'a',
-    'b',
-    'c',
-];
-```
+<<< @/packages/eslint-config/rules/core/comma-dangle/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-let object = { a: 'b', c: 'd', };
-
-let object = {
-    a: 'b',
-    c: 'd'
-};
-
-let array = ['a', 'b', 'c',];
-
-let array = [
-    'a',
-    'b',
-    'c'
-];
-```
+<<< @/packages/eslint-config/rules/core/comma-dangle/incorrect.js
 
 </div>
 

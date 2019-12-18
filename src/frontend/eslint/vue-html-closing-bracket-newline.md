@@ -1,8 +1,7 @@
 [&#x2190; Back](./)
-# vue/html-closing-bracket-newline
+# vue/html-closing-bracket-newline <badge text="warn" type="warn" vertical="middle"/>
 
 > Require or disallow a line break before tag's closing brackets
- 
 
 ## Examples
 
@@ -10,34 +9,14 @@
  
 <div slot="correct">
 
-```vue
-<template>
-    <div id="foo" class="bar">Content</div>
-    <div
-        id="foo"
-        class="bar"
-    >
-        Content
-    </div>
-</template>
-```
+<<< @/packages/eslint-config/rules/vue/html-closing-bracket-newline/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-```vue
-<template>
-    <div id="foo" class="bar"
-    >Content</div>
-    <div
-        id="foo"
-        class="bar">
-        Content
-    </div>
-</template>
-```
+<<< @/packages/eslint-config/rules/vue/html-closing-bracket-newline/incorrect.vue
 
 </div>
 

@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-eval
+# no-eval <badge text="error" type="error" vertical="middle"/>
 
 > Disallow the use of the eval() function
 
- 
 
 ## Examples
 
@@ -11,45 +10,14 @@
  
 <div slot="correct">
 
-```js
-let obj = { x: 'foo' },
-    key = "x",
-    value = obj[key];
-
-class A {
-    foo() {
-        // This is a user-defined method.
-        this.eval("var a = 0");
-    }
-
-    eval() {
-
-    }
-}
-```
+<<< @/packages/eslint-config/rules/core/no-eval/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-let obj = { x: 'foo' },
-    key = "x",
-    value = eval("obj." + key);
-
-(0, eval)("var a = 0");
-
-let foo = eval;
-foo("var a = 0");
-
-// This `this` is the global object.
-this.eval("var a = 0");
-
-window.eval("var a = 0");
-
-global.eval("var a = 0");
-```
+<<< @/packages/eslint-config/rules/core/no-eval/incorrect.js
 
 </div>
 

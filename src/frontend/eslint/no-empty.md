@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-empty
+# no-empty <badge text="warn" type="warn" vertical="middle"/>
 
 > Disallow empty block statements
 
- 
 
 ## Examples
 
@@ -11,51 +10,14 @@
  
 <div slot="correct">
 
-```js
-if (foo) {
-    // empty
-}
-
-while (foo) {
-    /* empty */
-}
-
-try {
-    doSomething();
-} catch (ex) {
-    // continue regardless of error
-}
-
-try {
-    doSomething();
-} finally {
-    /* continue regardless of error */
-}
-```
+<<< @/packages/eslint-config/rules/core/no-empty/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-if (foo) {
-}
-
-while (foo) {
-}
-
-switch(foo) {
-}
-
-try {
-    doSomething();
-} catch(ex) {
-
-} finally {
-
-}
-```
+<<< @/packages/eslint-config/rules/core/no-empty/incorrect.js
 
 </div>
 

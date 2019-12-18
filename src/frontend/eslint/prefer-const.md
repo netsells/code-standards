@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# prefer-const
+# prefer-const <badge text="warn" type="warn" vertical="middle"/>
 
 > Flags variables that are defined using 'let' but then never reassigned
 
- 
 
 ## Examples
 
@@ -11,42 +10,14 @@
  
 <div slot="correct">
 
-```js
-const a = 3;
-console.log(a);
-
-for (const i in [1, 2, 3]) {
-    console.log(i);
-}
-
-let a;
-a = 1;
-a = 2;
-return a;
-
-let a;
-if (true) {
-    a = 1;
-}
-```
+<<< @/packages/eslint-config/rules/core/prefer-const/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-let a = 3;
-console.log(a);
-
-let a;
-a = 1;
-return a;
-
-for (let i in [1, 2, 3]) {
-    console.log(i);
-}
-```
+<<< @/packages/eslint-config/rules/core/prefer-const/incorrect.js
 
 </div>
 

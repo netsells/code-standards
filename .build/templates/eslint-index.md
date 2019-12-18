@@ -8,5 +8,5 @@ The following rules are currently configured.
 
 | Rule | Description | Link |
 |---|---|---|
-<% pages.forEach(({ name, rulename, filename, description }, index) => { %>| [<%= name %>](./<%= filename %>.md) | <%= description.replace(/(?:\r\n|\r|\n)/g, ' ') %> | [Link](https://eslint.org/docs/rules/<%= rulename %>) |
+<% pages.forEach(({ name, rulename, filename, description, warningType }, index) => { %>| [<%= name %>](./<%= filename %>.md)<br> <badge text="<%- warningType %>" type="<%- warningType %>" vertical="middle"/> | <%= description.replace(/(?:\r\n|\r|\n)/g, ' ') %> | [Link](https://eslint.org/docs/rules/<%= rulename %>) |
 <% }); %>

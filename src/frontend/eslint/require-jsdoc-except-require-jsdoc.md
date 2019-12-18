@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# require-jsdoc-except/require-jsdoc
+# require-jsdoc-except/require-jsdoc <badge text="warn" type="warn" vertical="middle"/>
 
 > Exclude certain methods from requiring JSDoc definitions.
 
- 
 
 ## Examples
 
@@ -11,44 +10,14 @@
  
 <div slot="correct">
 
-```js
-export default {
-    methods: {
-        /**
-         * Update the user with the given id via the API
-         *
-         * @param {Number} id - id of user
-         * @param {Object} data - userdata object
-         *
-         * @returns {Promise}
-         */
-        updateUser(id, data) {
-            return fetch(`/users/${id}`, {
-                method: 'POST',
-                body: JSON.stringify(data),
-            });
-        },
-    },
-}
-```
+<<< @/packages/eslint-config/rules/require-jsdoc-except/require-jsdoc/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-export default {
-    methods: {
-        updateUser(id, data) {
-            return fetch(`/users/${id}`, {
-                method: 'POST',
-                body: JSON.stringify(opts),
-            });
-        },
-    },
-}
-```
+<<< @/packages/eslint-config/rules/require-jsdoc-except/require-jsdoc/incorrect.js
 
 </div>
 

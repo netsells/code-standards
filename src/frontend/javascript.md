@@ -18,9 +18,17 @@ For Vue standards, check the [Vue Section](./vue.html).
 
 ### Accessing Application Routes
 
+::: warning
+This is only applicable to websites bundled with the laravel backend
+:::
+
 It's generally bad practice to hardcode paths in our code, so we avoid it by referencing routes by their unique name in the backend, much like you would do in Laravel. For more information, see [laroute](https://github.com/samturrell/laroute) and [vue-laroute](https://github.com/samturrell/vue-laroute).
 
 ### Repositories
+
+::: warning
+This is only applicable to websites bundled with the laravel backend
+:::
 
 We aim to make all asynchronous requests reusable throughout the application, and make the code as DRY as possible. To do so we make use of a "Repository" pattern. A repository is a JavaScript class that represents an "Entity", e.g. User, Booking. These classes are made up of methods that allow you to interact with this entity in some way.
 

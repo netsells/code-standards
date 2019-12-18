@@ -1,8 +1,7 @@
 [&#x2190; Back](./)
-# vue/match-component-file-name
+# vue/match-component-file-name <badge text="warn" type="warn" vertical="middle"/>
 
 > Require component name property to match its file name
- 
 
 ## Examples
 
@@ -10,30 +9,14 @@
  
 <div slot="correct">
 
-```vue
-<!-- file name: src/MyComponent.vue -->
-<script>
-  export default {
-    name: 'my-component',
-    template: '<div />'
-  }
-</script>
-```
+<<< @/packages/eslint-config/rules/vue/match-component-file-name/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-```vue
-<!-- file name: src/MyComponent.vue -->
-<script>
-  export default {
-    name: 'm-component',
-    template: '<div />'
-  }
-</script>
-```
+<<< @/packages/eslint-config/rules/vue/match-component-file-name/incorrect.vue
 
 </div>
 

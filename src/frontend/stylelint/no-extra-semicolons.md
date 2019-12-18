@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-extra-semicolons
+# no-extra-semicolons <badge text="warn" type="warn" vertical="middle"/>
 
 > Disallow extra semicolons.
 
- 
 
 ## Examples
 
@@ -11,31 +10,14 @@
  
 <div slot="correct">
 
-```css
-a {
-    color: #ffffff;
-}
-```
+<<< @/packages/stylelint-config/rules/core/no-extra-semicolons/correct.css
 
 </div>
 
  
 <div slot="incorrect">
 
-```css
-a {
-  color: #000000;;
-}
-
-a {
-  ;color: #ffffff;
-}
-
-a {
-  color: #ffffff;
-  ;
-}
-```
+<<< @/packages/stylelint-config/rules/core/no-extra-semicolons/incorrect.css
 
 </div>
 

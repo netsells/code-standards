@@ -2,6 +2,10 @@
 
 This section contains the standard best practices we follow on new projects for all frontend-specific languages.
 
+## Single Page Applications
+
+Every new project is built as a Single Page Application, using Nuxt. Nuxt provides us with a performant framework to quickly scaffold universal applications with server-side rendering out of the box.
+
 ## Browser support 
 
 It's impossible to support every single browser, so depending on market share the browsers we do support will be limited. Browser market share can be monitored [here](https://netmarketshare.com/browser-market-share.aspx?id=browsersDesktopVersions). 
@@ -15,4 +19,10 @@ The following browsers and versions should be supported at a minimum and should 
 - Chrome: latest
 - Firefox: latest
 - Safari: latest
+
+## Package Manager
+
+We use npm to manage all the dependencies for the frontend of our projects. 
+
+We use yarn as our cli for managing these dependencies due to the more reliable lockfile functionality.
 

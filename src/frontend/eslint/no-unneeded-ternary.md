@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-unneeded-ternary
+# no-unneeded-ternary <badge text="warn" type="warn" vertical="middle"/>
 
 > Disallows ternary operators when simpler alternatives exist
 
- 
 
 ## Examples
 
@@ -11,21 +10,14 @@
  
 <div slot="correct">
 
-```js
-const a = x === 2 ? 'yes' : 'No';
-const a = x !== false;
-const a = x ? 'Yes' : 'No';
-```
+<<< @/packages/eslint-config/rules/core/no-unneeded-ternary/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-const a = x === 2 ? true : false;
-const b = x ? true : false;
-```
+<<< @/packages/eslint-config/rules/core/no-unneeded-ternary/incorrect.js
 
 </div>
 

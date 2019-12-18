@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-empty-function
+# no-empty-function <badge text="warn" type="warn" vertical="middle"/>
 
 > Disallow empty functions
 
- 
 
 ## Examples
 
@@ -11,64 +10,14 @@
  
 <div slot="correct">
 
-```js
-function foo () {
-    // do nothing.
-}
-
-let foo = function () {
-    // any clear comments.
-};
-
-let foo = () => {
-    bar();
-};
-
-let obj = {
-    foo: function () {
-        // do nothing.
-    },
-
-    foo () {
-        // do nothing.
-    },
-};
-
-class A {
-    constructor () {
-        // do nothing.
-    }
-
-    foo () {
-        // do nothing.
-    }
-}
-```
+<<< @/packages/eslint-config/rules/core/no-empty-function/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-function foo () {}
-
-let foo = function () {};
-
-let foo = () => {};
-
-let obj = {
-    foo: function () {},
-
-    foo () {},
-};
-
-class A {
-    constructor() {}
-
-    foo() {}
-}
-```
+<<< @/packages/eslint-config/rules/core/no-empty-function/incorrect.js
 
 </div>
 

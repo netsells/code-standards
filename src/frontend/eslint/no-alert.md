@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-alert
+# no-alert <badge text="warn" type="warn" vertical="middle"/>
 
 > Disallow alert() function
 
- 
 
 ## Examples
 
@@ -11,11 +10,7 @@
  
 <div slot="incorrect">
 
-```js
-if (error) {
-    alert(error);
-}
-```
+<<< @/packages/eslint-config/rules/core/no-alert/incorrect.js
 
 </div>
 

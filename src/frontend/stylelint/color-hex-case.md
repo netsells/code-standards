@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# color-hex-case
+# color-hex-case <badge text="error" type="error" vertical="middle"/>
 
 > Sets the case of hex values to lowercase.
 
- 
 
 ## Examples
 
@@ -11,30 +10,14 @@
  
 <div slot="correct">
 
-```css
-a {
-    color: #ffffff;
-}
-
-a {
-    color: #ff0000;
-}
-```
+<<< @/packages/stylelint-config/rules/core/color-hex-case/correct.css
 
 </div>
 
  
 <div slot="incorrect">
 
-```css
-a {
-    color: #FFF;
-}
-
-a {
-    color: #FF0000;
-}
-```
+<<< @/packages/stylelint-config/rules/core/color-hex-case/incorrect.css
 
 </div>
 

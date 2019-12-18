@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# vue/v-bind-style
+# vue/v-bind-style <badge text="error" type="error" vertical="middle"/>
 
 > Enforce the shorthand v-bind: syntax (:)
 
- 
 
 ## Examples
 
@@ -11,18 +10,14 @@
  
 <div slot="correct">
 
-```vue
-<my-component :foo="bar"></my-component>
-```
+<<< @/packages/eslint-config/rules/vue/v-bind-style/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-```vue
-<my-component v-bind:foo="bar"></my-component>
-```
+<<< @/packages/eslint-config/rules/vue/v-bind-style/incorrect.vue
 
 </div>
 

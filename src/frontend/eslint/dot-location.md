@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# dot-location
+# dot-location <badge text="warn" type="warn" vertical="middle"/>
 
 > Discourage placing the dot on the property rather than the property
 
- 
 
 ## Examples
 
@@ -11,21 +10,14 @@
  
 <div slot="correct">
 
-```js
-const item = object
-    .property;
-const item = object.property;
-```
+<<< @/packages/eslint-config/rules/core/dot-location/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-const item = object.
-    property;
-```
+<<< @/packages/eslint-config/rules/core/dot-location/incorrect.js
 
 </div>
 

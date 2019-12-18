@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-template-curly-in-string
+# no-template-curly-in-string <badge text="warn" type="warn" vertical="middle"/>
 
 > Throw a warning when a regular string contains a text which looks like a template literal placeholder
 
- 
 
 ## Examples
 
@@ -11,18 +10,14 @@
  
 <div slot="correct">
 
-```js
-const greeting = `Hello, ${name}`;
-```
+<<< @/packages/eslint-config/rules/core/no-template-curly-in-string/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-const greeting = "Hello, ${name}";
-```
+<<< @/packages/eslint-config/rules/core/no-template-curly-in-string/incorrect.js
 
 </div>
 

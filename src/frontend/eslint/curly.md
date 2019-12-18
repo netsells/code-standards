@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# curly
+# curly <badge text="warn" type="warn" vertical="middle"/>
 
 > Forces formatting of curly brace conventions
 
- 
 
 ## Examples
 
@@ -11,37 +10,14 @@
  
 <div slot="correct">
 
-```js
-if (foo) {
-    return;
-}
-
-while (bar) {
-    baz();
-}
-
-if (foo) {
-    baz();
-} else {
-    qux();
-}
-```
+<<< @/packages/eslint-config/rules/core/curly/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-if (foo) return;
-
-while (bar)
-    baz();
-
-if (foo) {
-    baz();
-} else qux();
-```
+<<< @/packages/eslint-config/rules/core/curly/incorrect.js
 
 </div>
 

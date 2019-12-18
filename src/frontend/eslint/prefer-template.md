@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# prefer-template
+# prefer-template <badge text="warn" type="warn" vertical="middle"/>
 
 > Encourage using template literals instead of '+' operator on strings
 
- 
 
 ## Examples
 
@@ -11,18 +10,14 @@
  
 <div slot="correct">
 
-```js
-const greeting = `Hello, ${this.name}`;
-```
+<<< @/packages/eslint-config/rules/core/prefer-template/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-const greeting = 'Hello, ' + this.name;
-```
+<<< @/packages/eslint-config/rules/core/prefer-template/incorrect.js
 
 </div>
 

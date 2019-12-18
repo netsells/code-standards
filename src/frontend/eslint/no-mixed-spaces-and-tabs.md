@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-mixed-spaces-and-tabs
+# no-mixed-spaces-and-tabs <badge text="warn" type="warn" vertical="middle"/>
 
 > Disallow mixed spaces and tabs for indentation
 
- 
 
 ## Examples
 
@@ -11,33 +10,14 @@
  
 <div slot="correct">
 
-```js
-function add(x, y) {
-    // --->return x + y;
-    return x + y;
-}
-```
+<<< @/packages/eslint-config/rules/core/no-mixed-spaces-and-tabs/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-function add(x, y) {
-    // --->..return x + y;
-
-    return x + y;
-}
-
-function main() {
-    // --->var x = 5,
-    // --->....y = 7;
-
-    var x = 5,
-        y = 7;
-}
-```
+<<< @/packages/eslint-config/rules/core/no-mixed-spaces-and-tabs/incorrect.js
 
 </div>
 

@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# eol-last
+# eol-last <badge text="error" type="error" vertical="middle"/>
 
 > Force new lines at end of files
 
- 
 
 ## Examples
 
@@ -11,18 +10,14 @@
  
 <div slot="correct">
 
-```js
-module.exports = FooBar;\n
-```
+<<< @/packages/eslint-config/rules/core/eol-last/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-module.exports = FooBar;
-```
+<<< @/packages/eslint-config/rules/core/eol-last/incorrect.js
 
 </div>
 

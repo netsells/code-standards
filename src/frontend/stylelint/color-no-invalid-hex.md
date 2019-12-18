@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# color-no-invalid-hex
+# color-no-invalid-hex <badge text="warn" type="warn" vertical="middle"/>
 
 > Disallow invalid hex colors.
 
- 
 
 ## Examples
 
@@ -11,38 +10,14 @@
  
 <div slot="correct">
 
-```css
-a { 
-    color: #000000; 
-}
-
-a { 
-    color: #fff1a0; 
-}
-
-a { 
-    color: #123450aa; 
-}
-```
+<<< @/packages/stylelint-config/rules/core/color-no-invalid-hex/correct.css
 
 </div>
 
  
 <div slot="incorrect">
 
-```css
-a { 
-    color: #00; 
-}
-
-a {
-    color: #fff1az; 
-}
-
-a { 
-    color: #12345aa; 
-}
-```
+<<< @/packages/stylelint-config/rules/core/color-no-invalid-hex/incorrect.css
 
 </div>
 

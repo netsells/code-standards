@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-floating-decimal
+# no-floating-decimal <badge text="error" type="error" vertical="middle"/>
 
 > Disallow floating decimals.
 
- 
 
 ## Examples
 
@@ -11,22 +10,14 @@
  
 <div slot="correct">
 
-```js
-const num = 0.5;
-const ber = 2.0;
-const wang = -0.7;
-```
+<<< @/packages/eslint-config/rules/core/no-floating-decimal/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-const num = .5;
-const ber = 2.;
-const wang = -.7;
-```
+<<< @/packages/eslint-config/rules/core/no-floating-decimal/incorrect.js
 
 </div>
 

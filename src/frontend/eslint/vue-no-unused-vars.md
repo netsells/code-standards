@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# vue/no-unused-vars
+# vue/no-unused-vars <badge text="error" type="error" vertical="middle"/>
 
 > Disallow unused variable definitions of v-for directives or scope attributes
 
- 
 
 ## Examples
 
@@ -11,28 +10,14 @@
  
 <div slot="correct">
 
-```vue
-<template>
-    <ol>
-        <!-- "i" is defined and used. -->
-        <li v-for="i in 5">{{ i }}</li>
-    </ol>
-</template>
-```
+<<< @/packages/eslint-config/rules/vue/no-unused-vars/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-```vue
-<template>
-    <ol>
-        <!-- "i" is defined but never used. -->
-        <li v-for="i in 5">item</li>
-    </ol>
-</template>
-```
+<<< @/packages/eslint-config/rules/vue/no-unused-vars/incorrect.vue
 
 </div>
 

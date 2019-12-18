@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# prefer-arrow-callback
+# prefer-arrow-callback <badge text="error" type="error" vertical="middle"/>
 
 > Forces use of ES6 arrow function expressions
 
- 
 
 ## Examples
 
@@ -11,30 +10,14 @@
  
 <div slot="correct">
 
-```js
-foo((a) => {
-    return a;
-});
-
-foo(() => {
-    return this.a;
-});
-```
+<<< @/packages/eslint-config/rules/core/prefer-arrow-callback/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-foo(function(a) {
-    return a;
-});
-
-foo(function() {
-    return this.a;
-}.bind(this));
-```
+<<< @/packages/eslint-config/rules/core/prefer-arrow-callback/incorrect.js
 
 </div>
 

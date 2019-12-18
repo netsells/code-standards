@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-duplicate-imports
+# no-duplicate-imports <badge text="warn" type="warn" vertical="middle"/>
 
 > Disallow duplicate imports
 
- 
 
 ## Examples
 
@@ -11,21 +10,14 @@
  
 <div slot="correct">
 
-```js
-import { merge, find } from 'module';
-import something from 'another-module';
-```
+<<< @/packages/eslint-config/rules/core/no-duplicate-imports/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-import { merge } from 'module';
-import something from 'another-module';
-import { find } from 'module';
-```
+<<< @/packages/eslint-config/rules/core/no-duplicate-imports/incorrect.js
 
 </div>
 

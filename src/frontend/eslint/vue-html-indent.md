@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# vue/html-indent
+# vue/html-indent <badge text="warn" type="warn" vertical="middle"/>
 
 > Enforce 4 space continuous indentation
 
- 
 
 ## Examples
 
@@ -11,32 +10,14 @@
  
 <div slot="correct">
 
-```vue
-<template>
-    <div>
-        <my-component
-            :foo="bar"
-            :abc="xyz"
-        </my-component>
-    </div>
-</template>
-```
+<<< @/packages/eslint-config/rules/vue/html-indent/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-```vue
-<template>
-    <div>
-        <my-component
-            :foo="bar"
-            :abc="xyz">
-    </my-component>
-</div>
-</template>
-```
+<<< @/packages/eslint-config/rules/vue/html-indent/incorrect.vue
 
 </div>
 

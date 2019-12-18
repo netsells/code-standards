@@ -9,6 +9,11 @@ module.exports = {
         repo: 'https://github.com/netsells/code-standards',
         editLinks: true,
         editLinkText: 'Edit this page on GitHub',
+
+        lastUpdated: 'Last Updated',
+
+        logo: 'https://github.com/netsells/code-standards/raw/master/src/images/netsells-logo.png',
+
         nav: [
             {
                 text: 'Netsells',
@@ -29,6 +34,7 @@ module.exports = {
                 collapsable: false,
                 children: [
                     ['frontend/', 'Introduction'],
+                    'frontend/git',
                     'frontend/html',
                     'frontend/css',
                     'frontend/stylelint/',
@@ -36,6 +42,9 @@ module.exports = {
                     'frontend/vue',
                     'frontend/eslint/',
                     'frontend/blade',
+                    'frontend/accessibility',
+                    'frontend/storybook',
+                    'frontend/performance',
                 ],
             },
             {

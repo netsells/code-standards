@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# netsells/no-global-timeouts
+# netsells/no-global-timeouts <badge text="warn" type="warn" vertical="middle"/>
 
 > Prevent setTimeout and related functions being used in Vue components
 
- 
 
 ## Examples
 
@@ -11,42 +10,14 @@
  
 <div slot="correct">
 
-```js
-import VueSetTimeout from '@netsells/vue-set-timeout';
-
-export default {
-    mixins: [VueSetTimeout],
-
-    mounted() {
-        this.setTimeout(this.handleTimeout, 1000);
-    },
-
-    methods: {
-        handleTimeout() {
-            // handle
-        },
-    },
-};
-```
+<<< @/packages/eslint-config/rules/netsells/no-global-timeouts/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-export default {
-    mounted() {
-        setTimeout(this.handleTimeout, 1000);
-    },
-
-    methods: {
-        handleTimeout() {
-            // handle
-        },
-    },
-};
-```
+<<< @/packages/eslint-config/rules/netsells/no-global-timeouts/incorrect.js
 
 </div>
 

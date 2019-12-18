@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# yoda
+# yoda <badge text="error" type="error" vertical="middle"/>
 
 > Discourage code typed like yoda would speak
 
- 
 
 ## Examples
 
@@ -11,42 +10,14 @@
  
 <div slot="correct">
 
-```js
-if (5 & value) {
-    // ...
-}
-
-if (value === 'red') {
-    // ...
-}
-
-if (x < -1 || 1 < x) {
-    // ...
-}
-```
+<<< @/packages/eslint-config/rules/core/yoda/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-if ('red' === color) {
-    // ...
-}
-
-if (true == flag) {
-    // ...
-}
-
-if (5 > count) {
-    // ...
-}
-
-if (-1 < str.indexOf(substr)) {
-    // ...
-}
-```
+<<< @/packages/eslint-config/rules/core/yoda/incorrect.js
 
 </div>
 

@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# vue/this-in-template
+# vue/this-in-template <badge text="error" type="error" vertical="middle"/>
 
 > Disallow using "this" in template form
 
- 
 
 ## Examples
 
@@ -11,22 +10,14 @@
  
 <div slot="correct">
 
-```vue
-<template>
-    <div>{{ foo }}</div>
-</template>
-```
+<<< @/packages/eslint-config/rules/vue/this-in-template/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-```vue
-<template>
-    <div>{{ this.foo }}</div>
-</template>
-```
+<<< @/packages/eslint-config/rules/vue/this-in-template/incorrect.vue
 
 </div>
 

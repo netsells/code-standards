@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# property-no-unknown
+# property-no-unknown <badge text="error" type="error" vertical="middle"/>
 
 > Prevents unknown properties being used.
 
- 
 
 ## Examples
 
@@ -11,15 +10,7 @@
  
 <div slot="incorrect">
 
-```css
-a {
-    colr: blue;
-}
-
-a {
-    my-property: 1;
-}
-```
+<<< @/packages/stylelint-config/rules/core/property-no-unknown/incorrect.css
 
 </div>
 

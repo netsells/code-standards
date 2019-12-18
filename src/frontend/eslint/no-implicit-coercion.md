@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-implicit-coercion
+# no-implicit-coercion <badge text="warn" type="warn" vertical="middle"/>
 
 > Discourage using confusing and sometimes unreadable JS tricks to do simple functions.
 
- 
 
 ## Examples
 
@@ -11,41 +10,14 @@
  
 <div slot="correct">
 
-```js
-// Boolean
-const b = Boolean(foo);
-const b = foo.includes('.');
-
-// Number
-const n = Number(foo);
-const n = parseFloat(foo);
-const n = parseInt(foo, 10);
-
-// Strings
-const s = String(foo);
-foo = String(foo);
-```
+<<< @/packages/eslint-config/rules/core/no-implicit-coercion/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-// Boolean
-const b = !!foo;
-const b = ~foo.indexOf('.');
-
-// Number
-const n = +foo;
-const n = 1 * foo;
-
-// Strings
-const s = '' + foo;
-const s = `` + foo;
-foo += '';
-foo += ``;
-```
+<<< @/packages/eslint-config/rules/core/no-implicit-coercion/incorrect.js
 
 </div>
 

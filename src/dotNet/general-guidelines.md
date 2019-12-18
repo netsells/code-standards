@@ -56,7 +56,7 @@ Where practical validation should be separated from action logic and performed b
 Any caught exceptions should be logged. Don't swallow exceptions.
 
 Don't add try catch blocks which then throw a generic exception e.g.:
-``` C#
+``` csharp
 try
 {
 	//Some stuff

@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# block-no-empty
+# block-no-empty <badge text="warn" type="warn" vertical="middle"/>
 
 > Disallow empty blocks.
 
- 
 
 ## Examples
 
@@ -11,34 +10,14 @@
  
 <div slot="correct">
 
-```css
-a {
-    color: #ffffff;
-}
-
-@media print {
-    a {
-        color: #ffffff;
-    }
-}
-```
+<<< @/packages/stylelint-config/rules/core/block-no-empty/correct.css
 
 </div>
 
  
 <div slot="incorrect">
 
-```css
-a {
-
-}
-
-@media print {
-    a {
-
-    }
-}
-```
+<<< @/packages/stylelint-config/rules/core/block-no-empty/incorrect.css
 
 </div>
 

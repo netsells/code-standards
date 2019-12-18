@@ -10,6 +10,8 @@ See [netsells/eslint-config-netsells](https://github.com/netsells/eslint-config-
 
 The tags that make up Single File Components (`<template>`/`<script>`/`<style>` should be separated by a single blank line in order to make it easier to distinguish between the different tags.
 
+<spoiler toggle-suffix="Examples">
+
 <code-highlight>
 <div slot="incorrect">
 
@@ -44,3 +46,5 @@ The tags that make up Single File Components (`<template>`/`<script>`/`<style>` 
 
 </div>
 </code-highlight>
+
+</spoiler>

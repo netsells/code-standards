@@ -1,8 +1,7 @@
 [&#x2190; Back](./)
-# vue/key-spacing
+# vue/key-spacing <badge text="warn" type="warn" vertical="middle"/>
 
 > Enforce consistent spacing between keys and values in object literal properties
- 
 
 ## Examples
 
@@ -10,23 +9,14 @@
  
 <div slot="correct">
 
-```vue
-<template>
-    <div :class="{ active: isActive }"></div>
-</template>
-```
+<<< @/packages/eslint-config/rules/vue/key-spacing/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-```vue
-<template>
-    <div :class="{ active : isActive }"></div>
-    <div :class="{ active :isActive }"></div>
-</template>
-```
+<<< @/packages/eslint-config/rules/vue/key-spacing/incorrect.vue
 
 </div>
 

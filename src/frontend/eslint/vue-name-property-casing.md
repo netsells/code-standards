@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# vue/name-property-casing
+# vue/name-property-casing <badge text="error" type="error" vertical="middle"/>
 
 > Force kebab-case component names
 
- 
 
 ## Examples
 
@@ -11,22 +10,14 @@
  
 <div slot="correct">
 
-```js
-export default {
-    name: 'my-component',
-}
-```
+<<< @/packages/eslint-config/rules/vue/name-property-casing/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-export default {
-    name: 'MyComponent',
-}
-```
+<<< @/packages/eslint-config/rules/vue/name-property-casing/incorrect.js
 
 </div>
 

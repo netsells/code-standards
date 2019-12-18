@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-lonely-if
+# no-lonely-if <badge text="warn" type="warn" vertical="middle"/>
 
 > Discourage if statements as the only statement in else blocks
 
- 
 
 ## Examples
 
@@ -11,38 +10,14 @@
  
 <div slot="correct">
 
-```js
-if (condition) {
-    // ...
-} else if (anotherCondition) {
-    // ...
-} else {
-    // ...
-}
-```
+<<< @/packages/eslint-config/rules/core/no-lonely-if/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-if (foo) {
-    // ...
-} else {
-    if (bar) {
-        // ...
-    }
-}
-
-if (condition) {
-    // ...
-} else {
-    if (anotherCondition) {
-        // ...
-    }
-}
-```
+<<< @/packages/eslint-config/rules/core/no-lonely-if/incorrect.js
 
 </div>
 

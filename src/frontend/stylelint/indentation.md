@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# indentation
+# indentation <badge text="warn" type="warn" vertical="middle"/>
 
 > Always indent at-rules, rules, comments, declarations, inside parentheses and multi-line values by 4 spaces.
 
- 
 
 ## Examples
 
@@ -11,67 +10,14 @@
  
 <div slot="correct">
 
-```css
-@media print {
-    a {
-        color: #000000;
-    }
-}
-
-@media print {
-    a,
-    b {
-        color: #000000;
-    }
-}
-
-a {
-    /* blergh */
-    color: #000000;
-}
-
-a {
-    color: rgb(
-        255,
-        255,
-        255
-    );
-    top: 0;
-}
-```
+<<< @/packages/stylelint-config/rules/core/indentation/correct.css
 
 </div>
 
  
 <div slot="incorrect">
 
-```css
-@media print {
-a {
-color: #000000;
-}
-
-@media print {
-    a,
-     b {
-        color: #000000;
-    }
-}
-
-a {
-/* blergh */
-    color: #000000;
-}
-
-a {
-    color: rgb(
-    255,
-    255,
-    255
-    );
-    top: 0;
-}
-```
+<<< @/packages/stylelint-config/rules/core/indentation/incorrect.css
 
 </div>
 

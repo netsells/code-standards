@@ -12,3 +12,9 @@ Commit messages should be written in present tense.
 You may find it helpful when you're writing commit messages to prefix it with a silent "This commit will" (So don't include it in the actual commit messages)
 
 >~~This commit will~~ Change registration validation
+
+## Pull Requests
+
+Pull requests must be titled correct and using the following format: `<task> <description>`. For example: `PROJCD-123 Implement new homepage`
+
+In addition to the above, pull requests must make use of the latest PR Template, completed with accurate information for deployment/merge.

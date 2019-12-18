@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# vue/require-prop-types
+# vue/require-prop-types <badge text="warn" type="warn" vertical="middle"/>
 
 > In committed code, prop definitions should always be as detailed as possible, specifying at least type(s).
 
- 
 
 ## Examples
 
@@ -11,30 +10,14 @@
  
 <div slot="correct">
 
-```js
-export default {
-    props: {
-        status: String,
-    },
-
-    props: {
-        status: {
-            type: String,
-        },
-    },
-}
-```
+<<< @/packages/eslint-config/rules/vue/require-prop-types/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-export default {
-    props: ['status'],
-}
-```
+<<< @/packages/eslint-config/rules/vue/require-prop-types/incorrect.js
 
 </div>
 

@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# arrow-spacing
+# arrow-spacing <badge text="warn" type="warn" vertical="middle"/>
 
 > Requires spacing before and after arrow functions arrow
 
- 
 
 ## Examples
 
@@ -11,22 +10,14 @@
  
 <div slot="correct">
 
-```js
-(a) => {}
-```
+<<< @/packages/eslint-config/rules/core/arrow-spacing/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-(a)=>{};
-()=> {};
-() =>{};
-(a)=> {};
-(a) =>{};
-```
+<<< @/packages/eslint-config/rules/core/arrow-spacing/incorrect.js
 
 </div>
 

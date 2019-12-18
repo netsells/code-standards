@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-restricted-imports
+# no-restricted-imports <badge text="error" type="error" vertical="middle"/>
 
 > Disallows importing specific libraries. We disallow lodash as a whole in favour of specific imports
 
- 
 
 ## Examples
 
@@ -11,18 +10,14 @@
  
 <div slot="correct">
 
-```js
-import flatten from 'lodash/flatten';
-```
+<<< @/packages/eslint-config/rules/core/no-restricted-imports/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-import _ from 'lodash';
-```
+<<< @/packages/eslint-config/rules/core/no-restricted-imports/incorrect.js
 
 </div>
 

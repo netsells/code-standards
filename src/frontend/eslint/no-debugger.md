@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-debugger
+# no-debugger <badge text="warn" type="warn" vertical="middle"/>
 
 > Disallows debugger statements
 
- 
 
 ## Examples
 
@@ -11,23 +10,14 @@
  
 <div slot="correct">
 
-```js
-function isTruthy(x) {
-    return Boolean(x); // set a breakpoint at this line
-}
-```
+<<< @/packages/eslint-config/rules/core/no-debugger/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-function isTruthy(x) {
-    debugger;
-    return Boolean(x);
-}
-```
+<<< @/packages/eslint-config/rules/core/no-debugger/incorrect.js
 
 </div>
 

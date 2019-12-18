@@ -3,6 +3,27 @@ const path = require('path');
 const glob = require('glob');
 const template = require('lodash/template');
 
+function getWarningType(directory) {
+    const file = require(`${ directory }/rule.js`);
+
+    let ruleLevel = Object.values(file.rules)[0];
+
+    if (Array.isArray(ruleLevel)) {
+        if (directory.includes('stylelint')) {
+            ruleLevel = ruleLevel.reverse();
+            return ruleLevel[0].severity.replace('ing', '');
+        }
+
+        ruleLevel = ruleLevel[0];
+    }
+
+    return {
+        1: 'warn',
+        2: 'error',
+        'error': 'error',
+    }[ruleLevel];
+}
+
 const generatePages = ({
     rulesFolderPath,
     pageTemplatePath = `${ __dirname }/templates/linter-rule-page.md`,
@@ -27,13 +48,14 @@ const generatePages = ({
         const examples = ['correct', 'incorrect']
             .map((template) => ({
                 template,
-                path: glob.sync(`${directory}/${template}.*`)[0],
+                path: glob.sync(`${ directory }/${template}.*`)[0],
             }))
             .filter(({ path }) => path)
             .map((template) => ({
                 ...template,
                 content: fs.readFileSync(template.path, 'utf8').replace(/\n$/, ''),
                 language: new RegExp('\\.([0-9a-z]+)').exec(template.path)[1],
+                importPath: template.path.replace(process.cwd(), '@'),
             })).reduce((examples, example) => ({
                 ...examples,
                 [example.template]: example,
@@ -42,7 +64,8 @@ const generatePages = ({
         return {
             rulename,
             group,
-            description: fs.readFileSync(`${directory}/README.md`, 'utf8'),
+            description: fs.readFileSync(`${ directory }/README.md`, 'utf8'),
+            warningType: getWarningType(directory),
             examples,
         }
     }, []).map((page) => ({

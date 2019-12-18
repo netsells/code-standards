@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# vue/no-multi-spaces
+# vue/no-multi-spaces <badge text="error" type="error" vertical="middle"/>
 
 > Remove multiple spaces in a row between attributes which are not used for indentation
 
- 
 
 ## Examples
 
@@ -11,22 +10,14 @@
  
 <div slot="correct">
 
-```vue
-<div
-    class="foo"
-    :style="bar"
-/>
-```
+<<< @/packages/eslint-config/rules/vue/no-multi-spaces/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-```vue
-<div     class="foo"
-         :style="bar"         />
-```
+<<< @/packages/eslint-config/rules/vue/no-multi-spaces/incorrect.vue
 
 </div>
 

@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# vue/attribute-hyphenation
+# vue/attribute-hyphenation <badge text="error" type="error" vertical="middle"/>
 
 > Force attributes to be hyphenated rather than camelCase
 
- 
 
 ## Examples
 
@@ -11,18 +10,14 @@
  
 <div slot="correct">
 
-```vue
-<my-component :custom-attribute="true"></my-component>
-```
+<<< @/packages/eslint-config/rules/vue/attribute-hyphenation/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-```vue
-<my-component :customAttribute="true"></my-component>
-```
+<<< @/packages/eslint-config/rules/vue/attribute-hyphenation/incorrect.vue
 
 </div>
 

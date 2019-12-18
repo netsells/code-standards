@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# valid-jsdoc
+# valid-jsdoc <badge text="warn" type="warn" vertical="middle"/>
 
 > Require jsdoc data to be consistently valid
 
- 
 
 ## Examples
 
@@ -11,18 +10,14 @@
  
 <div slot="correct">
 
-```js
-
-```
+<<< @/packages/eslint-config/rules/core/valid-jsdoc/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-
-```
+<<< @/packages/eslint-config/rules/core/valid-jsdoc/incorrect.js
 
 </div>
 

@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-multiple-empty-lines
+# no-multiple-empty-lines <badge text="warn" type="warn" vertical="middle"/>
 
 > Restricts the number of allowed empty lines
 
- 
 
 ## Examples
 
@@ -11,24 +10,14 @@
  
 <div slot="correct">
 
-```js
-const foo = bar;
-
-const bar = foo;
-```
+<<< @/packages/eslint-config/rules/core/no-multiple-empty-lines/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-const foo = bar;
-
-
-
-const bar = foo;
-```
+<<< @/packages/eslint-config/rules/core/no-multiple-empty-lines/incorrect.js
 
 </div>
 

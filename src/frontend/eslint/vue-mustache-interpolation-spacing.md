@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# vue/mustache-interpolation-spacing
+# vue/mustache-interpolation-spacing <badge text="error" type="error" vertical="middle"/>
 
 > Expect one space between expression and curly brackets.
 
- 
 
 ## Examples
 
@@ -11,19 +10,14 @@
  
 <div slot="correct">
 
-```vue
-<div>{{ foo }}</div>
-```
+<<< @/packages/eslint-config/rules/vue/mustache-interpolation-spacing/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-```vue
-<div>{{foo}}</div>
-<div>{{    foo    }}</div>
-```
+<<< @/packages/eslint-config/rules/vue/mustache-interpolation-spacing/incorrect.vue
 
 </div>
 

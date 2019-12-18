@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# vue/no-textarea-mustache
+# vue/no-textarea-mustache <badge text="warn" type="warn" vertical="middle"/>
 
 > Disallows the use of mustaches within textareas
 
- 
 
 ## Examples
 
@@ -11,18 +10,14 @@
  
 <div slot="correct">
 
-```vue
-<textarea v-model="message" />
-```
+<<< @/packages/eslint-config/rules/vue/no-textarea-mustache/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-```vue
-<textarea>{{ message }}</textarea>
-```
+<<< @/packages/eslint-config/rules/vue/no-textarea-mustache/incorrect.vue
 
 </div>
 

@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-else-return
+# no-else-return <badge text="warn" type="warn" vertical="middle"/>
 
 > Disallow else blocks after return statements in if statements
 
- 
 
 ## Examples
 
@@ -11,36 +10,14 @@
  
 <div slot="correct">
 
-```js
-function foo() {
-    if (x) {
-        return a;
-    }
-
-    if (y) {
-        return b;
-    }
-
-    return c;
-}
-```
+<<< @/packages/eslint-config/rules/core/no-else-return/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-function foo() {
-    if (x) {
-        return a;
-    } else if (y) {
-        return b;
-    } else {
-        return c;
-    }
-}
-```
+<<< @/packages/eslint-config/rules/core/no-else-return/incorrect.js
 
 </div>
 

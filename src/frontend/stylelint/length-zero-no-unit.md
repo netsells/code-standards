@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# length-zero-no-unit
+# length-zero-no-unit <badge text="warn" type="warn" vertical="middle"/>
 
 > Zero lengths should not have units.
 
- 
 
 ## Examples
 
@@ -11,24 +10,14 @@
  
 <div slot="correct">
 
-```css
-.my-element {
-    top: 0;
-    left: 0;
-}
-```
+<<< @/packages/stylelint-config/rules/core/length-zero-no-unit/correct.css
 
 </div>
 
  
 <div slot="incorrect">
 
-```css
-.my-element {
-    top: 0px;
-    left: 0px;
-}
-```
+<<< @/packages/stylelint-config/rules/core/length-zero-no-unit/incorrect.css
 
 </div>
 

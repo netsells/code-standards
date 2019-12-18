@@ -1,8 +1,7 @@
 [&#x2190; Back](./)
-# vue/component-name-in-template-casing
+# vue/component-name-in-template-casing <badge text="warn" type="warn" vertical="middle"/>
 
 > Enforce specific casing for the component naming style in template
- 
 
 ## Examples
 
@@ -10,24 +9,14 @@
  
 <div slot="correct">
 
-```vue
-<template>
-    <my-component />
-</template>
-```
+<<< @/packages/eslint-config/rules/vue/component-name-in-template-casing/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-```vue
-<template>
-    <myComponent />
-    <MyComponent />
-    <my_component />
-</template>
-```
+<<< @/packages/eslint-config/rules/vue/component-name-in-template-casing/incorrect.vue
 
 </div>
 

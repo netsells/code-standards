@@ -1,8 +1,7 @@
 [&#x2190; Back](./)
-# <%= name %>
+# <%= name %> <badge text="<%- warningType %>" type="<%- warningType %>" vertical="middle"/>
 
 > <%= description %>
- 
 <% if (Object.keys(examples).length) { %>
 ## Examples
 
@@ -10,9 +9,7 @@
 <% Object.keys(examples).forEach((example) => { %> 
 <div slot="<%= example %>">
 
-```<%= examples[example].language %>
-<%= examples[example].content %>
-```
+<<< <%= examples[example].importPath %>
 
 </div>
 

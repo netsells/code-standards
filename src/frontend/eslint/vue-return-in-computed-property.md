@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# vue/return-in-computed-property
+# vue/return-in-computed-property <badge text="error" type="error" vertical="middle"/>
 
 > Enforce that a return statement is present in computed property
 
- 
 
 ## Examples
 
@@ -11,30 +10,14 @@
  
 <div slot="correct">
 
-```js
-export default {
-    computed: {
-        foo () {
-            return 'bar';
-        },
-    },
-}
-```
+<<< @/packages/eslint-config/rules/vue/return-in-computed-property/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-export default {
-    computed: {
-        foo () {
-
-        },
-    },
-}
-```
+<<< @/packages/eslint-config/rules/vue/return-in-computed-property/incorrect.js
 
 </div>
 

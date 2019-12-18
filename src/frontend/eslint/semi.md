@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# semi
+# semi <badge text="warn" type="warn" vertical="middle"/>
 
 > Require a semi-colon at the end of every line
 
- 
 
 ## Examples
 
@@ -11,18 +10,14 @@
  
 <div slot="correct">
 
-```js
-const foo = 'bar';
-```
+<<< @/packages/eslint-config/rules/core/semi/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-const foo = 'bar'
-```
+<<< @/packages/eslint-config/rules/core/semi/incorrect.js
 
 </div>
 

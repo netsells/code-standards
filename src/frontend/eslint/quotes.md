@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# quotes
+# quotes <badge text="warn" type="warn" vertical="middle"/>
 
 > Enforce the use of single quotes when using JavaScript
 
- 
 
 ## Examples
 
@@ -11,21 +10,14 @@
  
 <div slot="correct">
 
-```js
-const array = [];
-const array = [ 'red', 'green' ];
-const array = new Array(23);
-```
+<<< @/packages/eslint-config/rules/core/quotes/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-const array = [ , , ];
-const array = [ 'red', , 'green'];
-```
+<<< @/packages/eslint-config/rules/core/quotes/incorrect.js
 
 </div>
 

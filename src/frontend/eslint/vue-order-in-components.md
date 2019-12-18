@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# vue/order-in-components
+# vue/order-in-components <badge text="error" type="error" vertical="middle"/>
 
 > Enforce order in Vue component data
 
- 
 
 ## Examples
 
@@ -11,40 +10,7 @@
  
 <div slot="correct">
 
-```js
-export default {
-    // Options / Misc
-    'name',
-    'delimiters',
-    'functional',
-    'model',
-
-    // Options / Assets
-    'components',
-    'directives',
-    'filters',
-
-    // Options / Composition
-    'parent',
-    'mixins',
-    'extends',
-    'provide',
-    'inject',
-
-    // Context
-    'el',
-    'template',
-    'props',
-    'propsData',
-    'data',
-    'computed',
-    'watch',
-    'LIFECYCLE_HOOKS',
-    'methods',
-    'render',
-    'renderError',
-};
-```
+<<< @/packages/eslint-config/rules/vue/order-in-components/correct.js
 
 </div>
 

@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-var
+# no-var <badge text="error" type="error" vertical="middle"/>
 
 > Discourage using 'var' for creating variables - require using let/const instead
 
- 
 
 ## Examples
 
@@ -11,26 +10,14 @@
  
 <div slot="correct">
 
-```js
-const count = posts.length;
-
-// or, if the value can be changed
-
-let count = posts.length;
-
-if (additionalPosts.length) {
-   count += additionalPosts.length;
-}
-```
+<<< @/packages/eslint-config/rules/core/no-var/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-var count = posts.length;
-```
+<<< @/packages/eslint-config/rules/core/no-var/incorrect.js
 
 </div>
 

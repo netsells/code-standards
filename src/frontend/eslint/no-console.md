@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-console
+# no-console <badge text="warn" type="warn" vertical="middle"/>
 
 > Disallow using the console
 
- 
 
 ## Examples
 
@@ -11,11 +10,7 @@
  
 <div slot="incorrect">
 
-```js
-if (error) {
-    console.log(error);
-}
-```
+<<< @/packages/eslint-config/rules/core/no-console/incorrect.js
 
 </div>
 

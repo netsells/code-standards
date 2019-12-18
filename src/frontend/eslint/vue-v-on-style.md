@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# vue/v-on-style
+# vue/v-on-style <badge text="error" type="error" vertical="middle"/>
 
 > Enforce the shorthand v-on: syntax (@)
 
- 
 
 ## Examples
 
@@ -11,18 +10,14 @@
  
 <div slot="correct">
 
-```vue
-<my-component @change="updateValue"></my-component>
-```
+<<< @/packages/eslint-config/rules/vue/v-on-style/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-```vue
-<my-component v-on:change="updateValue"></my-component>
-```
+<<< @/packages/eslint-config/rules/vue/v-on-style/incorrect.vue
 
 </div>
 

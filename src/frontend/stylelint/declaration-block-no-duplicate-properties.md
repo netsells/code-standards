@@ -1,10 +1,9 @@
 [&#x2190; Back](./)
-# declaration-block-no-duplicate-properties
+# declaration-block-no-duplicate-properties <badge text="warn" type="warn" vertical="middle"/>
 
 > Disallow duplicate properties within declaration blocks.
 This rule ignores variables ($sass, @less, --custom-property).
 
- 
 
 ## Examples
 
@@ -12,32 +11,14 @@ This rule ignores variables ($sass, @less, --custom-property).
  
 <div slot="correct">
 
-```css
-a { 
-    color: #ffffff;
-}
-a { 
-    color: #ffffff; 
-    background: #000000;
-}
-```
+<<< @/packages/stylelint-config/rules/core/declaration-block-no-duplicate-properties/correct.css
 
 </div>
 
  
 <div slot="incorrect">
 
-```css
-a { 
-    color: #FFFFFF;
-    color: #000000; 
-}
-a { 
-    color: #FFFFFF;
-    background: #000000; 
-    color: #000000;
-}
-```
+<<< @/packages/stylelint-config/rules/core/declaration-block-no-duplicate-properties/incorrect.css
 
 </div>
 

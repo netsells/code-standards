@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# number-leading-zero
+# number-leading-zero <badge text="warn" type="warn" vertical="middle"/>
 
 > Requires a leading zero on fractional values that are less than one.
 
- 
 
 ## Examples
 
@@ -11,30 +10,14 @@
  
 <div slot="correct">
 
-```css
-a {
-    line-height: 0.5px;
-}
-
-a {
-    transform: translate(2px, 0.4px);
-}
-```
+<<< @/packages/stylelint-config/rules/core/number-leading-zero/correct.css
 
 </div>
 
  
 <div slot="incorrect">
 
-```css
-a {
-    line-height: .5px;
-}
-
-a {
-    transform: translate(2px, .4px);
-}
-```
+<<< @/packages/stylelint-config/rules/core/number-leading-zero/incorrect.css
 
 </div>
 

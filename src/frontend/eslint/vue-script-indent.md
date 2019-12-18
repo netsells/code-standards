@@ -1,8 +1,7 @@
 [&#x2190; Back](./)
-# vue/script-indent
+# vue/script-indent <badge text="warn" type="warn" vertical="middle"/>
 
 > Enforce consistent indentation in ```<script>```
- 
 
 ## Examples
 
@@ -10,26 +9,14 @@
  
 <div slot="correct">
 
-```vue
-<script>
-    export default {
-        name: 'my-component',
-    };
-</script>
-```
+<<< @/packages/eslint-config/rules/vue/script-indent/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-```vue
-<script>
-export default {
-    name: 'my-component',
-};
-</script>
-```
+<<< @/packages/eslint-config/rules/vue/script-indent/incorrect.vue
 
 </div>
 

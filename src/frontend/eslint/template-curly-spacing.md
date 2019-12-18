@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# template-curly-spacing
+# template-curly-spacing <badge text="warn" type="warn" vertical="middle"/>
 
 > Throw a warning when a regular string contains a text which looks like a template literal placeholder
 
- 
 
 ## Examples
 
@@ -11,23 +10,14 @@
  
 <div slot="correct">
 
-```js
-`hello, ${ people.name }`;
-`hello, ${
-    people.name
-}`;
-```
+<<< @/packages/eslint-config/rules/core/template-curly-spacing/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-`hello, ${people.name}`;
-`hello, ${ people.name}`;
-`hello, ${people.name }`;
-```
+<<< @/packages/eslint-config/rules/core/template-curly-spacing/incorrect.js
 
 </div>
 

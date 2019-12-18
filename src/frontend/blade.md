@@ -2,10 +2,15 @@
 
 The following guidelines are applicable to Laravel's [Blade templating language](https://laravel.com/docs/blade).
 
+::: warning Legacy
+We no longer bundle the frontend with the Laravel backend, and instead build Single Page Applications which interact with an API-first backend.
+:::
+
 ## Space between top level directives
 
 Top level directives (`@extends`, `@section`) should be separated by a blank line. This makes the code more readable and easier to distinguish between multiple sections.
 
+<spoiler toggle-suffix="Examples">
 <code-highlight>
 <div slot="incorrect">
 
@@ -33,11 +38,13 @@ Top level directives (`@extends`, `@section`) should be separated by a blank lin
 
 </div>
 </code-highlight>
+</spoiler>
 
 ## Indentation within directives
 
 Children of directives should be intended as per html indentation level (4 space).
 
+<spoiler toggle-suffix="Examples">
 <code-highlight>
 <div slot="incorrect">
 
@@ -74,6 +81,7 @@ Children of directives should be intended as per html indentation level (4 space
 
 </div>
 </code-highlight>
+</spoiler>
 
 ## Section directives
 
@@ -83,6 +91,7 @@ Always end simple `@section` directives with an `@endsection`. Although `@stop` 
 
 Blade echo statements should always have a space either side of the content being output. This makes the code more readable.
 
+<spoiler toggle-suffix="Examples">
 <code-highlight>
 <div slot="incorrect">
 
@@ -99,11 +108,13 @@ Blade echo statements should always have a space either side of the content bein
 
 </div>
 </code-highlight>
+</spoiler>
 
 ## Indentation within Facades
 
 If a Facade generates HTML markup you should follow indentation guidelines as if it were a normal HTML element. Any example of this would be the [laravelcollective/html](https://laravelcollective.com/docs/5.2/html) package's form facades:
 
+<spoiler toggle-suffix="Examples">
 <code-highlight>
 <div slot="incorrect">
 
@@ -130,4 +141,4 @@ If a Facade generates HTML markup you should follow indentation guidelines as if
 
 </div>
 </code-highlight>
-
+</spoiler>

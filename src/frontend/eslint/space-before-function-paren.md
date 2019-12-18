@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# space-before-function-paren
+# space-before-function-paren <badge text="warn" type="warn" vertical="middle"/>
 
 > Require a space before function parenthesis 
 
- 
 
 ## Examples
 
@@ -11,58 +10,14 @@
  
 <div slot="correct">
 
-```js
-function foo() {
-    // ...
-}
-
-let bar = function() {
-    // ...
-};
-
-class Foo {
-    constructor() {
-        // ...
-    }
-}
-
-let foo = {
-    bar() {
-        // ...
-    }
-};
-
-var foo = async() => 1
-```
+<<< @/packages/eslint-config/rules/core/space-before-function-paren/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-function foo () {
-    // ...
-}
-
-let bar = function () {
-    // ...
-};
-
-class Foo {
-    constructor () {
-        // ...
-    }
-}
-
-let foo = {
-    bar () {
-        // ...
-    }
-};
-
-var foo = async() => 1
-```
+<<< @/packages/eslint-config/rules/core/space-before-function-paren/incorrect.js
 
 </div>
 

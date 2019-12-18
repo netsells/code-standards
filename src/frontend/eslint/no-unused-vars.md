@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# no-unused-vars
+# no-unused-vars <badge text="warn" type="warn" vertical="middle"/>
 
 > Prevents leaving unused imports & vars in code
 
- 
 
 ## Examples
 
@@ -11,26 +10,14 @@
  
 <div slot="correct">
 
-```vue
-<template>
-    <ol v-for="i in 5">
-        <li>{{ i }}</li><!-- "i" is defined and used. -->
-    </ol>
-</template>
-```
+<<< @/packages/eslint-config/rules/core/no-unused-vars/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-```vue
-<template>
-    <ol v-for="i in 5"><!-- "i" is defined but never used. -->
-        <li>item</li>
-    </ol>
-</template>
-```
+<<< @/packages/eslint-config/rules/core/no-unused-vars/incorrect.vue
 
 </div>
 

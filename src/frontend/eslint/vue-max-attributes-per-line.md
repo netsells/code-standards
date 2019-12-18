@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# vue/max-attributes-per-line
+# vue/max-attributes-per-line <badge text="error" type="error" vertical="middle"/>
 
 > Limits the maximum number of attributes/properties per line to improve readability.
 
- 
 
 ## Examples
 
@@ -11,29 +10,14 @@
  
 <div slot="correct">
 
-```vue
-<my-component foo="bar" baz="qux" abc="123"></my-component>
-
-<my-component
-    foo="bar"
-    baz="qux"
-    abc="123"
-    xyz="321"
-></my-component>
-```
+<<< @/packages/eslint-config/rules/vue/max-attributes-per-line/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-```vue
-<my-component foo="bar" baz="qux" abc="123" xyz="321"></my-component>
-
-<my-component
-    foo="bar" baz="qux"
-><my-component>
-```
+<<< @/packages/eslint-config/rules/vue/max-attributes-per-line/incorrect.vue
 
 </div>
 

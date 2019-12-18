@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# color-hex-length
+# color-hex-length <badge text="warn" type="warn" vertical="middle"/>
 
 > Forces the length of hex codes used in styles to be long notation rather than short.
 
- 
 
 ## Examples
 
@@ -11,30 +10,14 @@
  
 <div slot="correct">
 
-```css
-a {
-    color: #ffffff;
-}
-
-a {
-    color: #ffffaa;
-}
-```
+<<< @/packages/stylelint-config/rules/core/color-hex-length/correct.css
 
 </div>
 
  
 <div slot="incorrect">
 
-```css
-a {
-    color: #fff;
-}
-
-a {
-    color: #fffa;
-}
-```
+<<< @/packages/stylelint-config/rules/core/color-hex-length/incorrect.css
 
 </div>
 

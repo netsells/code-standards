@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# unit-no-unknown
+# unit-no-unknown <badge text="error" type="error" vertical="middle"/>
 
 > Prevents unknown units being used.
 
- 
 
 ## Examples
 
@@ -11,15 +10,7 @@
  
 <div slot="incorrect">
 
-```css
-.my-element {
-    width: 90xp;
-}
-
-.other-element {
-    border-radius: 40pixels;
-}
-```
+<<< @/packages/stylelint-config/rules/core/unit-no-unknown/incorrect.css
 
 </div>
 

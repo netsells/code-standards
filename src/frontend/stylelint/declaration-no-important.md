@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# declaration-no-important
+# declaration-no-important <badge text="error" type="error" vertical="middle"/>
 
 > Disallow !important within declarations.
 
- 
 
 ## Examples
 
@@ -11,30 +10,14 @@
  
 <div slot="correct">
 
-```css
-a {
-    color: #ffffff;
-}
-```
+<<< @/packages/stylelint-config/rules/core/declaration-no-important/correct.css
 
 </div>
 
  
 <div slot="incorrect">
 
-```css
-a {
-    color: #FFFFFF !important;
-}
-
-a {
-    color: #FFFFFF!important;
-}
-
-a {
-    color: #FFFFFF ! important;
-}
-```
+<<< @/packages/stylelint-config/rules/core/declaration-no-important/incorrect.css
 
 </div>
 

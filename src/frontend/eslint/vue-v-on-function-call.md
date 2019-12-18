@@ -1,8 +1,7 @@
 [&#x2190; Back](./)
-# vue/v-on-function-call
+# vue/v-on-function-call <badge text="error" type="error" vertical="middle"/>
 
 > Enforce or forbid parentheses after method calls without arguments in ```v-on``` directives
- 
 
 ## Examples
 
@@ -10,29 +9,14 @@
  
 <div slot="correct">
 
-```vue
-<template>
-    <button @click="closeModal">
-        Close
-    </button>
-    <button @click="closeModal(arg)">
-        Close
-    </button>
-</template>
-```
+<<< @/packages/eslint-config/rules/vue/v-on-function-call/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-```vue
-<template>
-    <button @click="closeModal()">
-        Close
-    </button>
-</template>
-```
+<<< @/packages/eslint-config/rules/vue/v-on-function-call/incorrect.vue
 
 </div>
 

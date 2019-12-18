@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# max-empty-lines
+# max-empty-lines <badge text="warn" type="warn" vertical="middle"/>
 
 > Limit the number of adjacent empty lines.
 
- 
 
 ## Examples
 
@@ -11,43 +10,14 @@
  
 <div slot="correct">
 
-```css
-h1 {
-
-}
-
-p {
-
-}
-
-span {
-
-}
-```
+<<< @/packages/stylelint-config/rules/core/max-empty-lines/correct.css
 
 </div>
 
  
 <div slot="incorrect">
 
-```css
-h1 {
-
-}
-
-
-
-
-p {
-
-}
-
-
-
-span {
-    
-}
-```
+<<< @/packages/stylelint-config/rules/core/max-empty-lines/incorrect.css
 
 </div>
 

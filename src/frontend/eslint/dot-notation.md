@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# dot-notation
+# dot-notation <badge text="warn" type="warn" vertical="middle"/>
 
 > Forces using dot notation exclusively for getting object properties.
 
- 
 
 ## Examples
 
@@ -11,21 +10,14 @@
  
 <div slot="correct">
 
-```js
-const a = foo.bar;
-
-const b = 'Hello';
-const c = foo[b];
-```
+<<< @/packages/eslint-config/rules/core/dot-notation/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-const a = foo['bar'];
-```
+<<< @/packages/eslint-config/rules/core/dot-notation/incorrect.js
 
 </div>
 

@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# vue/html-quotes
+# vue/html-quotes <badge text="error" type="error" vertical="middle"/>
 
 > Force double quote style in html syntax
 
- 
 
 ## Examples
 
@@ -11,19 +10,14 @@
  
 <div slot="correct">
 
-```vue
-<div class="foo"></div>
-```
+<<< @/packages/eslint-config/rules/vue/html-quotes/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-```vue
-<div class='foo'></div>
-<div class=foo></div>
-```
+<<< @/packages/eslint-config/rules/vue/html-quotes/incorrect.vue
 
 </div>
 

@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# key-spacing
+# key-spacing <badge text="warn" type="warn" vertical="middle"/>
 
 > Enforces spacing around the colon in object literal properties
 
- 
 
 ## Examples
 
@@ -11,24 +10,14 @@
  
 <div slot="correct">
 
-```js
-const object = {
-    key: 'value',
-};
-```
+<<< @/packages/eslint-config/rules/core/key-spacing/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-```js
-const object = {
-    key:'value',
-    key :'value',
-    key : 'value',
-};
-```
+<<< @/packages/eslint-config/rules/core/key-spacing/incorrect.js
 
 </div>
 

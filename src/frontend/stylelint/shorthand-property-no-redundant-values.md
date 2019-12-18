@@ -1,9 +1,8 @@
 [&#x2190; Back](./)
-# shorthand-property-no-redundant-values
+# shorthand-property-no-redundant-values <badge text="warn" type="warn" vertical="middle"/>
 
 > Disallow redundant values in shorthand properties.
 
- 
 
 ## Examples
 
@@ -11,46 +10,14 @@
  
 <div slot="correct">
 
-```css
-a { 
-    margin: 1px;
-}
-
-a { 
-    margin: 1px 1px 1px 2px;
-}
-
-a { 
-    padding: 1px 1em 1pt 1pc;
-}
-
-a { 
-    border-radius: 10px / 5px;
-}
-```
+<<< @/packages/stylelint-config/rules/core/shorthand-property-no-redundant-values/correct.css
 
 </div>
 
  
 <div slot="incorrect">
 
-```css
-a { 
-    margin: 1px 1px; 
-}
-
-a { 
-    margin: 1px 1px 1px 1px; 
-}
-
-a { 
-    padding: 1px 2px 1px; 
-}
-
-a { 
-    border-radius: 1px 2px 1px 2px; 
-}
-```
+<<< @/packages/stylelint-config/rules/core/shorthand-property-no-redundant-values/incorrect.css
 
 </div>
 
