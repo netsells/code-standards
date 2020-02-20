@@ -4,7 +4,7 @@
   "description": "Stylelint config for the Netsells organisation",
   "main": "index.js",
   "scripts": {
-    "lint:eslint": "eslint ./index.js ./build/**/*.js ./rules/**/*.js --fix",
+    "lint:eslint": "eslint ./index.js ./rules/**/*.js --fix",
     "lint:stylelint": "stylelint 'rules/**/correct.css' --fix",
     "lint": "npm run lint:stylelint && npm run lint:eslint"
   },
@@ -14,11 +14,12 @@
     "glob": "^7.1.2"
   },
   "devDependencies": {
+    "@netsells/eslint-plugin-netsells": "^1.0.0",
     "eslint": "^5.16.0",
+    "eslint-plugin-jquery": "^1.5.1",
+    "eslint-plugin-nuxt": "^0.5.1",
     "eslint-plugin-require-jsdoc-except": "^1.3.0",
     "eslint-plugin-vue": "^6.2.0",
-    "eslint-plugin-nuxt": "^0.5.1",
-    "eslint-plugin-jquery": "^1.5.1",
     "stylelint": "^13.2.0"
   },
   "gitHead": "6f4def5446469c28459507cf5e1f3f33047a513a"
