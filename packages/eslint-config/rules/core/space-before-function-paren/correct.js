@@ -1,21 +1,21 @@
-function foo() {
+function myFunction() {
     // ...
 }
 
-let bar = function() {
+let doSomething = function() {
     // ...
 };
 
-class Foo {
+class MyClass {
     constructor() {
         // ...
     }
 }
 
-let foo = {
+let MyObject = {
     bar() {
         // ...
     }
 };
 
-var foo = async() => 1
+var doSomethingAsync = async() => 1

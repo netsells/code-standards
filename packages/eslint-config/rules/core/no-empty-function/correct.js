@@ -2,15 +2,15 @@ function foo () {
     // do nothing.
 }
 
-let foo = function () {
+let bar = function () {
     // any clear comments.
 };
 
-let foo = () => {
+let baz = () => {
     bar();
 };
 
-let obj = {
+let quz = {
     foo: function () {
         // do nothing.
     },
@@ -20,7 +20,7 @@ let obj = {
     },
 };
 
-class A {
+class FooClass {
     constructor () {
         // do nothing.
     }

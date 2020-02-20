@@ -1,2 +1,6 @@
-<div class='foo'></div>
-<div class=foo></div>
+<template>
+    <div>
+        <div class='foo'></div>
+        <div class=foo></div>
+    </div>
+</template>

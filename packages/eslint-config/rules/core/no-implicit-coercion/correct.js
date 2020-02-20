@@ -1,12 +1,12 @@
 // Boolean
-const b = Boolean(foo);
-const b = foo.includes('.');
+const boolean1 = Boolean(foo);
+const boolean2 = foo.includes('.');
 
 // Number
-const n = Number(foo);
-const n = parseFloat(foo);
-const n = parseInt(foo, 10);
+const number1 = Number(foo);
+const number2 = parseFloat(foo);
+const number3 = parseInt(foo, 10);
 
 // Strings
-const s = String(foo);
+const string1 = String(foo);
 foo = String(foo);

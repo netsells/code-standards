@@ -1,1 +1,2 @@
-module.exports = FooBar;\n
+module.exports = FooBar;
+// Blank line

@@ -1,6 +1,8 @@
-if (foo) {
-    return;
-}
+(() => {
+    if (foo) {
+        return;
+    }
+});
 
 while (bar) {
     baz();
