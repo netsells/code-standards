@@ -4,10 +4,14 @@ on:
     paths:
       - 'packages/eslint-config/**/**.js'
       - 'packages/eslint-config/**/**.vue'
+      - 'packages/stylelint-config/**/**.css'
+      - 'packages/stylelint-config/**/**.scss'
   pull_request:
     paths:
       - 'packages/eslint-config/**/**.js'
       - 'packages/eslint-config/**/**.vue'
+      - 'packages/stylelint-config/**/**.css'
+      - 'packages/stylelint-config/**/**.scss'
 
 jobs:
   build:
