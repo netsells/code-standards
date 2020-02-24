@@ -1,10 +1,13 @@
 name: Run tests
-on: [push, pull_request]
-  paths:
-    - 'packages/eslint-config/**/**.js'
-    - 'packages/eslint-config/**/**.vue'
-    - 'packages/stylelint-config/**/**.js'
-    - 'packages/stylelint-config/**/**.vue'
+on:
+  push:
+    paths:
+      - 'packages/eslint-config/**/**.js'
+      - 'packages/eslint-config/**/**.vue'
+  pull_request:
+    paths:
+      - 'packages/eslint-config/**/**.js'
+      - 'packages/eslint-config/**/**.vue'
 
 jobs:
   build:
