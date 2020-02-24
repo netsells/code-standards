@@ -9,7 +9,7 @@ const CLIEngine = require("eslint").CLIEngine;
 const testRule = (srcFile, ruleContent) => {
     const cli = new CLIEngine({
         baseConfig: {
-            "extends": ["plugin:vue/base"],
+            extends: ['plugin:vue/base'],
             plugins: [
                 'vue',
                 'require-jsdoc-except',
@@ -23,7 +23,6 @@ const testRule = (srcFile, ruleContent) => {
             },
         },
         extensions: ['.js', '.vue'],
-        envs: ['browser', 'mocha'],
         useEslintrc: false,
 
         ...ruleContent,

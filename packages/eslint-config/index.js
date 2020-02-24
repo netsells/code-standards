@@ -14,6 +14,7 @@ module.exports = {
     plugins: [
         'vue',
         'require-jsdoc-except',
+        'jsdoc',
         'jquery',
         '@netsells/eslint-plugin-netsells',
     ],
