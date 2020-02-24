@@ -6,14 +6,17 @@
   "scripts": {
     "lint:eslint": "eslint ./index.js ./rules/**/*.js --fix",
     "lint:stylelint": "stylelint 'rules/**/correct.css' --fix",
-    "lint": "npm run lint:stylelint && npm run lint:eslint"
+    "lint": "npm run lint:stylelint && npm run lint:eslint",
+    "test": "jest ./tests"
   },
   "author": "Rowan Collins <rowan.collins@netsells.co.uk>",
   "license": "ISC",
   "dependencies": {
     "@netsells/eslint-plugin-netsells": "^1.0.0",
     "eslint-plugin-jsdoc": "^21.0.0",
-    "glob": "^7.1.2"
+    "glob": "^7.1.6",
+    "jest": "^25.1.0",
+    "postcss-syntax": "^0.36.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",

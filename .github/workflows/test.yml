@@ -4,6 +4,8 @@ on: [push, pull_request]
 paths:
   - 'packages/eslint-config/**/**.js'
   - 'packages/eslint-config/**/**.vue'
+  - 'packages/stylelint-config/**/**.js'
+  - 'packages/stylelint-config/**/**.vue'
 
 jobs:
   build:
