@@ -1,6 +1,10 @@
 name: Run tests
 on: [push, pull_request]
 
+paths:
+  - 'packages/eslint-config/**/**.js'
+  - 'packages/eslint-config/**/**.vue'
+
 jobs:
   build:
     runs-on: ubuntu-latest
