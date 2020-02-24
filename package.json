@@ -9,7 +9,8 @@
     "lint:eslint": "cd ./packages/eslint-config && yarn && yarn lint",
     "lint:stylelint": "cd ./packages/stylelint-config && yarn && yarn lint",
     "lerna:publish": "lerna publish",
-    "test": "lerna test"
+    "lerna": "lerna",
+    "test": "lerna run test"
   },
   "dependencies": {
     "lodash": "^4.17.11",
