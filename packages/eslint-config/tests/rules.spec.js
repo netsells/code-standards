@@ -3,29 +3,24 @@ const { resolve } = require('path');
 const directory = resolve(__dirname, '../', 'rules');
 const globRules = glob.sync(`${ directory }/**/rule.js`);
 const fs = require('fs');
-const CLIEngine = require("eslint").CLIEngine;
+const CLIEngine = require('eslint').CLIEngine;
+const config = require('../index');
 
-
-const testRule = (srcFile, ruleContent) => {
+const testRule = (srcFile, ruleFile) => {
     const cli = new CLIEngine({
         baseConfig: {
-            extends: ['plugin:vue/base'],
-            plugins: [
-                'vue',
-                'require-jsdoc-except',
-                'jquery',
-                '@netsells/eslint-plugin-netsells',
-            ],
             parserOptions: {
-                ecmaVersion: 2017,
-                sourceType: 'module',
+                ...config.parserOptions,
                 parser: 'babel-eslint',
             },
+            env: config.env,
+            plugins: config.plugins,
+            extends: ['plugin:vue/base'],
         },
+
         extensions: ['.js', '.vue'],
         useEslintrc: false,
-
-        ...ruleContent,
+        configFile: ruleFile,
     });
 
     return cli.executeOnFiles([srcFile]);
@@ -45,48 +40,49 @@ const getFile = (rulePath, type) => {
                 .replace(rulePath, '')
                 .replace('//', '')
             : null,
-    }
+    };
 };
 
 globRules.forEach((file) => {
     const rulePath = file.replace(`${ directory }/`, '').replace('/rule.js', '');
 
     describe(rulePath, () => {
+        let correctFiles;
         try {
-            const { testFile, srcFile } = getFile(rulePath, 'correct');
+            correctFiles = getFile(rulePath, 'correct');
+        } catch (err) {}
 
-            if (testFile) {
-                test(`${ srcFile } should pass`, () => {
-                    const { results } = testRule(testFile, file);
+        if (correctFiles.testFile) {
+            test(`${ correctFiles.srcFile } should pass`, () => {
+                const { results } = testRule(correctFiles.testFile, file);
+
+                if (!results[0]) {
+                    console.log(correctFiles.testFile);
+                    console.dir(results, { depth: null });
 
                     if (results[0].messages.length) {
-                        console.dir(results[0].messages, { depth: null })
+                        console.dir(results[0].messages, { depth: null });
                     }
+                }
 
-                    expect(results[0].messages.length).toBe(0);
-                });
-            }
-        } catch (err) {
-            //console.error(err)
+                expect(results[0].messages.length).toBe(0);
+            });
         }
 
+        let incorrectFiles;
+
         try {
-            const { testFile, srcFile } = getFile(rulePath, 'incorrect');
+            incorrectFiles = getFile(rulePath, 'incorrect');
+        } catch (err) {}
 
-            if (testFile) {
-                test(`${ srcFile } should fail`, () => {
-                    const { results } = testRule(testFile, require(file));
+        if (incorrectFiles.srcFile) {
+            test(`${ incorrectFiles.srcFile } should fail`, () => {
+                const { results } = testRule(incorrectFiles.testFile, file);
 
-                    if (!results[0].messages.length) {
-                        console.log(fs.readFileSync(testFile, 'utf-8'));
-                        console.log(results);
-                    }
+                const failed = results.filter(({ messages }) => messages.length);
 
-                    expect(Boolean(results[0].messages.length)).toBe(true);
-                });
-            }
-        } catch (err) {
-            //console.error(err)
+                expect(Boolean(failed.length)).toBe(true);
+            });
         }
     });
 });

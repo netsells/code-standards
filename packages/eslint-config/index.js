@@ -3,7 +3,7 @@ const globRules = glob.sync(`${ __dirname }/rules/**/rule.js`);
 
 module.exports = {
     parserOptions: {
-        ecmaVersion: 6,
+        ecmaVersion: 8,
         sourceType: 'module',
     },
     env: {

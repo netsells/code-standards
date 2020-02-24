@@ -18,4 +18,4 @@ let MyObject = {
     }
 };
 
-var doSomethingAsync = async() => 1
+const doSomethingAsync = async () => 1;
