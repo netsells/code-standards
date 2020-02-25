@@ -11,5 +11,7 @@ a {
 }
 
 @media screen and (orientation: landscape) {
-    width: 500px;
+    div {
+        width: 500px;
+    }
 }

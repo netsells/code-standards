@@ -1,15 +1,15 @@
-a { 
+a {
     margin: 1px;
 }
 
-a { 
+a {
     margin: 1px 1px 1px 2px;
 }
 
-a { 
+a {
     padding: 1px 1em 1pt 1pc;
 }
 
-a { 
+a {
     border-radius: 10px / 5px;
 }
