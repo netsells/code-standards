@@ -1,6 +1,6 @@
 {
   "name": "@netsells/stylelint-config",
-  "version": "2.3.0",
+  "version": "3.0.0",
   "description": "Stylelint config for the Netsells organisation",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   "author": "Rowan Collins <rowan.collins@netsells.co.uk>",
   "license": "ISC",
   "dependencies": {
-    "@netsells/eslint-plugin-netsells": "^1.0.0",
+    "@netsells/eslint-plugin-netsells": "^1.1.0",
     "eslint-plugin-jsdoc": "^21.0.0"
   },
   "devDependencies": {
