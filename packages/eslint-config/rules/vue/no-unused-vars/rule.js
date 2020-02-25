@@ -2,6 +2,6 @@ const _THROW = require('../../../modules/throwables');
 
 module.exports = {
     rules: {
-        'vue/no-unused-vars': [_THROW.ERROR],
+        'vue/no-unused-vars': [_THROW.WARNING],
     },
 };

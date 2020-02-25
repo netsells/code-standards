@@ -3,8 +3,6 @@ const Utils = require('../../../modules/utils');
 
 module.exports = {
     rules: {
-        'no-alert': Utils.isProduction()
-            ? _THROW.ERROR
-            : _THROW.WARNING,
+        'no-alert': _THROW.WARNING,
     },
 };
