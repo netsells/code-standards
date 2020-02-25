@@ -4,17 +4,12 @@ const directory = resolve(__dirname, '../', 'rules');
 const globRules = glob.sync(`${ directory }/**/rule.js`);
 const fs = require('fs');
 const stylelint = require('stylelint');
-const config = require('../index');
 
 const testRule = async (srcFile, ruleFile) => {
-    try {
     return await stylelint.lint({
         config: require(ruleFile),
         files: [srcFile],
     });
-} catch (e) {
-    console.log(e)
-}
 };
 
 const getFile = (rulePath, type) => {
