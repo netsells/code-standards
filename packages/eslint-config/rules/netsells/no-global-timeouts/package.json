@@ -1,0 +1,9 @@
+{
+  "name": "no-global-timeouts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@netsells/eslint-plugin-netsells": "^1.0.0"
+  }
+}

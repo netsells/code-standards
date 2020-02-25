@@ -1,1 +1,1 @@
-const greeting = `Hello, ${name}`;
+const greeting = `Hello, ${ name }`;

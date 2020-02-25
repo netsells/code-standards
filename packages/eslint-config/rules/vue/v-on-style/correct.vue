@@ -1,1 +1,4 @@
-<my-component @change="updateValue"></my-component>
+<template>
+    <my-component @change="updateValue"></my-component>
+</template>
+

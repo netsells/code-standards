@@ -1,6 +1,6 @@
 {
-  "extends": "./index.js",
-  "rules": {
-    "vue/no-unused-vars": [0]
-  }
+    "extends": "./index.js",
+    "rules": {
+        "vue/no-unused-vars": [0]
+    }
 }

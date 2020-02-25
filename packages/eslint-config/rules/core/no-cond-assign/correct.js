@@ -1,6 +1,6 @@
-const x;
+var x;
 if (x === 0) {
-    const b = 1;
+    var b = 1;
 }
 
 // Practical example that wraps the assignment in parentheses
@@ -12,7 +12,7 @@ function setHeight(someNode) {
 }
 
 // Practical example that wraps the assignment and tests for 'null'
-function setHeight(someNode) {
+function setHeightSafe(someNode) {
     "use strict";
     do {
         someNode.height = "100px";

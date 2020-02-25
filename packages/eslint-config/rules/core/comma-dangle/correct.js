@@ -1,13 +1,13 @@
-let object = { a: 'b', c: 'd' };
+let object1 = { a: 'b', c: 'd' };
 
-let object = {
+let object2 = {
     a: 'b',
     c: 'd',
 };
 
-let array = ['a', 'b', 'c'];
+let array1 = ['a', 'b', 'c'];
 
-let array = [
+let array2 = [
     'a',
     'b',
     'c',

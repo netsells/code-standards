@@ -1,1 +1,4 @@
-<my-component v-on:change="updateValue"></my-component>
+<template>
+    <my-component v-on:change="updateValue"></my-component>
+</template>
+
