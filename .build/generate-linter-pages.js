@@ -87,9 +87,11 @@ const generatePages = ({
         const filePath = path.resolve(`${ outputFolder }/${ page.filename }.md`);
 
         fs.writeFileSync(filePath, page.template)
+        console.log(`Generated rule file for: ${ page.name }.`);
     });
 
     fs.writeFileSync(`${ outputFolder }/README.md`, template(indexTemplateFile)({ pages }));
+    console.log(`Generated rule index.`);
 };
 
 generatePages({
@@ -113,7 +115,6 @@ generatePages({
 
         if (rule.startsWith('jsdoc/')) {
             rule = rule.replace('jsdoc/', '');
-            console.log(`https://github.com/gajus/eslint-plugin-jsdoc/#eslint-plugin-jsdoc-rules-${ rule }`);
             return `https://github.com/gajus/eslint-plugin-jsdoc/#eslint-plugin-jsdoc-rules-${ rule }`;
         }
 
