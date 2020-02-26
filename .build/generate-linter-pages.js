@@ -29,6 +29,7 @@ const generatePages = ({
     pageTemplatePath = `${ __dirname }/templates/linter-rule-page.md`,
     indexTemplatePath,
     outputFolder,
+    ruleLink,
 }) => {
     const rulesFolder = path.resolve(rulesFolderPath);
     const ruleReadmes = glob.sync(`${ rulesFolder }/**/README.md`);
@@ -72,32 +73,51 @@ const generatePages = ({
         ...page,
         name: page.group === 'core'
             ? page.rulename
-            : `${page.group}/${page.rulename}`,
+            : `${ page.group }/${ page.rulename }`,
         filename: page.group === 'core'
             ? page.rulename
-            : `${page.group}-${page.rulename}`,
+            : `${ page.group }-${ page.rulename }`,
     })).map((page) => ({
         ...page,
         template: template(templateFile)(page),
+        ruleLink: ruleLink(page.name),
     }));
 
     pages.forEach((page) => {
-        const filePath = path.resolve(`${outputFolder}/${page.filename}.md`);
+        const filePath = path.resolve(`${ outputFolder }/${ page.filename }.md`);
 
         fs.writeFileSync(filePath, page.template)
+        console.log(`Generated rule file for: ${ page.name }.`);
     });
 
-    fs.writeFileSync(`${outputFolder}/README.md`, template(indexTemplateFile)({ pages }));
+    fs.writeFileSync(`${ outputFolder }/README.md`, template(indexTemplateFile)({ pages }));
+    console.log(`Generated rule index.`);
 };
 
 generatePages({
     rulesFolderPath: `${ __dirname }/../packages/stylelint-config/rules`,
     indexTemplatePath: `${ __dirname }/templates/stylelint-index.md`,
-    outputFolder: `${__dirname}/../src/frontend/stylelint`,
+    outputFolder: `${ __dirname }/../src/frontend/stylelint`,
+    ruleLink: (rule) => {
+        return `https://stylelint.io/user-guide/rules/${ rule }`;
+    },
 });
 
 generatePages({
     rulesFolderPath: `${ __dirname }/../packages/eslint-config/rules`,
     indexTemplatePath: `${ __dirname }/templates/eslint-index.md`,
-    outputFolder: `${__dirname}/../src/frontend/eslint`,
+    outputFolder: `${ __dirname }/../src/frontend/eslint`,
+    ruleLink(rule) {
+        if (rule.startsWith('vue/')) {
+            rule = rule.replace('vue/', '');
+            return `https://eslint.vuejs.org/rules/${ rule }.html`;
+        }
+
+        if (rule.startsWith('jsdoc/')) {
+            rule = rule.replace('jsdoc/', '');
+            return `https://github.com/gajus/eslint-plugin-jsdoc/#eslint-plugin-jsdoc-rules-${ rule }`;
+        }
+
+        return `https://eslint.org/docs/rules/${ rule }`;
+    },
 });

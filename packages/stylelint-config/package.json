@@ -1,6 +1,6 @@
 {
   "name": "@netsells/stylelint-config",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Stylelint config for the Netsells organisation",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,7 @@
     "eslint-plugin-jsdoc": "^21.0.0"
   },
   "devDependencies": {
+    "@netsells/eslint-plugin-netsells": "^1.0.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-jquery": "^1.5.1",
