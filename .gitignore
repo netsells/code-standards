@@ -1,6 +1,4 @@
 node_modules
 docs
 /src/frontend/eslint/
-!/src/frontend/eslint/README.md
 /src/frontend/stylelint/
-!/src/frontend/stylelint/README.md
