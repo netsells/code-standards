@@ -1,3 +1,3 @@
-const item = object
-    .property;
-const item = object.property;
+const foo = object
+    .foo;
+const bar = object.bar;

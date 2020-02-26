@@ -1,4 +1,6 @@
 <template>
-    <div :class="{ active : isActive }"></div>
-    <div :class="{ active :isActive }"></div>
+    <div>
+        <div :class="{ active : isActive }"></div>
+        <div :class="{ active :isActive }"></div>
+    </div>
 </template>

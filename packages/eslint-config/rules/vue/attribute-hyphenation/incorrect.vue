@@ -1,1 +1,3 @@
-<my-component :customAttribute="true"></my-component>
+<template>
+    <my-component :customAttribute="true"></my-component>
+</template>

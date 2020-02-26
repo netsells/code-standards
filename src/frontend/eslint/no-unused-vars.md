@@ -10,14 +10,14 @@
  
 <div slot="correct">
 
-<<< @/packages/eslint-config/rules/core/no-unused-vars/correct.vue
+<<< @/packages/eslint-config/rules/core/no-unused-vars/correct.js
 
 </div>
 
  
 <div slot="incorrect">
 
-<<< @/packages/eslint-config/rules/core/no-unused-vars/incorrect.vue
+<<< @/packages/eslint-config/rules/core/no-unused-vars/incorrect.js
 
 </div>
 

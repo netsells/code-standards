@@ -1,3 +1,3 @@
 <template>
-    <h1>{{title}}</h1>
+    <my-component :options="{name: 'Sam Turrell'}" />
 </template>

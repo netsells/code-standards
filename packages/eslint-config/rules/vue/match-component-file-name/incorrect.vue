@@ -1,7 +1,7 @@
-<!-- file name: src/MyComponent.vue -->
+<!-- file name: src/Incorrect.vue -->
 <script>
   export default {
-    name: 'm-component',
+    name: 'my-component',
     template: '<div />'
   }
 </script>

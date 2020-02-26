@@ -10,14 +10,14 @@
  
 <div slot="correct">
 
-<<< @/packages/eslint-config/rules/vue/no-shared-component-data/correct.js
+<<< @/packages/eslint-config/rules/vue/no-shared-component-data/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-<<< @/packages/eslint-config/rules/vue/no-shared-component-data/incorrect.js
+<<< @/packages/eslint-config/rules/vue/no-shared-component-data/incorrect.vue
 
 </div>
 

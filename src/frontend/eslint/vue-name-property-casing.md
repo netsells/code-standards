@@ -10,14 +10,14 @@
  
 <div slot="correct">
 
-<<< @/packages/eslint-config/rules/vue/name-property-casing/correct.js
+<<< @/packages/eslint-config/rules/vue/name-property-casing/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-<<< @/packages/eslint-config/rules/vue/name-property-casing/incorrect.js
+<<< @/packages/eslint-config/rules/vue/name-property-casing/incorrect.vue
 
 </div>
 

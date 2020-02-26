@@ -12,10 +12,10 @@ class Foo {
     }
 }
 
-let foo = {
+let foo2 = {
     bar () {
         // ...
     }
 };
 
-var foo = async() => 1
+let foo3 = async() => 1

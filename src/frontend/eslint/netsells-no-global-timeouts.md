@@ -10,14 +10,14 @@
  
 <div slot="correct">
 
-<<< @/packages/eslint-config/rules/netsells/no-global-timeouts/correct.js
+<<< @/packages/eslint-config/rules/netsells/no-global-timeouts/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-<<< @/packages/eslint-config/rules/netsells/no-global-timeouts/incorrect.js
+<<< @/packages/eslint-config/rules/netsells/no-global-timeouts/incorrect.vue
 
 </div>
 

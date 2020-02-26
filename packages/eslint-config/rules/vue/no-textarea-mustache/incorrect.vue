@@ -1,1 +1,3 @@
-<textarea>{{ message }}</textarea>
+<template>
+    <textarea>{{ message }}</textarea>
+</template>

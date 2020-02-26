@@ -8,14 +8,15 @@
     "lint": "yarn lint:eslint && yarn lint:stylelint",
     "lint:eslint": "cd ./packages/eslint-config && yarn && yarn lint",
     "lint:stylelint": "cd ./packages/stylelint-config && yarn && yarn lint",
-    "lerna:publish": "lerna publish"
+    "lerna:publish": "lerna publish",
+    "lerna": "lerna",
+    "test": "lerna run test"
   },
   "dependencies": {
     "lodash": "^4.17.11",
     "vuepress": "^1.2.0"
   },
   "devDependencies": {
-    "@netsells/eslint-plugin-netsells": "^1.0.0",
     "fs-extra": "^8.0.1",
     "husky": "^2.3.0",
     "lerna": "^3.14.1"

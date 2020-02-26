@@ -9,7 +9,7 @@ This repository contains the defacto-standard eslint configuration used on all N
 Add the config to your project dependencies:
 
 ```bash 
-yarn add @netsells/eslint-config eslint@^4.10.0
+yarn add @netsells/eslint-config eslint
 ```
 
 Extend the config in your project. For example, a `.eslintrc` file in your project root:

@@ -1,3 +1,3 @@
-const array = [];
-const array = [ 'red', 'green' ];
-const array = new Array(23);
+const array1 = [];
+const array2 = [ 'red', 'green' ];
+const array3 = new Array(23);

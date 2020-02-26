@@ -10,7 +10,7 @@
  
 <div slot="incorrect">
 
-<<< @/packages/eslint-config/rules/vue/no-dupe-keys/incorrect.js
+<<< @/packages/eslint-config/rules/vue/no-dupe-keys/incorrect.vue
 
 </div>
 

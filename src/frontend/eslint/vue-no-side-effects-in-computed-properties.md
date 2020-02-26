@@ -10,14 +10,14 @@
  
 <div slot="correct">
 
-<<< @/packages/eslint-config/rules/vue/no-side-effects-in-computed-properties/correct.js
+<<< @/packages/eslint-config/rules/vue/no-side-effects-in-computed-properties/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-<<< @/packages/eslint-config/rules/vue/no-side-effects-in-computed-properties/incorrect.js
+<<< @/packages/eslint-config/rules/vue/no-side-effects-in-computed-properties/incorrect.vue
 
 </div>
 

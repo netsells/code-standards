@@ -15,12 +15,5 @@
 </div>
 
  
-<div slot="incorrect">
-
-<<< @/packages/eslint-config/rules/core/eol-last/incorrect.js
-
-</div>
-
- 
 </code-highlight>
 

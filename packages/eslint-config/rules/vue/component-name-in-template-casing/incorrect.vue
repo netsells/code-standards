@@ -1,5 +1,7 @@
 <template>
-    <myComponent />
-    <MyComponent />
-    <my_component />
+    <div>
+        <myComponent />
+        <MyComponent />
+        <my_component />
+    </div>
 </template>

@@ -10,14 +10,14 @@
  
 <div slot="correct">
 
-<<< @/packages/eslint-config/rules/vue/require-prop-types/correct.js
+<<< @/packages/eslint-config/rules/vue/require-prop-types/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-<<< @/packages/eslint-config/rules/vue/require-prop-types/incorrect.js
+<<< @/packages/eslint-config/rules/vue/require-prop-types/incorrect.vue
 
 </div>
 

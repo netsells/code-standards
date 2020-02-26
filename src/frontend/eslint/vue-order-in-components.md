@@ -10,7 +10,7 @@
  
 <div slot="correct">
 
-<<< @/packages/eslint-config/rules/vue/order-in-components/correct.js
+<<< @/packages/eslint-config/rules/vue/order-in-components/correct.vue
 
 </div>
 

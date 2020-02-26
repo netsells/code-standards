@@ -10,14 +10,14 @@
  
 <div slot="correct">
 
-<<< @/packages/eslint-config/rules/vue/return-in-computed-property/correct.js
+<<< @/packages/eslint-config/rules/vue/return-in-computed-property/correct.vue
 
 </div>
 
  
 <div slot="incorrect">
 
-<<< @/packages/eslint-config/rules/vue/return-in-computed-property/incorrect.js
+<<< @/packages/eslint-config/rules/vue/return-in-computed-property/incorrect.vue
 
 </div>
 
