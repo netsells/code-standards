@@ -2,6 +2,6 @@ const _THROW = require('../../../modules/throwables');
 
 module.exports = {
     rules: {
-        'prefer-arrow-callback': _THROW.ERROR,
+        'prefer-arrow-callback': _THROW.WARNING,
     },
 };
