@@ -18,6 +18,7 @@ function getWarningType(directory) {
     }
 
     return {
+        0: 'ignore',
         1: 'warn',
         2: 'error',
         'error': 'error',
