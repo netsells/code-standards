@@ -16,7 +16,6 @@
     "eslint-plugin-jsdoc": "^21.0.0"
   },
   "devDependencies": {
-    "@netsells/eslint-plugin-netsells": "^1.0.0",
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-jquery": "^1.5.1",
