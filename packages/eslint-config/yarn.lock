@@ -1113,10 +1113,10 @@ eslint-plugin-jquery@^1.5.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-jquery/-/eslint-plugin-jquery-1.5.1.tgz#d6bac643acf9484ce76394e27e2b07baca06662e"
   integrity sha512-L7v1eaK5t80C0lvUXPFP9MKnBOqPSKhCOYyzy4LZ0+iK+TJwN8S9gAkzzP1AOhypRIwA88HF6phQ9C7jnOpW8w==
 
-eslint-plugin-jsdoc@^21.0.0:
-  version "21.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-21.0.0.tgz#36bc215c5d22b320312a633dda6dfe81c34393af"
-  integrity sha512-CdLGe2oyw5YAX9rxq9bVz7H2PK+r8PVwdGuvYGMBstpbVD/66yUAgRFQRsJwAsRKLmReo58Lw1jFdNcxdOc4eg==
+eslint-plugin-jsdoc@^22.0.0:
+  version "22.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-22.0.0.tgz#371f1dbf4f61ee6e11c23fa1ea3275962f1bceaf"
+  integrity sha512-dLqUtIL6tvOoV+9IDdP3FqOnQ/sxklzs4hxZa91kt0TGI2o1fSqIuc6wa71oWtWKEyvaQj7m6CnzQxcBC9CEsg==
   dependencies:
     comment-parser "^0.7.2"
     debug "^4.1.1"
@@ -2481,12 +2481,7 @@ lodash.sortby@^4.7.0:
   resolved "https://registry.yarnpkg.com/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
-lodash@^4.17.11:
-  version "4.17.14"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.14.tgz#9ce487ae66c96254fe20b599f21b6816028078ba"
-  integrity sha512-mmKYbW3GLuJeX+iGP+Y7Gp1AiGHGbXHCOh/jZmrawMmsE7MS4znI3RL2FsjbqOyMayHInjOeykW7PEajUk1/xw==
-
-lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15:
+lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
