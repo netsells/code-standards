@@ -5,11 +5,11 @@ module.exports = {
         'indent': [_THROW.WARNING, 4],
     },
 
-    'overrides': [
+    overrides: [
         {
-            'files': ['*.vue'],
-            'rules': {
-                'indent': 'off',
+            files: ['*.vue'],
+            rules: {
+                indent: 'off',
             },
         },
     ],
