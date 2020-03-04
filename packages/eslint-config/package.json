@@ -9,6 +9,9 @@
   },
   "author": "Sam Turrell <sam@samturrell.co.uk> (http://samturrell.co.uk)",
   "license": "ISC",
+  "jest": {
+    "setupFilesAfterEnv": ["jest-expect-message"]
+  },
   "dependencies": {
     "@netsells/eslint-plugin-netsells": "^1.1.0",
     "eslint": "^6.8.0",
@@ -21,7 +24,8 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
-    "jest": "^25.1.0"
+    "jest": "^25.1.0",
+    "jest-expect-message": "^1.0.2"
   },
   "gitHead": "6f4def5446469c28459507cf5e1f3f33047a513a"
 }
