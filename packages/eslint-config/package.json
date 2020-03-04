@@ -10,10 +10,12 @@
   "author": "Sam Turrell <sam@samturrell.co.uk> (http://samturrell.co.uk)",
   "license": "ISC",
   "jest": {
-    "setupFilesAfterEnv": ["jest-expect-message"]
+    "setupFilesAfterEnv": [
+      "jest-expect-message"
+    ]
   },
   "dependencies": {
-    "@netsells/eslint-plugin-netsells": "^1.1.0",
+    "@netsells/eslint-plugin-netsells": "^1.2.0",
     "eslint": "^6.8.0",
     "eslint-plugin-jquery": "^1.5.1",
     "eslint-plugin-jsdoc": "^22.0.0",

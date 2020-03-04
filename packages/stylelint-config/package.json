@@ -12,7 +12,7 @@
   "author": "Rowan Collins <rowan.collins@netsells.co.uk>",
   "license": "ISC",
   "dependencies": {
-    "@netsells/eslint-plugin-netsells": "^1.1.0",
+    "@netsells/eslint-plugin-netsells": "^1.2.0",
     "eslint-plugin-jsdoc": "^21.0.0"
   },
   "devDependencies": {
