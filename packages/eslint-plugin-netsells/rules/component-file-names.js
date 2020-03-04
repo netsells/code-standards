@@ -30,30 +30,36 @@ module.exports = {
 
         const fileExt = path.extname(context.getFilename());
 
-        if (!allowedExts.includes(fileExt)) {
+        if (!allowedExts.includes(fileExt.slice(1))) {
             return {};
         }
 
+        const basename = path.basename(context.getFilename());
         const filename = path.basename(context.getFilename(), fileExt);
-
-        function canVerify (node) {
-            return node.type === 'Literal' || (
-                node.type === 'TemplateLiteral' &&
-                node.expressions.length === 0 &&
-                node.quasis.length === 1
-            )
-        }
 
         return {
             'Program:exit' () {
-                if (Case.of(filename) === 'pascal') {
+                const fileCasing = Case.of(filename);
+
+                if (fileCasing === 'pascal') {
                     return;
                 }
 
                 context.report({
-                    message: 'File name `{{filename}}` should be PascalCase.',
+                    loc: {
+                        start: {
+                            line: 0,
+                            column: 0,
+                        },
+                        end: {
+                            line: 0,
+                            column: 0,
+                        },
+                    },
+                    message: 'File name `{{basename}}` should be PascalCase, got `{{fileCasing}}`.',
                     data: {
-                        filename,
+                        basename,
+                        fileCasing,
                     },
                 });
             },
