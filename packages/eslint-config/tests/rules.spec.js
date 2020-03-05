@@ -27,15 +27,23 @@ const testRule = (srcFile, ruleFile) => {
 };
 
 const getFile = (rulePath, type) => {
-    const correctFiles = [
-        resolve(directory, `${ rulePath }/${ type }.js`),
-        resolve(directory, `${ rulePath }/${ type }.vue`),
-    ].filter((file) => fs.existsSync(file));
+    const dir = resolve(directory, rulePath);
+    const files = resolve(dir, 'files.js');
+
+    let correctFile = glob.sync(resolve(dir, `${ type }.{js,vue}`))[0];
+
+    if (fs.existsSync(files)) {
+        const fileConfig = require(files);
+
+        if (fileConfig[type]) {
+            correctFile = resolve(dir, fileConfig[type]);
+        }
+    }
 
     return {
-        testFile: correctFiles[0],
-        srcFile: correctFiles[0] ?
-            correctFiles[0]
+        testFile: correctFile,
+        srcFile: correctFile ?
+            correctFile
                 .replace(directory, '')
                 .replace(rulePath, '')
                 .replace('//', '')
@@ -65,7 +73,10 @@ globRules.forEach((file) => {
                     }
                 }
 
-                expect(results[0].messages.length).toBe(0);
+                expect(
+                    results[0].messages.length,
+                    `Expected no errors but these were thrown: ${ JSON.stringify(results[0].messages, null, 4) }`
+                ).toBe(0);
             });
         }
 

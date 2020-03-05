@@ -325,10 +325,12 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
-"@netsells/eslint-plugin-netsells@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@netsells/eslint-plugin-netsells/-/eslint-plugin-netsells-1.1.0.tgz#6fdbcb8a00897c5a0a1e59e5fb82c32b8b925dcf"
-  integrity sha512-ZR9EPDBdvbU1+alAeZK0lEk6e5QyVPpPJHA/givl77t7pDn3i0J93BJL/Ocw3FxwCDHSq8PRxn8QDCY3IB434A==
+"@netsells/eslint-plugin-netsells@^1.2.0":
+  version "1.2.0"
+  resolved "https://npm.netsells.tools/@netsells%2feslint-plugin-netsells/-/eslint-plugin-netsells-1.2.0.tgz#ec400e7fab0fbd987b920c2f186dbd305cd20ff3"
+  integrity sha512-XloZUiR97JbYnCGGGnbftG4RwiXRMIclfe1lZhqe7rx01LT5fw3QM8JJ58MzJGxdfYPoi+6W9QjdZO+ZPFEUXw==
+  dependencies:
+    case "^1.6.2"
 
 "@sinonjs/commons@^1.7.0":
   version "1.7.1"
@@ -753,6 +755,11 @@ capture-exit@^2.0.0:
   integrity sha512-PiT/hQmTonHhl/HFGN+Lx3JJUznrVYJ3+AQsnthneZbvW7x+f08Tk7yLJTLEOUvBTbduLeeBkxEaYXUOUrRq6g==
   dependencies:
     rsvp "^4.8.4"
+
+case@^1.6.2:
+  version "1.6.2"
+  resolved "https://npm.netsells.tools/case/-/case-1.6.2.tgz#2ea68af6956752cd69c349c8b3e6bc860d1cba95"
+  integrity sha512-ll380ZRoraT7mUK2G92UbH+FJVD5AwdVIAYk9xhV1tauh0carDgYByUD1HhjCWsWgxrfQvCeHvtfj7IYR6TKeg==
 
 caseless@~0.12.0:
   version "0.12.0"
@@ -2077,6 +2084,11 @@ jest-environment-node@^25.1.0:
     "@jest/types" "^25.1.0"
     jest-mock "^25.1.0"
     jest-util "^25.1.0"
+
+jest-expect-message@^1.0.2:
+  version "1.0.2"
+  resolved "https://npm.netsells.tools/jest-expect-message/-/jest-expect-message-1.0.2.tgz#6d67cdf093457a607d231038a3b84aa3a076bcba"
+  integrity sha512-WFiXMgwS2lOqQZt1iJMI/hOXpUm32X+ApsuzYcQpW5m16Pv6/Gd9kgC+Q+Q1YVNU04kYcAOv9NXMnjg6kKUy6Q==
 
 jest-get-type@^25.1.0:
   version "25.1.0"
