@@ -5,6 +5,6 @@ module.exports = {
         'vue/html-closing-bracket-newline': [_THROW.WARNING, {
             'singleline': 'never',
             'multiline': 'always',
-          }],
+        }],
     },
 };

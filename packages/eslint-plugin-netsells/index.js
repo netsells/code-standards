@@ -1,12 +1,16 @@
+const glob = require('glob');
 const path = require('path');
 
-const rules = [
-    'no-global-timeouts',
-    'no-dom-listeners',
-].reduce((acc, name) => ({
-    ...acc,
-    [name]: require(path.join(__dirname, 'rules', name)),
-}), {});
+const globRules = glob.sync(`${ __dirname }/rules/*.js`);
+
+const rules = globRules.reduce((acc, pathToRule) => {
+    const ruleName = path.basename(pathToRule, '.js');
+
+    return {
+        ...acc,
+        [ruleName]: require(pathToRule),
+    };
+}, {});
 
 module.exports = {
     rules,
