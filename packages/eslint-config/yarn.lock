@@ -325,6 +325,13 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
+"@netsells/eslint-plugin-netsells@^1.2.0":
+  version "1.2.0"
+  resolved "https://npm.netsells.tools/@netsells%2feslint-plugin-netsells/-/eslint-plugin-netsells-1.2.0.tgz#ec400e7fab0fbd987b920c2f186dbd305cd20ff3"
+  integrity sha512-XloZUiR97JbYnCGGGnbftG4RwiXRMIclfe1lZhqe7rx01LT5fw3QM8JJ58MzJGxdfYPoi+6W9QjdZO+ZPFEUXw==
+  dependencies:
+    case "^1.6.2"
+
 "@sinonjs/commons@^1.7.0":
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/@sinonjs/commons/-/commons-1.7.1.tgz#da5fd19a5f71177a53778073978873964f49acf1"
@@ -748,6 +755,11 @@ capture-exit@^2.0.0:
   integrity sha512-PiT/hQmTonHhl/HFGN+Lx3JJUznrVYJ3+AQsnthneZbvW7x+f08Tk7yLJTLEOUvBTbduLeeBkxEaYXUOUrRq6g==
   dependencies:
     rsvp "^4.8.4"
+
+case@^1.6.2:
+  version "1.6.2"
+  resolved "https://npm.netsells.tools/case/-/case-1.6.2.tgz#2ea68af6956752cd69c349c8b3e6bc860d1cba95"
+  integrity sha512-ll380ZRoraT7mUK2G92UbH+FJVD5AwdVIAYk9xhV1tauh0carDgYByUD1HhjCWsWgxrfQvCeHvtfj7IYR6TKeg==
 
 caseless@~0.12.0:
   version "0.12.0"
