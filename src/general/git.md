@@ -111,3 +111,5 @@ Pull requests must be titled correct and using the following format: `<task> <de
 In addition to the above, pull requests must make use of the latest PR Template, completed with accurate information for deployment/merge.
 
 The latest template can be found here. 
+
+[https://netsells.atlassian.net/wiki/spaces/NO/pages/1024327708/Github+Templates](https://netsells.atlassian.net/wiki/spaces/NO/pages/1024327708/Github+Templates)
