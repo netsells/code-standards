@@ -26,29 +26,31 @@ const testRule = (srcFile, ruleFile) => {
     return cli.executeOnFiles([srcFile]);
 };
 
-const getFile = (rulePath, type) => {
+const getFiles = (rulePath, type) => {
     const dir = resolve(directory, rulePath);
     const files = resolve(dir, 'files.js');
 
-    let correctFile = glob.sync(resolve(dir, `${ type }.{js,vue}`))[0];
+    const correctFiles = glob.sync(resolve(dir, `${ type }.{js,vue}`));
 
     if (fs.existsSync(files)) {
         const fileConfig = require(files);
 
         if (fileConfig[type]) {
-            correctFile = resolve(dir, fileConfig[type]);
+            const filePaths = Array.isArray(fileConfig[type])
+                ? fileConfig[type]
+                : [fileConfig[type]];
+
+            correctFiles.push(...filePaths.map(fp => resolve(dir, fp)));
         }
     }
 
-    return {
+    return correctFiles.map(correctFile => ({
         testFile: correctFile,
-        srcFile: correctFile ?
-            correctFile
-                .replace(directory, '')
-                .replace(rulePath, '')
-                .replace('//', '')
-            : null,
-    };
+        srcFile: correctFile
+            .replace(directory, '')
+            .replace(rulePath, '')
+            .replace('//', ''),
+    }));
 };
 
 globRules.forEach((file) => {
@@ -57,15 +59,15 @@ globRules.forEach((file) => {
     describe(rulePath, () => {
         let correctFiles;
         try {
-            correctFiles = getFile(rulePath, 'correct');
+            correctFiles = getFiles(rulePath, 'correct');
         } catch (err) {}
 
-        if (correctFiles.testFile) {
-            test(`${ correctFiles.srcFile } should pass`, () => {
-                const { results } = testRule(correctFiles.testFile, file);
+        correctFiles.forEach(correctFile => {
+            test(`${ correctFile.srcFile } should pass`, () => {
+                const { results } = testRule(correctFile.testFile, file);
 
                 if (!results[0]) {
-                    console.log(correctFiles.testFile);
+                    console.log(correctFile.testFile);
                     console.dir(results, { depth: null });
 
                     if (results[0].messages.length) {
@@ -78,22 +80,22 @@ globRules.forEach((file) => {
                     `Expected no errors but these were thrown: ${ JSON.stringify(results[0].messages, null, 4) }`
                 ).toBe(0);
             });
-        }
+        });
 
         let incorrectFiles;
 
         try {
-            incorrectFiles = getFile(rulePath, 'incorrect');
+            incorrectFiles = getFiles(rulePath, 'incorrect');
         } catch (err) {}
 
-        if (incorrectFiles.srcFile) {
-            test(`${ incorrectFiles.srcFile } should fail`, () => {
-                const { results } = testRule(incorrectFiles.testFile, file);
+        incorrectFiles.forEach(incorrectFile => {
+            test(`${ incorrectFile.srcFile } should fail`, () => {
+                const { results } = testRule(incorrectFile.testFile, file);
 
                 const failed = results.filter(({ messages }) => messages.length);
 
                 expect(Boolean(failed.length)).toBe(true);
             });
-        }
+        });
     });
 });
