@@ -2,7 +2,7 @@
 
 ## Branching
 
-The points below detail how branches should be structured in ordered to make reviews and releases more manageable.
+The points below detail how branches should be structured in order to make reviews and releases more manageable.
 
 ::: tip <badge text="master" type="tip" vertical="middle"/> <badge text="restricted" type="error" vertical="middle"/>
 All projects should have a ‘master’ branch - this is the branch that will mirror what is currently live on Production. Merging into this branch should always be restricted to senior developers. 
@@ -34,6 +34,14 @@ Once develop is feature complete for a release, you branch from develop and crea
 When the QA team are testing a release they will create jira bugs. These should be completed by branching from and PRing back in to the branch being tested. , e.g. `bug/PROJCD-5678-a-bug` 
 :::
 
+::: tip <badge text="hotfix/*" type="tip" vertical="middle"/>
+These are the only branches that are branched from and merged in to `master`. Once complete a PR should be created into both `master` and `develop`.
+:::
+
+
+### Permissions
+
+Master and develop should be locked down and developers should not be able to commit directly to these branches without a pull request being reviewed and merged.
 
 ### Naming
 
@@ -78,10 +86,6 @@ master - Should always mirror production
 ``` 
 
 </spoiler>
-
-### Permissions
-
-Master and develop should be locked down and developers should not be able to commit directly to these branches without a pull request being reviewed and merged.
 
 ## Commit Messages
 ### Formatting

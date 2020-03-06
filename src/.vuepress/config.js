@@ -34,7 +34,6 @@ module.exports = {
                 collapsable: false,
                 children: [
                     ['frontend/', 'Introduction'],
-                    'frontend/git',
                     'frontend/html',
                     'frontend/css',
                     'frontend/stylelint/',
