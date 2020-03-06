@@ -13,7 +13,7 @@ All projects will then have a ‘develop’ branch - develop should contain anyt
 :::
 
 ::: tip <badge text="feature/*" type="tip" vertical="middle"/> <badge text="web only" type="warning" vertical="middle"/>
-If a section of work contains multiple epics it might be wise to branch away from develop with a `feature/#` branch. 
+If a section of work contains multiple epics it might be wise to branch away from develop with a `feature/*` branch. 
 
 Feature branches can be used to group a selection of epics together. they should be created at the start of development and branched from when creating `epic/*`, `task/*` and `bug/*` branches relating to the feature. once a feature is complete and ready for deployment it can be PRd into `develop`. e.g. `feature/frontend-rebuild` `feature/sprint-2` 
 :::
