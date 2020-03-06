@@ -13,7 +13,9 @@ All projects will then have a ‘develop’ branch - develop should contain anyt
 :::
 
 ::: tip <badge text="feature/*" type="tip" vertical="middle"/> <badge text="web only" type="warning" vertical="middle"/>
-Feature branches can be used to group a selection of epics together. they should be created at the start of development and branched from when creating `epic/*`, `task/*` and `bug/*` branches relating to the feature. once a feature is complete and ready for deployment it can be PRd into `develop`. e.g. `feature/account-dashboard` `feature/sprint-2` 
+If a section of work contains multiple epics it might be wise to branch away from develop with a `feature/#` branch. 
+
+Feature branches can be used to group a selection of epics together. they should be created at the start of development and branched from when creating `epic/*`, `task/*` and `bug/*` branches relating to the feature. once a feature is complete and ready for deployment it can be PRd into `develop`. e.g. `feature/frontend-rebuild` `feature/sprint-2` 
 :::
 
 ::: tip <badge text="epic/*" type="tip" vertical="middle"/>
@@ -23,7 +25,7 @@ For each epic you should then create an Epic branch from the `develop` or `featu
 ::: tip <badge text="task/*" type="tip" vertical="middle"/>
 For each task in an epic you should create a branch for each task you actively work on, e.g. `task/PROJCD-5678-a-task` 
 
-if a task is not contained within an epic you should branch from `develop` or `feature/*` and still use the above naming convention.
+If a task is not contained within an epic you should branch from `develop` or `feature/*` and still use the above naming convention.
 :::
 
 ::: tip <badge text="release/*" type="tip" vertical="middle"/> <badge text="mobile only" type="warning" vertical="middle"/>
@@ -62,26 +64,39 @@ master - Should always mirror production
 │
 ├─ develop - Code ready for deployment to production
 │  │  
-│  ├─ release/1.2.0 - branched from develop, merged into master and develop
+│  ├─ feature/sprint-1 - feature containing several epics
 │  │  │ 
-│  │  └─ bug/PROJCD-5678-a-bug - Bug branch
-│  │  │ 
-│  │  └─ bug/PROJCD-5679-another-bug
+│  │  ├─ epic/PROJCD-1234-calendar-page - epic within a feature
+│  │  │   │ 
+│  │  │   ├─ task/PROJCD-5678-a-task - Task branch
+│  │  │   │ 
+│  │  │   └─ task/PROJCD-5679-another-task task/PROJCD-5678-a-task - Task branch
+│  │  │   
+│  │  ├─ epic/PROJCD-1234-dashboard-page - epic within a feature
+│  │  │   │ 
+│  │  │   ├─ task/PROJCD-5678-a-task - Task branch
+│  │  │   │ 
+│  │  │   └─ task/PROJCD-5679-another-task task/PROJCD-5678-a-task - Task branch
+│  │  │   
+│  │  ├─ bug/PROJCD-5679-a-bug
+│  │  │   
+│  │  └─ bug/PROJCD-5679-a-bug
 │  │  
 │  │  
 │  ├─ epic/PROJCD-1234-an-epic - Epic branch
 │  │  │ 
-│  │  └─ task/PROJCD-5678-a-task - Task branch
+│  │  ├─ task/PROJCD-5678-a-task - Task branch
 │  │  │ 
-│  │  └─ task/PROJCD-5679-another-task
+│  │  ├─ task/PROJCD-5679-another-task
+│  │  │ 
+│  │  └─ bug/PROJCD-5679-a-bug
 │  │ 
 │  │ 
-│  ├─ epic/PROJCD-1235-another-epic
-│  │  │ 
-│  │  └─ task/PROJCD-5678-a-task
+│  ├─ task/PROJCD-5678-a-task
 │  │ 
 │  │ 
 ├─ hotfix/PROJCD-9101-hot-fix - Branched from master, merged into master and develop
+│  │ 
 │  │ 
 ``` 
 
