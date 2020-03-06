@@ -4,4 +4,13 @@ module.exports = {
     rules: {
         '@netsells/netsells/component-file-names': _THROW.WARNING,
     },
+
+    overrides: [
+        {
+            files: ['resources/pages/*.vue'],
+            rules: {
+                '@netsells/netsells/component-file-names': 'off',
+            },
+        },
+    ],
 };
