@@ -70,13 +70,13 @@ master - Should always mirror production
 │  │  │   │ 
 │  │  │   ├─ task/PROJCD-5678-a-task - Task branch
 │  │  │   │ 
-│  │  │   └─ task/PROJCD-5679-another-task task/PROJCD-5678-a-task - Task branch
+│  │  │   └─ task/PROJCD-5679-another-task - Task branch
 │  │  │   
 │  │  ├─ epic/PROJCD-1234-dashboard-page - epic within a feature
 │  │  │   │ 
 │  │  │   ├─ task/PROJCD-5678-a-task - Task branch
 │  │  │   │ 
-│  │  │   └─ task/PROJCD-5679-another-task task/PROJCD-5678-a-task - Task branch
+│  │  │   └─ task/PROJCD-5679-another-task - Task branch
 │  │  │   
 │  │  ├─ bug/PROJCD-5679-a-bug
 │  │  │   
