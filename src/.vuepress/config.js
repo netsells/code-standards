@@ -3,7 +3,9 @@ module.exports = {
 
     dest: 'docs',
 
-    base: '/code-standards/',
+    base: process.env.NETLIFY
+        ? '/'
+        : '/code-standards/',
 
     themeConfig: {
         repo: 'https://github.com/netsells/code-standards',
@@ -34,7 +36,6 @@ module.exports = {
                 collapsable: false,
                 children: [
                     ['frontend/', 'Introduction'],
-                    'frontend/git',
                     'frontend/html',
                     'frontend/css',
                     'frontend/stylelint/',
