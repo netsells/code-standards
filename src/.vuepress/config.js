@@ -102,8 +102,6 @@ module.exports = {
                     'flutter/effective-dart.md',
                     'flutter/documentation.md',
                     'flutter/clean-architecture.md',
-                    'flutter/stateful-widgets.md',
-                    'flutter/avoiding-code-generation.md',
                     'flutter/testing.md',
                     'flutter/method-parameters.md'
                 ],
