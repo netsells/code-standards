@@ -6,7 +6,7 @@ module.exports = {
             require: {
                 FunctionDeclaration: true,
                 MethodDefinition: true,
-                ClassDeclaration: true,
+                ClassDeclaration: false,
                 ArrowFunctionExpression: true,
                 FunctionExpression: true,
             },
