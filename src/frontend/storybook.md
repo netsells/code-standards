@@ -42,3 +42,99 @@ The a11y addon provides some integrated checks on your stories to ensure that ou
 ### Viewport
 
 The viewport addon provides you with a UI element to modify the active viewport of the component you're working on to ensure it looks acceptable at the main grid breakpoints in the application.
+
+## Stories
+Each story should be based on a single component. As such you should name the story after the component.  
+```
+├─ resources
+│  ├─ components
+│  │  ├─ HeaderBanner.vue
+│  │  │  
+│  
+├─ stories
+│  ├─ 1. Layout
+│  │  └─ HeaderBanner.stories.js
+│  │ 
+``` 
+
+### File structure
+
+Stories should all follow the same file structure
+
+```js
+import ExampleComponent from '../../resources/components/ExampleComponent';
+
+export const exampleComponent = () => ({
+    components: {
+        ExampleComponent,
+    },
+    
+    template: `
+        <example-component :prop="prop"/>
+    `,
+    
+    props: {
+        prop: {
+            default: 'Lorem Ipsum',
+        },
+    },
+});
+
+exampleComponent.story = {
+    name: 'default',
+};
+
+``` 
+### Setting up a story live template on JetBrains IDEs
+
+1. Open up your Preferences panel ( `cmd,` ) and navigate to the "Live Templates" section `Editor > Live Templates`. 
+2. Click on the `JavaScript` section and then the `+` on the far right hand side and select `1. Live Template`
+3. Set the abbreviation as `story` and the description and `Storybook story template` 
+4. paste the following in to the section called `Template text`
+```javascript
+import $component$ from '../../resources/components/$componentDirectory$$component$';
+$ContainerDecorator$
+
+export const $componentName$ = () => ({
+    components: {
+        $component$,
+    },
+    
+    template: `
+        <$template$ :$prop$="$prop$"/>
+    `,
+    
+    props: {
+        $prop$: {
+            default: $propDefault$,
+        },
+    },
+});
+
+$componentName$.story = {
+    name: '$StoryName$',
+
+    decorators: [$decorator$],
+};
+
+```
+
+5. Next click on "Edit Variables" on the right hand side of the template block and fill in the table as follows: 
+ 
+| Name | Expression | Default value | Skip if defined |
+|---|---|---|---|
+| component | capitalize(camelCase(substringBefore(fileNameWithoutExtension(),"."))) | | &#x2611; |
+| componentDirectory | "Component Directory" | "directory/" | &#x2610; |
+|containerDecorator | "Container Decorator" | "import ContainerDecorator from '../decorators/ContainerDecorator';" | &#x2610; |
+| componentName | camelCase(substringBefore(fileNameWithoutExtension(),".")) | | &#x2611; |
+| template | lowercaseAndDash(substringBefore(fileNameWithoutExtension(),".")) | | &#x2611; |
+| prop | "Prop" | "prop" | &#x2610; |
+| propDefault | "Prop Default" | "'Lorem ipsum'" | &#x2610; |
+| storyName | "Story Name | "default" | &#x2610; |
+| decorator | "Decorator | "ContainerDecorator" | &#x2610; |
+
+6. Finally click on "Define" at the bottom of the modal and select &#x2610; Javascript and Typescript.
+
+You are now able to use this template while creating stories. simply create a file e.g. `ExampleComponent.sotries.js` and type `story` then press `tab`. You can now fill in each of the variables we just set in the table above by typing then pressing `tab` to progress to the next one. 
+
+
