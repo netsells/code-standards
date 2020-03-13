@@ -130,8 +130,8 @@ $componentName$.story = {
 | template | lowercaseAndDash(substringBefore(fileNameWithoutExtension(),".")) | | &#x2611; |
 | prop | "Prop" | "prop" | &#x2610; |
 | propDefault | "Prop Default" | "'Lorem ipsum'" | &#x2610; |
-| storyName | "Story Name | "default" | &#x2610; |
-| decorator | "Decorator | "ContainerDecorator" | &#x2610; |
+| storyName | "Story Name" | "default" | &#x2610; |
+| decorator | "Decorator" | "ContainerDecorator" | &#x2610; |
 
 6. Finally click on "Define" at the bottom of the modal and select &#x2610; Javascript and Typescript.
 
