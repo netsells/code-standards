@@ -325,10 +325,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
-"@netsells/eslint-plugin-netsells@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@netsells/eslint-plugin-netsells/-/eslint-plugin-netsells-1.2.0.tgz#ec400e7fab0fbd987b920c2f186dbd305cd20ff3"
-  integrity sha512-XloZUiR97JbYnCGGGnbftG4RwiXRMIclfe1lZhqe7rx01LT5fw3QM8JJ58MzJGxdfYPoi+6W9QjdZO+ZPFEUXw==
+"@netsells/eslint-plugin-netsells@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@netsells/eslint-plugin-netsells/-/eslint-plugin-netsells-1.2.1.tgz#317f177cad5ca2850c2b09eee02cd5aa21b69964"
+  integrity sha512-Cw2nvFnAph/2Tv31fwGuQ+Ia8fyzRNEMJcQtngMq5OVrL4Fc4/zYHnzNmIRaAPhHsoM5QxLLjsrii/XKnU3N5g==
   dependencies:
     case "^1.6.2"
 
@@ -1121,9 +1121,9 @@ eslint-plugin-jquery@^1.5.1:
   integrity sha512-L7v1eaK5t80C0lvUXPFP9MKnBOqPSKhCOYyzy4LZ0+iK+TJwN8S9gAkzzP1AOhypRIwA88HF6phQ9C7jnOpW8w==
 
 eslint-plugin-jsdoc@^22.0.0:
-  version "22.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-22.0.0.tgz#371f1dbf4f61ee6e11c23fa1ea3275962f1bceaf"
-  integrity sha512-dLqUtIL6tvOoV+9IDdP3FqOnQ/sxklzs4hxZa91kt0TGI2o1fSqIuc6wa71oWtWKEyvaQj7m6CnzQxcBC9CEsg==
+  version "22.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-22.0.1.tgz#1f36c41a8818c968e46def7423e0b627841d72b9"
+  integrity sha512-lqQgGtd+roOhd5lSdIK4P3mlDmTVmVdcehj/r8nY25CGB2yi4Tk6JVwETCPBGnRKd40JkllkchyZmt0tFN+5pw==
   dependencies:
     comment-parser "^0.7.2"
     debug "^4.1.1"
