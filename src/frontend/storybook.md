@@ -90,7 +90,7 @@ exampleComponent.story = {
 1. Open up your Preferences panel ( `cmd,` ) and navigate to the "Live Templates" section `Editor > Live Templates`. 
 2. Click on the `JavaScript` section and then the `+` on the far right hand side and select `1. Live Template`
 3. Set the abbreviation as `story` and the description and `Storybook story template` 
-4. paste the following in to the section called `Template text`
+4. Paste the following in to the section called `Template text`
 ```javascript
 import $component$ from '../../resources/components/$componentDirectory$$component$';
 $ContainerDecorator$
