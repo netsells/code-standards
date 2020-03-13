@@ -5,9 +5,6 @@
     "dev": "yarn generate && vuepress dev src",
     "generate": "yarn generate:linters",
     "generate:linters": "node ./.build/generate-linter-pages.js",
-    "lint": "yarn lint:eslint && yarn lint:stylelint",
-    "lint:eslint": "cd ./packages/eslint-config && yarn && yarn lint",
-    "lint:stylelint": "cd ./packages/stylelint-config && yarn && yarn lint",
     "lerna:publish": "lerna publish",
     "lerna": "lerna",
     "test": "lerna run test"
@@ -20,10 +17,5 @@
     "fs-extra": "^8.0.1",
     "husky": "^2.3.0",
     "lerna": "^3.14.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn lint"
-    }
   }
 }

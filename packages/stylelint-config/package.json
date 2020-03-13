@@ -11,17 +11,7 @@
   },
   "author": "Rowan Collins <rowan.collins@netsells.co.uk>",
   "license": "ISC",
-  "dependencies": {
-    "@netsells/eslint-plugin-netsells": "^1.2.0",
-    "eslint-plugin-jsdoc": "^21.0.0"
-  },
   "devDependencies": {
-    "babel-eslint": "^10.0.3",
-    "eslint": "^5.16.0",
-    "eslint-plugin-jquery": "^1.5.1",
-    "eslint-plugin-nuxt": "^0.5.1",
-    "eslint-plugin-require-jsdoc-except": "^1.3.0",
-    "eslint-plugin-vue": "^6.2.0",
     "glob": "^7.1.6",
     "jest": "^25.1.0",
     "postcss-syntax": "^0.36.2",
