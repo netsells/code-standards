@@ -325,10 +325,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
-"@netsells/eslint-plugin-netsells@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@netsells/eslint-plugin-netsells/-/eslint-plugin-netsells-1.2.0.tgz#ec400e7fab0fbd987b920c2f186dbd305cd20ff3"
-  integrity sha512-XloZUiR97JbYnCGGGnbftG4RwiXRMIclfe1lZhqe7rx01LT5fw3QM8JJ58MzJGxdfYPoi+6W9QjdZO+ZPFEUXw==
+"@netsells/eslint-plugin-netsells@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@netsells/eslint-plugin-netsells/-/eslint-plugin-netsells-1.2.1.tgz#317f177cad5ca2850c2b09eee02cd5aa21b69964"
+  integrity sha512-Cw2nvFnAph/2Tv31fwGuQ+Ia8fyzRNEMJcQtngMq5OVrL4Fc4/zYHnzNmIRaAPhHsoM5QxLLjsrii/XKnU3N5g==
   dependencies:
     case "^1.6.2"
 
@@ -438,9 +438,9 @@ acorn-walk@^6.0.1:
   integrity sha512-7evsyfH1cLOCdAzZAd43Cic04yKydNx0cF+7tiA19p1XnLLPU4dpCQOqpjqwokFe//vS0QqfqqjCS2JkiIs0cA==
 
 acorn@^6.0.1:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.0.tgz#b659d2ffbafa24baf5db1cdbb2c94a983ecd2784"
-  integrity sha512-gac8OEcQ2Li1dxIEWGZzsp2BitJxwkwcOm0zHAJLcPJaVvm58FRnk6RkuLRpU1EujipU2ZFODv2P9DLMfnV8mw==
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-6.4.1.tgz#531e58ba3f51b9dacb9a6646ca4debf5b14ca474"
+  integrity sha512-ZVA9k326Nwrj3Cj9jlh3wGFutC2ZornPNARZwsNYqQYgN0EsV2d53w5RN/co65Ohn4sUAUtb1rSUAOD6XN9idA==
 
 acorn@^7.1.0:
   version "7.1.0"
