@@ -135,6 +135,6 @@ $componentName$.story = {
 
 6. Finally click on "Define" at the bottom of the modal and select &#x2610; Javascript and Typescript.
 
-You are now able to use this template while creating stories. simply create a file e.g. `ExampleComponent.sotries.js` and type `story` then press `tab`. You can now fill in each of the variables we just set in the table above by typing then pressing `tab` to progress to the next one. 
+You are now able to use this template while creating stories. simply create a file e.g. `ExampleComponent.stories.js` and type `story` then press `tab`. You can now fill in each of the variables we just set in the table above by typing then pressing `tab` to progress to the next one. 
 
 
