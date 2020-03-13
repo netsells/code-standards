@@ -70,11 +70,11 @@ export const exampleComponent = () => ({
     },
     
     template: `
-        <example-component :prop="prop"/>
+        <example-component :title="title"/>
     `,
     
     props: {
-        prop: {
+        title: {
             default: 'Lorem Ipsum',
         },
     },
