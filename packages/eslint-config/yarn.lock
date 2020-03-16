@@ -325,10 +325,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
-"@netsells/eslint-plugin-netsells@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@netsells/eslint-plugin-netsells/-/eslint-plugin-netsells-1.2.0.tgz#ec400e7fab0fbd987b920c2f186dbd305cd20ff3"
-  integrity sha512-XloZUiR97JbYnCGGGnbftG4RwiXRMIclfe1lZhqe7rx01LT5fw3QM8JJ58MzJGxdfYPoi+6W9QjdZO+ZPFEUXw==
+"@netsells/eslint-plugin-netsells@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@netsells/eslint-plugin-netsells/-/eslint-plugin-netsells-1.2.1.tgz#317f177cad5ca2850c2b09eee02cd5aa21b69964"
+  integrity sha512-Cw2nvFnAph/2Tv31fwGuQ+Ia8fyzRNEMJcQtngMq5OVrL4Fc4/zYHnzNmIRaAPhHsoM5QxLLjsrii/XKnU3N5g==
   dependencies:
     case "^1.6.2"
 
