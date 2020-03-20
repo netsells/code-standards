@@ -29,6 +29,7 @@ module.exports = {
                 children: [
                     ['general/', 'Introduction'],
                     'general/git',
+                    'general/pull-requests',
                 ],
             },
             {
