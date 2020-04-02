@@ -87,6 +87,7 @@ module.exports = {
                     'android/kotlin',
                     'android/code-style',
                     'android/clean-architecture',
+                    'android/error-handling',
                     'android/mvvm',
                     'android/dependency-injection',
                     'android/network-requests',
