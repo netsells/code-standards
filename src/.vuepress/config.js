@@ -105,6 +105,7 @@ module.exports = {
                     'flutter/documentation.md',
                     'flutter/clean-architecture.md',
                     'flutter/testing.md',
+                    'flutter/recommended-packages.md',
                     'flutter/method-parameters.md'
                 ],
             },
