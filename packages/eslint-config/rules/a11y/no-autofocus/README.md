@@ -1,0 +1,1 @@
+Ensure the autoFocus prop is not used on elements.

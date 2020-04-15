@@ -1,0 +1,1 @@
+Avoid using positive tabindex property values so the flow of the page is synchronised with keyboard tab order.

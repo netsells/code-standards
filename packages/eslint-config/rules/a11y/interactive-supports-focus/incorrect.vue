@@ -1,0 +1,2 @@
+<span @click="doSomething" role="button">Click here</span> <!-- span with @click attribute has no tabindex -->
+<a role="button" @click="doSomething">Click here</a> <!-- anchor element without href is not focusable -->

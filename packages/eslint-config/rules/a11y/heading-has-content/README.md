@@ -1,0 +1,1 @@
+Enforce that all heading elements have content and that the content is accessible to screen readers.

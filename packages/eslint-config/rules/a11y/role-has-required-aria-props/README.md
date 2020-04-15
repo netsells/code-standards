@@ -1,0 +1,1 @@
+Elements that have ARIA roles must have all the required attributed for that role.

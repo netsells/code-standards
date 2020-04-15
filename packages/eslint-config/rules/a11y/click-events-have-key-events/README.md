@@ -1,0 +1,1 @@
+Enforce that `onClick` is accompanied by at least one of the following `onKeyUp`, `onKeyDown`, `onKeyPress`.

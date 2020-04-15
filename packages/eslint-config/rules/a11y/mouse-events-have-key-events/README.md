@@ -1,0 +1,1 @@
+Enforce `onmouseenter`, `onmouseover`, `onmouseout`, `onmouseleave`, or `onhover` are accompanied by `onfocus` or `onblur`.

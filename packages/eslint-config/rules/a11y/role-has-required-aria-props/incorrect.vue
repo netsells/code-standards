@@ -1,0 +1,1 @@
+<span role="checkbox" aria-labelledby="foo" tabindex="0" />

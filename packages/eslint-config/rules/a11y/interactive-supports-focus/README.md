@@ -1,0 +1,1 @@
+Elements with an interactive role and interaction handlers (e.g. mouse and / or key press) must be focusable.

@@ -1,0 +1,1 @@
+Enforce that no distracting elements are used within the markup to avoid causing accessibility issues for visually impared users.

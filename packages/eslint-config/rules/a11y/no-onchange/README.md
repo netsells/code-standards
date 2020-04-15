@@ -1,0 +1,1 @@
+Enforce usage of `onBlur` over (or in parallel with) `onChange` on select elements.

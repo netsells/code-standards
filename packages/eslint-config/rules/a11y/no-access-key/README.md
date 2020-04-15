@@ -1,0 +1,1 @@
+Enforce that no `accessKey` props are used on elements - inconsistencies between keyboard shortcuts and commands can create accessibility complications with screenreaders.

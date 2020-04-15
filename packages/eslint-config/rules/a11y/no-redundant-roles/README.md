@@ -1,0 +1,1 @@
+Where the role of a HTML element is implied with semantics - don't include a redundant ARIA role that matches it.

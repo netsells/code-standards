@@ -1,0 +1,1 @@
+Any emojis used in code must be accessible by a screen reader
