@@ -1,0 +1,1 @@
+All anchors must have content and that content must be visible for screen readers.

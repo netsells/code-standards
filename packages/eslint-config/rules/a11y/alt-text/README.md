@@ -1,0 +1,1 @@
+Requires alt text to be present on specific elements
