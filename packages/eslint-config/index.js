@@ -22,7 +22,7 @@ module.exports = {
     extends: [
         'plugin:vue/base',
         'plugin:nuxt/recommended',
-        'plugin:vue-a11y',
+        'plugin:vue-a11y/base',
         // Help move us away from jQuery
         'plugin:jquery/deprecated',
 
