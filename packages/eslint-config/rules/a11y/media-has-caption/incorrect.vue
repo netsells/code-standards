@@ -1,0 +1,4 @@
+<template>
+    <audio />
+    <video />
+</template>

@@ -1,0 +1,3 @@
+Captions for media must be provided in order for hearing impaired users to be able to follow on. They are also useful if the media were to become available. They are not required for video components with the `muted` attribute.
+
+If a client provides media for their site it is our duty to inform them of this standard, and to include it where provided. We need to ensure that the option is there for the captions to be included regardless of whether the client successfully provides them to us or not. 
