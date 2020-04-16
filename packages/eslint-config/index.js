@@ -17,11 +17,12 @@ module.exports = {
         'jsdoc',
         'jquery',
         '@netsells/eslint-plugin-netsells',
+        'vue-a11y',
     ],
     extends: [
         'plugin:vue/base',
         'plugin:nuxt/recommended',
-
+        'plugin:vue-a11y',
         // Help move us away from jQuery
         'plugin:jquery/deprecated',
 
