@@ -1,2 +1,4 @@
-<iframe />
-<iframe title="" />
+<template>
+    <iframe />
+    <iframe title="" />
+</template>

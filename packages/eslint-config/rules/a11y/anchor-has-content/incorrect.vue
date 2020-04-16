@@ -1,2 +1,3 @@
-<a />
-<a><TextWrapper aria-hidden /></a>
+<template>
+    <a></a>
+</template>

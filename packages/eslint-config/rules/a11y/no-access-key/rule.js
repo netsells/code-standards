@@ -2,6 +2,6 @@ const _THROW = require('../../../modules/throwables');
 
 module.exports = {
     rules: {
-        'vue-a11y/aria-props': _THROW.WARNING,
+        'vue-a11y/no-access-key': _THROW.WARNING,
     },
 };

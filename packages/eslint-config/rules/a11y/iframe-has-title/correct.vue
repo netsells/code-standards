@@ -1,2 +1,3 @@
-<iframe title="A Unique Title" />
-<iframe title="{ uniqueTitle }" />
+<template>
+    <iframe title="A Unique Title" />
+</template>

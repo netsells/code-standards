@@ -1,1 +1,3 @@
-<meta charset="UTF-8" />
+<template>
+    <meta charset="UTF-8" />
+</template>

@@ -1,2 +1,4 @@
-<div />
-<button role="presentation" />
+<template>
+    <div />
+    <button role="presentation" />
+</template>

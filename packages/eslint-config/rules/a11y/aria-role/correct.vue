@@ -1,4 +1,5 @@
-<div role="button" />
-<div :role="role" />
-<div />
-<Foo role="{ role }" />
+<template>
+    <div role="button" />
+    <div :role="role" />
+    <div />
+</template>

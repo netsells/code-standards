@@ -1,2 +1,4 @@
-<div @mouseover="doThis" />
-<div @mouseout="doThis" />
+<template>
+    <div @mouseover="doThis" />
+    <div @mouseout="doThis" />
+</template>

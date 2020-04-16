@@ -1,2 +1,4 @@
-<div @mouseover="doThis" @focus="doThis" />
-<div @mouseout="doThis" @blur="doThis" />
+<template>
+    <div @mouseover="doThis" @focus="doThis" />
+    <div @mouseout="doThis" @blur="doThis" />
+</template>

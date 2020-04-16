@@ -1,2 +1,4 @@
-<button role="button" />
-<img role="img">
+<template>
+    <button role="button" />
+    <img role="img">
+</template>

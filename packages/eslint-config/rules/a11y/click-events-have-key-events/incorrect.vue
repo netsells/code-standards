@@ -1,1 +1,3 @@
-<div @click="doThis" />
+<template>
+    <div @click="doThis" />
+</template>

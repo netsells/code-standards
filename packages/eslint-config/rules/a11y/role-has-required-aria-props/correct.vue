@@ -1,1 +1,3 @@
-<span role="checkbox" aria-checked="false" aria-labelledby="foo" tabindex="0" />
+<template>
+    <span role="checkbox" aria-checked="false" aria-labelledby="foo" tabindex="0" />
+</template>

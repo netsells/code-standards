@@ -1,2 +1,4 @@
-<input aria-labelledby="address_label">
-<input aria-label="address_label">
+<template>
+    <input aria-labelledby="address_label">
+    <input aria-label="address_label">
+</template>

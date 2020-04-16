@@ -1,2 +1,4 @@
-<div role="datepicker" />
-<div role="range" />
+<template>
+    <div role="datepicker" />
+    <div role="range" />
+</template>

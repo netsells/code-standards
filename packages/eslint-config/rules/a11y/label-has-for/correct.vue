@@ -1,7 +1,6 @@
-<label for="firstName">Label</label>
-<input type="text" id="firstName">
-
-<label>
-    Label
-    <input type="text">
-</label>
+<template>
+    <label for="example">
+        Label
+        <input type="text" id="example">
+    </label>
+</template>
