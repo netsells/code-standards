@@ -1188,9 +1188,9 @@ eslint-plugin-nuxt@^0.5.1:
     vue-eslint-parser "^7.0.0"
 
 eslint-plugin-require-jsdoc-except@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-require-jsdoc-except/-/eslint-plugin-require-jsdoc-except-1.3.0.tgz#43bd939efac3d54bfc66c63ad9a0209843ac0fbe"
-  integrity sha512-SOJdUeSJh0q/TEu51fopd4qxtxf+sDBFFpAGBta/mxZ3OCW7sxyOXLUQv2s5SmAv51q7XbIWv7sRZvfe/sSQCg==
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-require-jsdoc-except/-/eslint-plugin-require-jsdoc-except-1.4.0.tgz#f5901be0da01e36cb9a030385431fd5fabd28652"
+  integrity sha512-WTvEWT/MYHCvsRyX3bF2wsz1h61RJUpWumbHovw+hOGUEQxCP+M0miJelGhg69qI9ImRUkiQqIjiRpz7t3pX7Q==
   dependencies:
     lodash.assignin "^4.2.0"
     lodash.get "^4.4.2"
