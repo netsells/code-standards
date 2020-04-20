@@ -1165,10 +1165,10 @@ eslint-plugin-jquery@^1.5.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-jquery/-/eslint-plugin-jquery-1.5.1.tgz#d6bac643acf9484ce76394e27e2b07baca06662e"
   integrity sha512-L7v1eaK5t80C0lvUXPFP9MKnBOqPSKhCOYyzy4LZ0+iK+TJwN8S9gAkzzP1AOhypRIwA88HF6phQ9C7jnOpW8w==
 
-eslint-plugin-jsdoc@^22.0.0:
-  version "22.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-22.1.0.tgz#dadfa62653fc0d87f900d810307f5ed07ef6ecd5"
-  integrity sha512-54NdbICM7KrxsGUqQsev9aIMqPXyvyBx2218Qcm0TQ16P9CtBI+YY4hayJR6adrxlq4Ej0JLpgfUXWaQVFqmQg==
+eslint-plugin-jsdoc@^23.1.0:
+  version "23.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-23.1.0.tgz#81843b60b6bc1761de9f98ebe14bfd0eff44b6dd"
+  integrity sha512-5cIL9M6/mCEQiEpJpvvjwpLPIMTpSKGjXr3i/gHEaJAUJLBkTZbQ/vTi0/Dzv6LKBoRCAzigWr91a3vor4gwLg==
   dependencies:
     comment-parser "^0.7.2"
     debug "^4.1.1"
