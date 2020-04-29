@@ -29,9 +29,7 @@ const getFile = (rulePath, type) => {
     };
 };
 
-globRules
-    .filter((file) => file.includes('shorthand-property-no-redundant-values'))
-.forEach((file) => {
+globRules.forEach((file) => {
     const rulePath = file.replace(`${ directory }/`, '').replace('/rule.js', '');
 
     describe(rulePath, () => {
