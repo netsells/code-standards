@@ -22,8 +22,16 @@ module.exports = {
                 'updated',
                 'data',
 
+                // Nuxt methods
+                'asyncData',
+                'beforeRouteLeave',
+                'head',
+
                 // Ignore the vue default prop method
                 'default',
+                'get',
+                'set',
+                'handler',
             ],
         }],
     },
