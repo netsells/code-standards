@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
-    "jest": "^25.1.0",
+    "jest": "^26.0.0",
     "jest-expect-message": "^1.0.2"
   },
   "gitHead": "6f4def5446469c28459507cf5e1f3f33047a513a"
