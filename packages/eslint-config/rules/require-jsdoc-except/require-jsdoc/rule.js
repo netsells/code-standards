@@ -33,6 +33,9 @@ module.exports = {
                 'set',
                 'handler',
                 'validator',
+
+                // Ignore constructors
+                'constructor',
             ],
         }],
     },
