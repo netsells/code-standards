@@ -32,6 +32,7 @@ module.exports = {
                 'get',
                 'set',
                 'handler',
+                'validator',
             ],
         }],
     },
