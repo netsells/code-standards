@@ -47,6 +47,7 @@ module.exports = {
                     'frontend/accessibility',
                     'frontend/storybook',
                     'frontend/performance',
+                    ['frontend/recommended-packages', 'Recommended Packages'],
                 ],
             },
             {
