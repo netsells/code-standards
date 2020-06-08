@@ -46,6 +46,8 @@ function quux6 (...args) {
 
 /**
  * @param foo
+ * @param foo.a
+ * @param foo.b
  */
 function quux7 ({a, b}) {
 
@@ -63,6 +65,8 @@ function quux8 (foo, bar) {
 
 /**
  * @param args
+ * @param args.a
+ * @param args.b
  */
 function quux9 ({a, b} = {}) {
 
@@ -70,6 +74,8 @@ function quux9 ({a, b} = {}) {
 
 /**
  * @param foo
+ * @param foo.0
+ * @param foo.1
  */
 function quux10 ([a, b] = []) {
 
