@@ -1,6 +1,6 @@
 {
   "name": "@netsells/stylelint-config",
-  "version": "3.3.2",
+  "version": "4.0.0",
   "description": "Stylelint config for the Netsells organisation",
   "main": "index.js",
   "scripts": {
