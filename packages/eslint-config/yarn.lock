@@ -1241,9 +1241,9 @@ eslint-plugin-jquery@^1.5.1:
   integrity sha512-L7v1eaK5t80C0lvUXPFP9MKnBOqPSKhCOYyzy4LZ0+iK+TJwN8S9gAkzzP1AOhypRIwA88HF6phQ9C7jnOpW8w==
 
 eslint-plugin-jsdoc@^28.0.0:
-  version "28.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-28.4.0.tgz#b8a22e183559e523241da45835a5ad087065723d"
-  integrity sha512-VXCVbNK+Qhgo8jm3DDBtSpKn60d8+uP8tdTJ/Frk41epzJmDJBSajZb/QvBRi7wtg03Qi7v9vgg2TrmHPm4O3w==
+  version "28.5.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-28.5.1.tgz#5a95ee8705af389ba2062a1036be6077b5e62f3f"
+  integrity sha512-1XSWu8UnGwqO8mX3XKGofffL83VRt00ptq0m5OrTLFDN3At4x+/pJ8YHJONKhGC35TtjskcS9/RR6F9pjQ8c+w==
   dependencies:
     comment-parser "^0.7.5"
     debug "^4.1.1"
