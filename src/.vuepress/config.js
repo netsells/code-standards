@@ -93,7 +93,8 @@ module.exports = {
                     'android/network-requests',
                     'android/local-databases',
                     'android/coroutines',
-                    'android/testing'
+                    'android/testing',
+                    'android/pull-request-labels'
                 ],
             },
             {
@@ -106,7 +107,8 @@ module.exports = {
                     'flutter/clean-architecture.md',
                     'flutter/testing.md',
                     'flutter/recommended-packages.md',
-                    'flutter/method-parameters.md'
+                    'flutter/method-parameters.md',
+                    'flutter/pull-request-labels.md'
                 ],
             },
             {
