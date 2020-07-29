@@ -16,9 +16,8 @@ When reviewing pull requests, please follow these requirements.
 
 **Pull Requests must not be merged with failing tests.**
 
-- **MUST** include _local unit tests_ for everything in the `data` and `domain` layers, as well as state management components such as `ViewModel`s.
-- **SHOULD** include _local unit tests_ for Fragments and Activities, provided the tests aren't too time-consuming to write.
-  - You **MUST** use Robolectric when writing these tests, so that emulators/devices are not required.
+- **MUST** include _local unit tests_ for everything in the `data` and `domain` layers, as well as state management components such as BLoCs.
+- **SHOULD** include _local unit tests_ for widgets, provided the tests aren't too time-consuming to write
 - **CONSIDER** including _local integration tests_ which test the entire feature against mocked external dependencies (e.g. a mocked web server).
   - Use your judgement to decide whether this is worth the time you might spend.
 - **SHOULD NOT** include _instrumented tests_. These have limited usefulness and take a very long time to write. **PREFER** manual integration testing.
