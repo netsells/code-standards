@@ -25,12 +25,9 @@ The majority of projects have automated test suites and linters which are run by
 To request a review, select the people that you want from the dropdown panel. You should add a reviewer for each discipline that your PR changes, for example if you build a tool for Nova admin panel you will need both a frontend and backend reviewer. For large or complicated changes, several reviewers are recommended to ensure multiple sets of eyes see them. You should aim to bring in a more senior developer to review your code and junior developers can be added if you believe reviewing the code would be of benefit to them.
 
 ## Review Comments
-When leaving a review, we have two types of pull request comments, **MUST** and **SHOULD**, these keywords to indicate the level of a comment. If a reviewer leaves a **MUST** comment, the pull request will be rejected pending changes. It is up to the reviewers discretion to decide whether a PR is rejected due to **SHOULD** comments. Comments can also be left without this syntax which could be a general question asking you for more information or a piece of information that you may not know. 
+When leaving a review, we use two types of pull request comments, **MUST** and **SHOULD**, these keywords will indicate the requirement level of a comment. If a reviewer leaves a **MUST** comment, the pull request will be rejected pending changes. It is up to the reviewers discretion to decide whether a PR is rejected due to **SHOULD** comments. Comments can also be left without this syntax which could be a general question asking you for more information or a piece of information that you may not know. 
 
 Comments should be critical, informative and descriptive enough for you to implement the suggestion. Comments such as “this is wrong” or “this doesn’t work” are not acceptable and should be replaced with an explanation of the problem and suggestions for the solution, including code snippets where appropriate.
-
-
-
 
 Examples of appropriate comments;
 
