@@ -22,30 +22,30 @@ on:
             - 'packages/stylelint-config/**/**.css'
             - 'packages/stylelint-config/**/**.scss'
 
-    jobs:
-        build:
-            runs-on: [ self-hosted, linux ]
-            steps:
-                -   uses: actions/checkout@v2
+jobs:
+    build:
+        runs-on: [ self-hosted, linux ]
+        steps:
+            -   uses: actions/checkout@v2
 
-                -   name: Get yarn cache directory path
-                    id: yarn-cache-dir-path
-                    run: echo "::set-output name=dir::$(yarn cache dir)"
+            -   name: Get yarn cache directory path
+                id: yarn-cache-dir-path
+                run: echo "::set-output name=dir::$(yarn cache dir)"
 
-                -   name: Setup yarn cache
-                    uses: actions/cache@v1
-                    id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
-                    with:
-                        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-                        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-                        restore-keys: |
-                            ${{ runner.os }}-yarn-
+            -   name: Setup yarn cache
+                uses: actions/cache@v1
+                id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+                with:
+                    path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+                    key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+                    restore-keys: |
+                        ${{ runner.os }}-yarn-
 
-                -   name: Install dependencies
-                    run: yarn
+            -   name: Install dependencies
+                run: yarn
 
-                -   name: Setup lerna modules
-                    run: yarn lerna bootstrap
+            -   name: Setup lerna modules
+                run: yarn lerna bootstrap
 
-                -   name: Run tests
-                    run: yarn test
+            -   name: Run tests
+                run: yarn test
