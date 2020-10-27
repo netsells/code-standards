@@ -24,7 +24,7 @@ on:
 
 jobs:
     build:
-        runs-on: [ self-hosted, linux, amazon-linux ]
+        runs-on: [ubuntu-latest]
         timeout-minutes: 15
         steps:
             -   name: Reset permissions
