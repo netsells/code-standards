@@ -7,7 +7,7 @@ module.exports = {
 
     overrides: [
         {
-            files: ['resources/{pages,layouts}/**/*.vue'],
+            files: ['*/**/resources/{pages,layouts}/**/*.vue'],
             rules: {
                 '@netsells/netsells/component-file-names': 'off',
             },
