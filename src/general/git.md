@@ -40,7 +40,6 @@ When the QA team are testing a release they will create jira bugs. These should 
 These are the only branches that are branched from and merged in to `master`. Once complete a PR should be created into both `master` and `develop`.
 :::
 
-
 ### Permissions
 
 Master and develop should be locked down and developers should not be able to commit directly to these branches without a pull request being reviewed and merged.

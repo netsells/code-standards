@@ -98,7 +98,7 @@ const generatePages = ({
 generatePages({
     rulesFolderPath: `${ __dirname }/../packages/stylelint-config/rules`,
     indexTemplatePath: `${ __dirname }/templates/stylelint-index.md`,
-    outputFolder: `${ __dirname }/../src/frontend/stylelint`,
+    outputFolder: `${ __dirname }/../src/frontend/linting/stylelint`,
     ruleLink: (rule) => {
         return `https://stylelint.io/user-guide/rules/${ rule }`;
     },
@@ -107,7 +107,7 @@ generatePages({
 generatePages({
     rulesFolderPath: `${ __dirname }/../packages/eslint-config/rules`,
     indexTemplatePath: `${ __dirname }/templates/eslint-index.md`,
-    outputFolder: `${ __dirname }/../src/frontend/eslint`,
+    outputFolder: `${ __dirname }/../src/frontend/linting/eslint`,
     ruleLink(rule) {
         if (rule.startsWith('vue/')) {
             rule = rule.replace('vue/', '');
