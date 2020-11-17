@@ -6,7 +6,7 @@ We use the latest specification of ECMAScript on greenfield projects with a buil
 
 We make use of an automated approach of enforcing JavaScript code standards. These standards are constantly evolving to ensure we are making use of the best methods, and in order to catch more edge cases ensuring our code is consistent across the board.
 
-See [Eslint](./eslint/).
+See [Eslint](./linting/eslint/).
 
 ## UI Framework
 

@@ -39,15 +39,31 @@ module.exports = {
                     ['frontend/', 'Introduction'],
                     'frontend/html',
                     'frontend/css',
-                    'frontend/stylelint/',
                     'frontend/javascript',
                     'frontend/vue',
-                    'frontend/eslint/',
                     'frontend/blade',
                     'frontend/accessibility',
                     'frontend/storybook',
                     'frontend/performance',
                     ['frontend/recommended-packages', 'Recommended Packages'],
+                    {
+                        title: 'Linting',
+                        collapsable: true,
+                        path: '/frontend/linting',
+                        children: [
+                            'frontend/linting/eslint/',
+                            'frontend/linting/stylelint/',
+                        ],
+                    },
+                    {
+                        title: 'Testing',
+                        collapsable: true,
+                        path: '/frontend/testing',
+                        children: [
+                            'frontend/testing/unit-testing',
+                            'frontend/testing/visual-regression-testing',
+                        ],
+                    },
                 ],
             },
             {
