@@ -14,11 +14,6 @@
             "jest-expect-message"
         ]
     },
-    "files": [
-        "./rules/**/rule.js",
-        "./modules",
-        "index.js"
-    ],
     "dependencies": {
         "@netsells/eslint-plugin-netsells": "^1.2.1",
         "eslint": "^7.12.0",
