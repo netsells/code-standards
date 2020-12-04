@@ -14,7 +14,9 @@ module.exports = {
 
         lastUpdated: 'Last Updated',
 
-        logo: 'https://github.com/netsells/code-standards/raw/master/src/images/netsells-logo.png',
+        logo: process.env.NETLIFY
+            ? './images/netsells-logo.png'
+            : './images/netsells-logo.png',
 
         nav: [
             {

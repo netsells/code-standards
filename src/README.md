@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://github.com/netsells/code-standards/raw/master/src/images/netsells-logo-with-slogan.jpg
+heroImage: /images/netsells-logo.png
 heroText: Code Standards
 tagline: How we write quality code
 actionText: Get Started →

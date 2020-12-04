@@ -1,4 +1,8 @@
-![Netsells Logo](./src/images/netsells-logo-with-slogan.jpg)
+<div style="text-align: center;">
+
+![Netsells Logo](./src/images/netsells-logo.png)
+
+</div>
 
 # Netsells Code Standards
 
