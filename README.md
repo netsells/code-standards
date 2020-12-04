@@ -1,8 +1,4 @@
-<div style="text-align: center;">
-
-![Netsells Logo](./src/images/netsells-logo.png)
-
-</div>
+![Netsells Logo](./src/.vuepress/public/images/netsells-logo.png)
 
 # Netsells Code Standards
 
