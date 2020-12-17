@@ -151,7 +151,7 @@ module.exports = {
         [
             '@vuepress/google-analytics',
             {
-                'ga': 'G-P81JL94VDR',
+                ga: 'UA-49744331-5',
             }
         ],
     ],
