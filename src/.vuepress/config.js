@@ -146,4 +146,13 @@ module.exports = {
             config.output.filename = 'assets/js/[name].[contenthash:8].js'
         }
     },
+
+    plugins: [
+        [
+            '@vuepress/google-analytics',
+            {
+                'ga': 'G-P81JL94VDR',
+            }
+        ],
+    ],
 };
