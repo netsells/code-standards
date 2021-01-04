@@ -122,8 +122,8 @@ module.exports = {
                     ['flutter/', 'Introduction'],
                     'flutter/effective-dart.md',
                     'flutter/documentation.md',
-                    'flutter/clean-architecture.md',
                     'flutter/testing.md',
+                    'flutter/state-management.md',
                     'flutter/recommended-packages.md',
                     'flutter/method-parameters.md',
                     'flutter/pull-request-labels.md'
