@@ -81,52 +81,57 @@ module.exports = {
                 ],
             },
             {
-                title: 'iOS',
+                title: 'Mobile',
                 collapsable: false,
                 children: [
-                    ['ios/', 'Introduction'],
-                    'ios/control-statements',
-                    'ios/directory-structure',
-                    'ios/general',
-                    'ios/libraries',
-                    'ios/local-storage',
-                    'ios/naming',
-                    'ios/networking',
-                    'ios/security',
-                    'ios/storyboards',
-                    'ios/testing'
-                ],
-            },
-            {
-                title: 'Android',
-                collapsable: false,
-                children: [
-                    ['android/', 'Introduction'],
-                    'android/kotlin',
-                    'android/code-style',
-                    'android/clean-architecture',
-                    'android/error-handling',
-                    'android/mvvm',
-                    'android/dependency-injection',
-                    'android/network-requests',
-                    'android/local-databases',
-                    'android/coroutines',
-                    'android/testing',
-                    'android/pull-request-labels'
-                ],
-            },
-            {
-                title: 'Flutter',
-                collapsable: false,
-                children: [
-                    ['flutter/', 'Introduction'],
-                    'flutter/effective-dart.md',
-                    'flutter/documentation.md',
-                    'flutter/testing.md',
-                    'flutter/state-management.md',
-                    'flutter/recommended-packages.md',
-                    'flutter/method-parameters.md',
-                    'flutter/pull-request-labels.md'
+                    'mobile/pull-requests.md',
+                    {
+                        title: 'Flutter',
+                        collapsable: true,
+                        children: [
+                            ['flutter/', 'Introduction'],
+                            'flutter/effective-dart.md',
+                            'flutter/documentation.md',
+                            'flutter/testing.md',
+                            'flutter/state-management.md',
+                            'flutter/recommended-packages.md',
+                            'flutter/method-parameters.md',
+                            'flutter/pull-request-labels.md'
+                        ],
+                    },
+                    {
+                        title: 'iOS',
+                        collapsable: true,
+                        children: [
+                            ['ios/', 'Introduction'],
+                            'ios/control-statements',
+                            'ios/directory-structure',
+                            'ios/general',
+                            'ios/libraries',
+                            'ios/local-storage',
+                            'ios/naming',
+                            'ios/networking',
+                            'ios/security',
+                            'ios/storyboards',
+                            'ios/testing'
+                        ],
+                    },
+                    {
+                        title: 'Android',
+                        collapsable: true,
+                        children: [
+                            ['android/', 'Introduction'],
+                            'android/kotlin',
+                            'android/code-style',
+                            'android/error-handling',
+                            'android/mvvm',
+                            'android/dependency-injection',
+                            'android/network-requests',
+                            'android/local-databases',
+                            'android/coroutines',
+                            'android/pull-request-labels'
+                        ],
+                    }
                 ],
             },
             {
