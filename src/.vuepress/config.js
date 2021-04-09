@@ -90,6 +90,7 @@ module.exports = {
                         collapsable: true,
                         children: [
                             ['flutter/', 'Introduction'],
+                            'flutter/architecture.md',
                             'flutter/effective-dart.md',
                             'flutter/documentation.md',
                             'flutter/testing.md',
