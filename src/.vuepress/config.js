@@ -16,7 +16,7 @@ module.exports = {
 
         logo: process.env.NETLIFY
             ? '/images/netsells-logo.png'
-            : '/code-standards/images/netsells-logo.png',
+            : '/images/netsells-logo.png',
 
         nav: [
             {

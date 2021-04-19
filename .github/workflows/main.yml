@@ -24,14 +24,16 @@ jobs:
             -   name: Install yarn
                 run: npm install -g yarn
 
+            -   name: Build
+                run: |
+                    yarn
+                    yarn build
+
             -   name: Build and Deploy
-                uses: JamesIves/github-pages-deploy-action@master
-                env:
-                    ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-                    BASE_BRANCH: master # The branch the action should deploy from.
-                    BRANCH: gh-pages # The branch the action should deploy to.
-                    FOLDER: docs # The folder the action should deploy.
-                    BUILD_SCRIPT: yarn && yarn build
+                uses: JamesIves/github-pages-deploy-action@4.1.1
+                with:
+                    branch: gh-pages # The branch the action should deploy to.
+                    folder: docs # The folder the action should deploy.
 
             -   name: Uninstall yarn
                 run: npm uninstall -g yarn
