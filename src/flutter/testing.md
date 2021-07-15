@@ -41,17 +41,9 @@ We expect 100% test coverage in our new projects. Any less than 100% coverage ma
 
 _Note: generated code is excluded from our test coverage measurements; only handwritten code is measured._
 
-We measure test coverage in projects using [Coveralls](https://coveralls.io). Each time you open a PR, Coveralls will look at your coverage and notify you if coverage is less than 100%.
+We measure test coverage in projects using [Coveralls](https://coveralls.io). Each time you open a PR, Coveralls will look at your coverage and provide a report as a comment on your PR.
 
-#### Why not 80% or 90%?
-
-In our experience, aiming for less than 100% means that the easiest code to test is covered, but the more complex code is not. This often results in the code most in need of test coverage not being covered!
-
-In addition, maintaining a project at 100% coverage is much easier than maintaining a project with less. If you start with 100% and it drops, the next step is easy: test the uncovered code. If you start with 80% and it drops, you have to begin by figuring out which bit of the code wasn't covered before, and why, before you can continue.
-
-#### Won't this take loads of extra time?
-
-If you're not used to baking testing into your workflow, it may take a little time to adjust. But any untested code is technical debt, which must be paid back with interest in the future.
+Additionally, if coverage drops below 95%, your PR will be blocked. The 5% flexibility is there to ensure that time-sensitive and critical changes aren't blocked as a result of test coverage requirements. In day-to-day development, all code should be covered or explicitly ignored.
 
 #### Tips for 100% coverage
 
