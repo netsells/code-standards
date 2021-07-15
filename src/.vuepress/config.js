@@ -89,14 +89,15 @@ module.exports = {
                         children: [
                             ['flutter/', 'Introduction'],
                             'flutter/project-setup.md',
+                            'flutter/linting-rules.md',
                             'flutter/architecture.md',
-                            'flutter/effective-dart.md',
-                            'flutter/documentation.md',
                             'flutter/testing.md',
                             'flutter/state-management.md',
+                            'flutter/third-party-packages.md',
                             'flutter/recommended-packages.md',
-                            'flutter/method-parameters.md',
-                            'flutter/pull-request-labels.md'
+                            'flutter/codesigning.md',
+                            'flutter/continuous-integration.md',
+                            'flutter/continuous-delivery.md'
                         ],
                     },
                     {
