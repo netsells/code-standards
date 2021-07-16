@@ -41,9 +41,9 @@ We expect 100% test coverage in our new projects. Any less than 100% coverage ma
 
 _Note: generated code is excluded from our test coverage measurements; only handwritten code is measured._
 
-We measure test coverage in projects using [Coveralls](https://coveralls.io). Each time you open a PR, Coveralls will look at your coverage and provide a report as a comment on your PR.
+We use [Coveralls](https://coveralls.io/) to keep track of test coverage throughout the lifetime of a project. Each time you push code or open a pull request, a coverage report will be sent to Coveralls and a summary will be added to your pull request.
 
-Additionally, if coverage drops below 95%, your PR will be blocked. The 5% flexibility is there to ensure that time-sensitive and critical changes aren't blocked as a result of test coverage requirements. In day-to-day development, all code should be covered or explicitly ignored.
+Additionally, we use [Very Good Coverage](https://github.com/VeryGoodOpenSource/very_good_coverage) to block pull requests if coverage falls below 95%. The 5% flexibility is there to ensure that time-sensitive and critical changes aren't blocked as a result of test coverage requirements. In day-to-day development, all code should be covered or explicitly ignored.
 
 #### Tips for 100% coverage
 
