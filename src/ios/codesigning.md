@@ -1,6 +1,6 @@
 # Codesigning
 
-For the iOS part of flutter apps, we use [Fastlane Match](https://docs.fastlane.tools/actions/match/) to manage signing certificates and provisioning profiles.
+For iOS apps, we use [Fastlane Match](https://docs.fastlane.tools/actions/match/) to manage signing certificates and provisioning profiles.
 
 For each project we should create a new certificates repo that matches the main code repo naming conventions. e.g `my-project-certificates`
 
@@ -17,7 +17,7 @@ app_identifier(["com.netsells.appId"]) # TODO: Add actual app identifier
 team_id("") # TODO: Add Apple Developer Team ID
 ```
 
-To sync and update certificates and provisioning profiles, run these commands in your project's `ios` directory:
+To sync and update certificates and provisioning profiles, run these commands in your project's directory:
 
 ```shell
 $ bundle exec fastlane match development -u example.user@netsells.co.uk
