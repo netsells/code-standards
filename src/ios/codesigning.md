@@ -1,4 +1,4 @@
-# Codesigning
+# 🧙 Codesigning
 
 For iOS apps, we use [Fastlane Match](https://docs.fastlane.tools/actions/match/) to manage signing certificates and provisioning profiles.
 
