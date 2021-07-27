@@ -1,5 +1,5 @@
 # 🛠 Architecture Layers
-## Layer Definitions
+## 🍰 Layer Definitions
 ### Data
 * The data layer contains the concrete implementations of the repository protocols from the domain layer
 * Repository implementations may depend on other classes such as data sources or services
@@ -19,7 +19,7 @@
 * The service layer contains feature agnostic services which can be used in repositories and data sources
 * Service class implementations should conform to a protocol to enable easy mocking, service switching and dependency injection.
 
-## Directory Structure
+## 📒 Directory Structure
 * The top-level directory structure is split into a core folder and a features folder. 
 * The core folder should contain reusable, feature agnostic classes. It is organised into the four architecture layers we use.
 * The features folder should contain one folder for each feature. Think of this as a module without actually splitting the feature out. Everything to do with just that feature should be placed in here.
