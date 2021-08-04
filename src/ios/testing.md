@@ -36,11 +36,12 @@ You could use a framework like Test-driven development (TDD), or simply write te
 When its time to open up a pull request, you should ensure you’re meeting the requirement that all tests are passing and new functionality is covered by tests.
 
 ## 🔬 Review tests in PRs carefully
-Its important that tests are reviewed carefully during the PR stage. When reviewing tests, look out for these red flags:
+Its important that tests are reviewed carefully during the PR stage. When reviewing tests, lo
+out for these red flags:
 * Tests with no assertions, expectations or verifications
 * Tests which have obviously been written to just satisfy the requirement for tests to be added
 * Not all logical branches are tested e.g only the happy path is tested
 
 ## ⌛️ Don’t skip tests to save time
 Skipping tests today might save you time, but you are exchanging the saved time for technical debt. An untested codebase can’t scale efficiently, and will become more and more difficult to work on over time. The time you might save by not writing a test will need to be paid back - with significant interest later down the line.
-Its ok to be firm on this principle when communicating with non-technical staff. Ticket estimates should and must include sufficient allowance for engineers to write high-quality, well-tested code.
+Its okay to be firm on this principle when communicating with non-technical staff. Ticket estimates should and must include sufficient allowance for engineers to write high-quality, well-tested code.
