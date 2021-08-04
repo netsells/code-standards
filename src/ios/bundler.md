@@ -23,6 +23,6 @@ Once you have created and populated the file in your project's directory. You ca
 
 Ensure you have run `bundle install` successfully
 
-If you want to use cocoapods or fastlane, you simply need to prefix their commands with bundle exec
+If you want to use Cocoapods or Fastlane, you simply need to prefix their commands with `bundle exec`
 
 `pod install` becomes `bundle exec pod install`
