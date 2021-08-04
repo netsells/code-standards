@@ -42,5 +42,5 @@ Its important that tests are reviewed carefully during the PR stage. When review
 * Not all logical branches are tested e.g only the happy path is tested
 
 ## ⌛️ Don’t skip tests to save time
-Skipping tests today might save you time, but you are exchanging the saved time for technical debt. An untested codebase can’t scale efficiently, and will beocme more and more difficult to work on over time. The time you might save by not writing a test will need to be paid back - with significant interest later down the line.
+Skipping tests today might save you time, but you are exchanging the saved time for technical debt. An untested codebase can’t scale efficiently, and will become more and more difficult to work on over time. The time you might save by not writing a test will need to be paid back - with significant interest later down the line.
 Its ok to be firm on this principle when communicating with non-technical staff. Ticket estimates should and must include sufficient allowance for engineers to write high-quality, well-tested code.
