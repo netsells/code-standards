@@ -1,5 +1,5 @@
 ## 📋 Intro
-This is a living document that aims to document the agreed set of code standards for the iOS team. Please discuss any changes with the wider team before updating this document
+This is a living document that aims to document the agreed set of code standards for the iOS team. Please discuss any changes with the wider team before updating this document.
 ## 📉 Minimum Supported Version
 We currently aim to support “current minus 2”.
 E.g If the current iOS version is iOS 15, then we aim to support iOS 13+. Any increases to this have to be a business lead decision.
