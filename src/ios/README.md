@@ -10,7 +10,7 @@ We use Bitrise for our CI system with the following automations for branching co
 release/* - Pushes/merges to these branches will trigger a beta build pointing at staging that uploads to Firebase App Distribution
 develop - Pushes/merges to this branch will trigger a build that runs the automated tests
 master - Pushes/merges to this branch will trigger a build pointing at production that uploads to App Store Connect
-Opening a PR - Opening a PR will trigger a build that runs the automated tests and code quality tools then reports back to Github
+Opening a PR - Opening a PR will trigger a build that runs the automated tests and code quality tools then reports back to GitHub
 ## ✅ Pull Requests
 When creating a pull request, there are a few things to watch out for. Firstly, ensure that the base branch is set correctly.
 Once the branches are set, Github will populate the description with a pull request template. You should fill this template in with as much detail as possible for the reviewer. 
