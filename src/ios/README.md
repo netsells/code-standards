@@ -13,7 +13,7 @@ master - Pushes/merges to this branch will trigger a build pointing at productio
 Opening a PR - Opening a PR will trigger a build that runs the automated tests and code quality tools then reports back to GitHub
 ## ✅ Pull Requests
 When creating a pull request, there are a few things to watch out for. Firstly, ensure that the base branch is set correctly.
-Once the branches are set, Github will populate the description with a pull request template. You should fill this template in with as much detail as possible for the reviewer. 
+Once the branches are set, GitHub will populate the description with a pull request template. You should fill this template in with as much detail as possible for the reviewer. 
 The title of the pull request should be {JIRA_ID} - {Description} e.g IOS-101 Adding feature x
 Finally, you should ensure there are no merge conflicts and that you have added somebody as a reviewer.
 ## 💬 Leaving Feedback
