@@ -58,5 +58,5 @@ This is an example of the directory structure we follow:
                     * ViewBookingPageViewModel.swift
 
 ## 💯 Architecture Best Practices
-* A view’s state (@State) should only be used when absolutely necessary (e.g when building a form). Most of the time, it is far better to use the view model to hold and control all state.
+* A view’s state (`@State`) should only be used when absolutely necessary (e.g when building a form). Most of the time, it is far better to use the view model to hold and control all state.
 * As much as possible, classes should depend on a protocol, not implementations.
