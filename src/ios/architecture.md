@@ -3,7 +3,7 @@
 ### Data
 * The data layer contains the concrete implementations of the repository protocols from the domain layer
 * Repository implementations may depend on other classes such as data sources or services
-* It is a good idea (not a requirement) to use a Codable model as a DTO (Data Transfer Object) which represents the structure of the data returned from external services. These can then be converted to and from your entity struct. This means that your entities are not dependant on the data structure of the objects returned from external sources.
+* It is a good idea (not a requirement) to use a Codable model as a DTO (Data Transfer Object) which represents the structure of the data returned from external services. These can then be converted to and from your entity struct. This means that your entities are not dependent on the data structure of the objects returned from external sources.
 ### Domain
 * The domain layer defines the core business domain. It includes:
     * Entities
