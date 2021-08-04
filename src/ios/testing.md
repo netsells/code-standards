@@ -1,5 +1,5 @@
 # 🧪 Testing
-Comprehensive automated tests are a crucial component of a healthy codebase. Not only do they allow behavious to be continuously verified as changes are made to a project. They also encourage good development habits, boost productivity and serve as living documentation for the intended functionality of your code.
+Comprehensive automated tests are a crucial component of a healthy codebase. Not only do they allow behaviours to be continuously verified as changes are made to a project; they also encourage good development habits, boost productivity and serve as living documentation for the intended functionality of your code.
 
 ## 📋 Summary
 * Use a “given, when, then” structure for tests
