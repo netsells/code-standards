@@ -26,7 +26,7 @@ Some signs of a bad test are:
 * The order in which a test is executed affects its results
 
 ## 🪞 Matching the acceptance criteria
-We spend a lot of time in refinement sessions breaking down each ticket and writing the acceptance critieria for all functionality. Try to write your tests to match and verifiy the acceptance critera for the ticket you are working on. 
+We spend a lot of time in refinement sessions breaking down each ticket and writing the acceptance critieria for all functionality. Try to write your tests to match and verify the acceptance critera for the ticket you are working on. 
 
 ## 🍞 Bake tests into your development workflow
 Tests are easiest to write when the functionality under test is already in your mind. It is much more taxing and easy to miss something vital when you go back and write tests for functionality you wrote a few days or weeks ago.
