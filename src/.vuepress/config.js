@@ -97,7 +97,8 @@ module.exports = {
                             'flutter/recommended-packages.md',
                             'flutter/codesigning.md',
                             'flutter/continuous-integration.md',
-                            'flutter/continuous-delivery.md'
+                            'flutter/continuous-delivery.md',
+                            'flutter/crash-reporting.md'
                         ],
                     },
                     {
