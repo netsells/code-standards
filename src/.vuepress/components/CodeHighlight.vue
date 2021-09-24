@@ -1,12 +1,12 @@
 <template>
     <div class="code-highlight">
         <div v-if="$slots.incorrect" class="incorrect">
-            <p>❌ Incorrect</p>
+            <p>❌&nbsp;&nbsp;Incorrect</p>
             <slot name="incorrect"/>
         </div>
         <div v-if="$slots.correct" class="correct">
-            <p>✅ Correct</p>
-            <slot/>
+            <p>✅&nbsp;&nbsp;Correct</p>
+            <slot />
             <slot name="correct"/>
         </div>
     </div>
@@ -18,14 +18,14 @@
     }
 </script>
 
-<style lang="stylus">
+<style lang="scss" scoped>
     .code-highlight {
         .incorrect {
             > p {
-                color: darken(red, 40%);
+                color: darken(red, 10%);
             }
             div[class*=language-] {
-                border-left: 10px solid darken(red, 40%);
+                border-left: 10px solid darken(red, 10%);
             }
         }
         .correct {

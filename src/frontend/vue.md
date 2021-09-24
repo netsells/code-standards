@@ -13,7 +13,7 @@ The tags that make up Single File Components (`<template>`/`<script>`/`<style>` 
 <spoiler toggle-suffix="Examples">
 
 <code-highlight>
-<div slot="incorrect">
+<template v-slot:incorrect>
 
 ```html
 <template>
@@ -27,8 +27,8 @@ The tags that make up Single File Components (`<template>`/`<script>`/`<style>` 
 </style>
 ```
 
-</div>
-<div slot="correct">
+</template>
+<template v-slot:correct>
 
 ```html
 <template>
@@ -44,7 +44,7 @@ The tags that make up Single File Components (`<template>`/`<script>`/`<style>` 
 </style>
 ```
 
-</div>
+</template>
 </code-highlight>
 
 </spoiler>

@@ -1,3 +1,5 @@
+const { path } = require('@vuepress/utils');
+
 module.exports = {
     title: 'Netsells Code Standards',
 
@@ -16,131 +18,166 @@ module.exports = {
 
         logo: '/images/netsells-logo.png',
 
-        nav: [
+        navbar: [
+            {
+                text: 'Sections',
+                children: [
+                    '/general/README.md',
+                    '/frontend/README.md',
+                    '/backend/README.md',
+                    '/ios/README.md',
+                    '/android/README.md',
+                    '/flutter/README.md',
+                    '/dotNet/README.md',
+                ],
+            },
             {
                 text: 'Netsells',
                 link: 'https://netsells.co.uk',
             },
         ],
+
+
         sidebar: [
             {
-                title: 'General',
-                collapsable: false,
+                text: 'General',
                 children: [
-                    ['general/', 'Introduction'],
-                    'general/git',
-                    'general/pull-requests',
+                    {
+                        text: 'Introduction',
+                        link: '/general/README.md',
+                    },
+                    '/general/git.md',
+                    '/general/pull-requests.md',
                 ],
             },
             {
-                title: 'Frontend',
-                collapsable: false,
+                text: 'Frontend',
                 children: [
-                    ['frontend/', 'Introduction'],
-                    'frontend/html',
-                    'frontend/css',
-                    'frontend/javascript',
-                    'frontend/vue',
-                    'frontend/accessibility',
-                    'frontend/storybook',
-                    'frontend/performance',
-                    ['frontend/recommended-packages', 'Recommended Packages'],
                     {
-                        title: 'Linting',
-                        collapsable: true,
-                        path: '/frontend/linting',
+                        text: 'Introduction',
+                        link: '/frontend/README.md',
+                    },
+                    '/frontend/html.md',
+                    '/frontend/css.md',
+                    '/frontend/javascript.md',
+                    '/frontend/vue.md',
+                    '/frontend/accessibility.md',
+                    '/frontend/storybook.md',
+                    '/frontend/performance.md',
+                    {
+                        text: 'Recommended Packages',
+                        link: '/frontend/recommended-packages/README.md',
+                    },
+                    {
+                        text: 'Linting',
+                        link: '/frontend/linting/README.md',
                         children: [
-                            'frontend/linting/eslint/',
-                            'frontend/linting/stylelint/',
+                            '/frontend/linting/eslint/README.md',
+                            '/frontend/linting/stylelint/README.md',
                         ],
                     },
                     {
-                        title: 'Testing',
-                        collapsable: true,
-                        path: '/frontend/testing',
+                        text: 'Testing',
+                        link: '/frontend/testing/README.md',
                         children: [
-                            'frontend/testing/unit-testing',
-                            'frontend/testing/visual-regression-testing',
+                            '/frontend/testing/unit-testing.md',
+                            '/frontend/testing/visual-regression-testing.md',
                         ],
                     },
                 ],
             },
             {
-                title: 'Backend',
-                collapsable: false,
+                text: 'Backend',
                 children: [
-                    ['backend/', 'Introduction'],
-                    'backend/general',
-                    'backend/apis',
-                    'backend/php',
-                    'backend/laravel',
-                    'backend/hatchly',
+                    {
+                        text: 'Introduction',
+                        link: '/backend/README.md',
+                    },
+                    '/backend/general.md',
+                    '/backend/apis.md',
+                    '/backend/php.md',
+                    '/backend/laravel.md',
+                    '/backend/hatchly.md',
                 ],
             },
             {
-                title: 'Mobile',
-                collapsable: false,
+                text: 'Mobile',
                 children: [
-                    'mobile/pull-requests.md',
+                    '/mobile/pull-requests.md',
                     {
-                        title: 'Flutter',
-                        collapsable: true,
+                        text: 'Flutter',
                         children: [
-                            ['flutter/', 'Introduction'],
-                            'flutter/project-setup.md',
-                            'flutter/linting-rules.md',
-                            'flutter/architecture.md',
-                            'flutter/testing.md',
-                            'flutter/state-management.md',
-                            'flutter/third-party-packages.md',
-                            'flutter/recommended-packages.md',
-                            'flutter/codesigning.md',
-                            'flutter/continuous-integration.md',
-                            'flutter/continuous-delivery.md',
-                            'flutter/crash-reporting.md'
+                            {
+                                text: 'Introduction',
+                                link: '/flutter/README.md',
+                            },
+                            '/flutter/project-setup.md',
+                            '/flutter/linting-rules.md',
+                            '/flutter/architecture.md',
+                            '/flutter/testing.md',
+                            '/flutter/state-management.md',
+                            '/flutter/third-party-packages.md',
+                            '/flutter/recommended-packages.md',
+                            '/flutter/codesigning.md',
+                            '/flutter/continuous-integration.md',
+                            '/flutter/continuous-delivery.md',
+                            '/flutter/crash-reporting.md'
                         ],
                     },
                     {
-                        title: 'iOS',
-                        collapsable: true,
+                        text: 'iOS',
                         children: [
-                            ['ios/', 'Introduction'],
-                            'ios/architecture',
-                            'ios/bundler',
-                            'ios/codesigning',
-                            'ios/layouts',
-                            'ios/linting',
-                            'ios/testing'
+                            {
+                                text: 'Introduction',
+                                link: '/ios/README.md',
+                            },
+                            '/ios/architecture.md',
+                            '/ios/bundler.md',
+                            '/ios/codesigning.md',
+                            '/ios/layouts.md',
+                            '/ios/linting.md',
+                            '/ios/testing.md',
                         ],
                     },
                     {
-                        title: 'Android',
-                        collapsable: true,
+                        text: 'Android',
                         children: [
-                            ['android/', 'Introduction'],
-                            'android/kotlin',
-                            'android/code-style',
-                            'android/error-handling',
-                            'android/mvvm',
-                            'android/dependency-injection',
-                            'android/network-requests',
-                            'android/local-databases',
-                            'android/coroutines',
-                            'android/pull-request-labels'
+                            {
+                                text: 'Introduction',
+                                link: '/android/README.md',
+                            },
+                            '/android/kotlin.md',
+                            '/android/code-style.md',
+                            '/android/error-handling.md',
+                            '/android/mvvm.md',
+                            '/android/dependency-injection.md',
+                            '/android/network-requests.md',
+                            '/android/local-databases.md',
+                            '/android/coroutines.md',
+                            '/android/pull-request-labels.md',
                         ],
                     }
                 ],
             },
             {
-                title: 'DotNet',
-                collapsable: false,
+                text: 'DotNet',
                 children: [
-                    ['dotNet/', 'Introduction'],
-                    'dotNet/c-sharp',
-                    'dotNet/general-guidelines.md'
+                    {
+                        text: 'Introduction',
+                        link: '/dotNet/README.md',
+                    },
+                    '/dotNet/c-sharp.md',
+                    '/dotNet/general-guidelines.md',
                 ],
             },
         ],
+    },
+
+    markdown: {
+        importCode: {
+            handleImportPath: (str) =>
+                str.replace(/^@/, path.resolve(__dirname, '../../')),
+        },
     },
 
     configureWebpack(config, isServer) {
@@ -153,8 +190,20 @@ module.exports = {
         [
             '@vuepress/google-analytics',
             {
-                ga: 'UA-49744331-5',
-            }
+                id: 'UA-49744331-5',
+            },
+        ],
+        [
+            '@vuepress/register-components',
+            {
+                components: {
+                    CodeHighlight: path.resolve(__dirname, './components/CodeHighlight.vue'),
+                    Spoiler: path.resolve(__dirname, './components/Spoiler.vue'),
+                },
+            },
+        ],
+        [
+            '@vuepress/plugin-search',
         ],
     ],
 };

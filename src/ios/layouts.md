@@ -1,4 +1,4 @@
-# 🖍 Layouts
+# Layouts
 
 When creating layouts, we prefer to use SwiftUI whenever possible. 
 

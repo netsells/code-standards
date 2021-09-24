@@ -4,13 +4,14 @@ const glob = require('glob');
 const template = require('lodash/template');
 
 function getWarningType(directory) {
-    const file = require(`${ directory }/rule.js`);
+    const file = JSON.parse(JSON.stringify(require(`${ directory }/rule.js`)));
 
     let ruleLevel = Object.values(file.rules)[0];
 
     if (Array.isArray(ruleLevel)) {
         if (directory.includes('stylelint')) {
             ruleLevel = ruleLevel.reverse();
+            console.log(directory);
             return ruleLevel[0].severity.replace('ing', '');
         }
 
@@ -18,11 +19,21 @@ function getWarningType(directory) {
     }
 
     return {
-        0: 'ignore',
-        1: 'warn',
-        2: 'error',
-        'error': 'error',
+        0: 'tip',
+        1: 'warning',
+        2: 'danger',
+        'error': 'danger',
     }[ruleLevel];
+}
+
+function getWarningText(directory) {
+    const type = getWarningType(directory);
+
+    return {
+        tip: 'ignore',
+        danger: 'error',
+        warning: 'warn',
+    }[type] || type;
 }
 
 const generatePages = ({
@@ -68,8 +79,9 @@ const generatePages = ({
             group,
             description: fs.readFileSync(`${ directory }/README.md`, 'utf8'),
             warningType: getWarningType(directory),
+            warningText: getWarningText(directory),
             examples,
-        }
+        };
     }, []).map((page) => ({
         ...page,
         name: page.group === 'core'

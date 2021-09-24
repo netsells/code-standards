@@ -1,6 +1,7 @@
-# 🎁 Bundler
+# Bundler
 
 ## Getting Started With Bundler
+
 We use bundler to ensure consistency with versions of tooling used by different developers.
 
 To get started using bundler you should add a `Gemfile` to your project.

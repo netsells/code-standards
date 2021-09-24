@@ -23,7 +23,7 @@ The following guidelines are applicable to Laravel's [Routing](http://laravel.co
 Laravel provides a few differing ways to define routing within your application. When defining routes, explicit is the way to go - using Laravel magic 🧙‍♂️ like `resources` can make code difficult to understand.
 
 <code-highlight>
-<div slot="incorrect">
+<template v-slot:incorrect>
 
 ```php
 Route::post(...);
@@ -33,8 +33,8 @@ Route::resource(...);
 $router->resource(...);
 ```
 
-</div>
-<div slot="correct">
+</template>
+<template v-slot:correct>
 
 ```php
 use Illuminate\Routing\Router;
@@ -47,21 +47,21 @@ $router->get(...);
 $router->delete(...);
 ```
 
-</div>
+</template>
 </code-highlight>
 
 ### Parameter definitions
 Routes require some parameters to be defined, such as the controller method, they also allow additioanl parameters such as a name to be defined. In true Laravel fashion, there are multiple ways to do this.
 
 <code-highlight>
-<div slot="incorrect">
+<template v-slot:incorrect>
 
 ```php
 $router->get('profile', 'ProfileController@index')->name('profile');
 ```
 
-</div>
-<div slot="correct">
+</template>
+<template v-slot:correct>
 
 ```php
 $router->get('profile', [
@@ -70,7 +70,7 @@ $router->get('profile', [
 ]);
 ```
 
-</div>
+</template>
 </code-highlight>
 
 ## Validation

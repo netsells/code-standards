@@ -1,4 +1,4 @@
-# 👮 Linting Rules & Enforcement
+# Linting Rules & Enforcement
 
 ## Intro
 
