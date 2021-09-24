@@ -11,7 +11,7 @@ function getWarningType(directory) {
     if (Array.isArray(ruleLevel)) {
         if (directory.includes('stylelint')) {
             ruleLevel = ruleLevel.reverse();
-            console.log(directory);
+
             return ruleLevel[0].severity.replace('ing', '');
         }
 
