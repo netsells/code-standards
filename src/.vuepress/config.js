@@ -41,7 +41,6 @@ module.exports = {
                     'frontend/css',
                     'frontend/javascript',
                     'frontend/vue',
-                    'frontend/blade',
                     'frontend/accessibility',
                     'frontend/storybook',
                     'frontend/performance',
