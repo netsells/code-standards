@@ -121,7 +121,8 @@ module.exports = {
                             '/flutter/codesigning.md',
                             '/flutter/continuous-integration.md',
                             '/flutter/continuous-delivery.md',
-                            '/flutter/crash-reporting.md'
+                            '/flutter/crash-reporting.md',
+                            '/flutter/multiple-firebase-environments.md'
                         ],
                     },
                     {
