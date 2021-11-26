@@ -84,6 +84,8 @@ module.exports = {
                             '/frontend/testing/visual-regression-testing.md',
                         ],
                     },
+                    '/frontend/automated-workflows.md',
+                    '/frontend/required-qa.md',
                 ],
             },
             {
