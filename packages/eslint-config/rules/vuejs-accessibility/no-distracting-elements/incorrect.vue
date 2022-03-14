@@ -1,0 +1,4 @@
+<template>
+    <marquee />
+    <blink />
+</template>
