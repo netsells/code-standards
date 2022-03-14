@@ -1,16 +1,57 @@
 <template>
-    <!-- Good: div with @click attribute is hidden from screen reader -->
-    <div aria-hidden @click="() => void 0" />
-
-    <!-- Good: span with @click attribute is in the tab order -->
-    <span @click="doSomething" tabindex="0" role="button">Click me!</span>
-
-    <!-- Good: span with @click attribute may be focused programmatically -->
-    <span @click="doSomething" tabindex="-1" role="menuitem">Click me too!</span>
-
-    <!-- Good: anchor element with href is inherently focusable -->
-    <a href="javascript:void(0)" @click="doSomething">Click ALL the things!</a>
-
-    <!-- Good: buttons are inherently focusable -->
-    <button @click="doSomething">Click the button</button>
+    <div />
+    <div aria-hidden @click="void 0" />
+    <div aria-hidden="true" @click="void 0" />
+    <div aria-hidden="hidden !== false" @click="void 0" />
+    <div aria-hidden="1 < 2" @click="void 0" />
+    <div aria-hidden="1 <= 2" @click="void 0" />
+    <div @click="void 0" />
+    <div @click="void 0" :tabindex="undefined" />
+    <div @click="void 0" tabindex="bad" />
+    <div @click="void 0" :role="undefined" />
+    <div role="section" @click="void 0" />
+    <div @click="void 0" :aria-hidden="false" />
+    <input type="text" @click="void 0" />
+    <input type="hidden" @click="void 0" tabindex="-1" />
+    <input type="hidden" @click="void 0" :tabindex="-1" />
+    <input @click="void 0" />
+    <input @click="void 0" role="combobox" />
+    <button @click="void 0" class="foo" />
+    <option @click="void 0" class="foo" />
+    <select @click="void 0" class="foo" />
+    <area href="#" @click="void 0" class="foo" />
+    <area @click="void 0" class="foo" />
+    <textarea @click="void 0" class="foo" />
+    <a @click="showNextPage">Next page</a>
+    <a @click="showNextPage" :tabindex="undefined">Next page</a>
+    <a @click="showNextPage()" tabindex="bad">Next page</a>
+    <a @click="void 0" />
+    <a tabindex="0" @click="void 0" />
+    <a :tabindex="dynamicTabIndex" @click="void 0" />
+    <a :tabindex="0" @click="void 0" />
+    <a role="button" href="#" @click="void 0" />
+    <a @click="void 0" href="http://x.y.z" />
+    <a @click="void 0" href="http://x.y.z" tabindex="0" />
+    <a @click="void 0" href="http://x.y.z" :tabindex="0" />
+    <a @click="void 0" href="http://x.y.z" role="button" />
+    <TestComponent @click="foo" />
+    <input @click="void 0" type="hidden" />
+    <span @click="submitForm">Submit</span>
+    <span @click="submitForm" tabindex="undefined">Submit</span>
+    <span @click="submitForm" tabindex="bad">Submit</span>
+    <span @click="doSomething" tabindex="0">Click me!</span>
+    <span @click="doSomething" :tabindex="0">Click me!</span>
+    <span @click="doSomething" tabindex="-1">Click me too!</span>
+    <a href="javascript:void(0);" @click="doSomething">Click ALL the things!</a>
+    <section @click="void 0" />
+    <main @click="void 0" />
+    <article @click="void 0" />
+    <header @click="void 0" />
+    <footer @click="void 0" />
+    <div role="tab" tabindex="0" @click="void 0" />
+    <div role="textbox" tabindex="0" @click="void 0" />
+    <div role="textbox" aria-disabled="true" @click="void 0" />
+    <Foo.Bar @click="void 0" aria-hidden="false" />
+    <Input @click="void 0" type="hidden" />
+    <component role=button :is="foo ? 'a' : 'button'" />
 </template>

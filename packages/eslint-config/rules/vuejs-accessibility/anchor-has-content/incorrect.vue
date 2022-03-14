@@ -1,5 +1,5 @@
 <template>
     <a />
-    <a><TextWrapper aria-hidden /></a>
-    <Anchor></Anchor>
+    <a><span /></a>
+    <a><img aria-hidden alt='foo' /></a>
 </template>

@@ -1,7 +1,17 @@
 <template>
-    <label><input type="text" /></label>
-    <input aria-label="test" type="text" />
-    <input aria-labelledby="#id" type="text" />
-    <label for="id"></label><input aria-labelledby="#id" id="id" />
-    <input type="image" />
+    <label for=""><input type="text" /></label>
+    <input type="text" aria-label="test" />
+    <label for="">text</label><input type="text" />
+    <input type="button">
+    <label>
+        <div>
+            <input type="radio" />
+        </div>
+        <div>
+            <slot />
+        </div>
+    </label>
+    <div aria-hidden="true">
+        <input value="1" type="text" />
+    </div>
 </template>
