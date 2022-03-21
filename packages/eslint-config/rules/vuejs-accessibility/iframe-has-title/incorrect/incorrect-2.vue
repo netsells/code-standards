@@ -1,3 +1,3 @@
 <template>
-    <iframe title="" />
+    <iframe :title="true" />
 </template>

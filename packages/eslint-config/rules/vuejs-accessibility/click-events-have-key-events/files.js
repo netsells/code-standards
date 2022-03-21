@@ -19,7 +19,6 @@ module.exports = {
         './correct/correct-17.vue',
         './correct/correct-18.vue',
         './correct/correct-19.vue',
-        './correct/correct-20.vue',
     ],
     incorrect: [
         './incorrect/incorrect-1.vue',
