@@ -4,6 +4,11 @@ module.exports = {
         './correct/correct-2.vue',
         './correct/correct-3.vue',
         './correct/correct-4.vue',
+        './correct/correct-5.vue',
+        './correct/correct-6.vue',
+        './correct/correct-7.vue',
+        './correct/correct-8.vue',
+        './correct/correct-9.vue',
     ],
     incorrect: [
         './incorrect/incorrect-1.vue',

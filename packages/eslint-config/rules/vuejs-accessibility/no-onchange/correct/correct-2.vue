@@ -7,12 +7,18 @@
 <script>
     export default {
         methods: {
+            /**
+             * Handle blur.
+             */
             handleBlur() {
-
+                // Do something
             },
 
+            /**
+             * Handle change.
+             */
             handleChange() {
-
+                // Do something
             },
         },
     };

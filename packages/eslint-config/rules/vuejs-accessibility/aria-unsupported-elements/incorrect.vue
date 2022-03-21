@@ -1,3 +1,0 @@
-<template>
-    <meta charset="UTF-8" aria-hidden="false" />
-</template>

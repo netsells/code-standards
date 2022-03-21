@@ -5,8 +5,11 @@
 <script>
     export default {
         methods: {
+            /**
+             * Handle change.
+             */
             handleChange() {
-
+                // Do something
             },
         },
     };

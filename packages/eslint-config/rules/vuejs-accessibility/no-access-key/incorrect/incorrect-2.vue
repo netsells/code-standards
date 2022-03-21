@@ -5,6 +5,11 @@
 <script>
     export default {
         computed: {
+            /**
+             * Return s.
+             *
+             * @returns {string}
+             */
             s() {
                 return 's';
             },
