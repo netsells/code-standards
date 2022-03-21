@@ -17,6 +17,7 @@ module.exports = {
         'jsdoc',
         'jquery',
         '@netsells/eslint-plugin-netsells',
+        'vuejs-accessibility',
     ],
     extends: [
         'plugin:vue/base',
