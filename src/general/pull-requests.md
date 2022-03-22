@@ -28,6 +28,8 @@ To request a review, select the people that you want from the dropdown panel. Yo
 
 If there are multiple developers within your discipline on the project you are submitting a pull request for, please assign them as reviewers in the first instance. If you are the only developer within your discipline on the project you are submitting a pull request for, please assign any other developer from within your discipline as reviewers. It would be sensible to assign a number of potential reviewers, for example if you are the only frontend developer on a project, you could assign pull requests to other frontend developers, even if they are not working on that project.
 
+As a general rule of thumb we suggest a minimum of two developers per pull request and maximum of three. The minimum accounts for one of your reviewers potentially being unable to review imminently, and the maximum prevents an overkill situation where all developers are getting notified for every pull request.
+
 ## Review Comments
 When leaving a review, we use two types of pull request comments: **MUST** and **SHOULD**. These keywords will indicate the requirement level of a comment. If a reviewer leaves a **MUST** comment, the pull request will be rejected pending changes. It is up to the reviewers discretion to decide whether a PR is rejected due to **SHOULD** comments. Comments can also be left without this syntax which could be a general question asking you for more information or a piece of information that you may not know. 
 
