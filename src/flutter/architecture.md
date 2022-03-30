@@ -51,9 +51,25 @@ BlocProvider(
 
 ## 📂 Directory Structure
 
-The best directory structure usually involves having a directory for each layer. The layer directories are then subdivided into features.
+Most of our projects have the following top-level structure within the `lib/` directory:
 
-Another option is to have top-level directories for each feature, which are then subdivided into layers.
+```
+|- app/
+|- core/
+|- di/
+|- features/
+|- l10n/
+|- main_production.dart
+|- main_staging.dart
+```
+
+* `app/` contains anything to do with the top-level `App` widget, which may include theming, routing/navigation, and other app-wide functionality.
+* `core/` can contain anything which can be used throughout the application, like common widgets, models/entities, or services.
+  * The `core` directory should be split into sub-directories based on the architecture layers e.g. `domain`, `presentation` etc.
+* `di/` contains dependency injection code, such as environment definitions and modules
+* `features/` is where we put our feature-specific code. Each feature should have its own sub-directory, within which we have further sub-directories for architecture layers.
+* `l10n/` contains internationalization code, as per the Flutter Internationalization guide.
+* Any entry-points for the application (e.g. `main_staging.dart`) should sit at the top-level rather than within any directories.
 
 ## 🏛 Architecture Best Practices
 
