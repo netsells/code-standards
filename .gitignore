@@ -4,3 +4,4 @@ docs
 /src/frontend/linting/stylelint/
 /src/.vuepress/.cache/
 /src/.vuepress/.temp/
+/.vscode

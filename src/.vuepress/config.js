@@ -117,6 +117,7 @@ module.exports = {
                             '/flutter/linting-rules.md',
                             '/flutter/architecture.md',
                             '/flutter/testing.md',
+                            '/flutter/localization.md',
                             '/flutter/state-management.md',
                             '/flutter/third-party-packages.md',
                             '/flutter/recommended-packages.md',
