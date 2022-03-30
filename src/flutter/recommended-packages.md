@@ -2,6 +2,7 @@
 
 | Package                                                                         | Purpose                                                                       | Latest Version                                                         |
 | ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [alchemist](https://pub.dev/packages/alchemist)                                 | Functions, extensions and documentation to support golden testing             | [!Pub Version](https://img.shields.io/pub/v/alchemist)                 |
 | [animations](https://pub.dev/packages/animations)                               | Beautiful pre-built Material animations/transitions                           | ![Pub Version](https://img.shields.io/pub/v/animations)                |
 | [dio](https://pub.dev/packages/dio)                                             | HTTP Requests                                                                 | ![Pub Version](https://img.shields.io/pub/v/dio)                       |
 | [retrofit](https://pub.dev/packages/retrofit)                                   | Auto-generate HTTP request code for Dio. Very similar to Retrofit on Android. | ![Pub Version](https://img.shields.io/pub/v/retrofit)                  |
