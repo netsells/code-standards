@@ -37,20 +37,21 @@ Here are some signs you might be writing a bad test:
 
 Test coverage is a fairly blunt measure of how effective your tests are, but it's the best one we have. Increasing test coverage can never be a bad thing, and the higher the coverage, the more confident we can be in our code.
 
-We expect 100% test coverage in our new projects. Any less than 100% coverage makes a test suite limited in its usefulness; with 100% coverage you can be extremely confident in the continuous correctness of the codebase as changes are made and new features added.
+100% test coverage is therefore the "holy grail", but we recognise that there are sometimes challenges which mean achieving it isn't always possible, such as issues with tooling or dependencies. Therefore, while we encourage a culture of always aspiring to 100% coverage, our requirements provide some leeway.
+
+We expect an **80% coverage minimum**, and strongly recommend maintaining coverage of **above 90%**. The higher the coverage, the higher our confidence in the codebase as changes are made and new features are added.
 
 _Note: generated code is excluded from our test coverage measurements; only handwritten code is measured._
 
-We use [Coveralls](https://coveralls.io/) to keep track of test coverage throughout the lifetime of a project. Each time you push code or open a pull request, a coverage report will be sent to Coveralls and a summary will be added to your pull request.
+We use [Coveralls](https://coveralls.io/) to keep track of test coverage throughout the lifetime of a project. Each time you push code or open a pull request, a coverage report will be sent to Coveralls and a summary will be added to your pull request. Coveralls will also block Pull Requests which reduce the coverage below 80%.
 
-Additionally, we use [Very Good Coverage](https://github.com/VeryGoodOpenSource/very_good_coverage) to block pull requests if coverage falls below 95%. The 5% flexibility is there to ensure that time-sensitive and critical changes aren't blocked as a result of test coverage requirements. In day-to-day development, all code should be covered or explicitly ignored.
-
-#### Tips for 100% coverage
+#### Tips for higher test coverage coverage
 
 - If you're struggling, bring in another developer to help
 - Use [golden tests](https://api.flutter.dev/flutter/flutter_test/matchesGoldenFile.html) as a quick way of verifying the visual design and layout of a widget
 - Use feature-level integration tests to cover lines which are harder to cover with just unit tests
-- Don't slowly build up to 100% at the start of the project; the codebase should be 100% covered from the very first commit
+- Don't slowly build up test coverage; start with a fully-covered project and continue to maintain high coverage as new features are added
+- Practice Test-Driven Development, particularly when making changes to existing functionality or fixing bugs. It's a great way of ensuring tests continue to pass and that edge-cases are covered as they are discovered.
 - For code which genuinely cannot be tested (e.g. packages which use top-level or static methods, or platform channels), wrap the functionality in a mockable class and add this comment to the top of the file: `// coverage:ignore-file`. This excludes the file from being included in coverage measurements. **Watch out for abuses of this functionality when reviewing PRs!**
 
 ## 🧁 Bake testing into your development workflow
@@ -71,7 +72,7 @@ Even with 100% line coverage, it's extremely important that tests are reviewed m
 - Only testing the "happy path"
 - Abuses of the `// coverage:ignore-file` rule
 
-## ⌛ Don't skip tests to save time
+## 👎 Don't skip tests to save time
 
 Skipping tests saves you time today, but this time saving doesn't come for free. You exchange this time for technical debt.
 
