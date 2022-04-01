@@ -118,6 +118,7 @@ module.exports = {
                             '/flutter/architecture.md',
                             '/flutter/testing.md',
                             '/flutter/localization.md',
+                            '/flutter/naming-widgets.md',
                             '/flutter/state-management.md',
                             '/flutter/monarch.md',
                             '/flutter/third-party-packages.md',
