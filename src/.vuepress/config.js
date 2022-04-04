@@ -119,6 +119,7 @@ module.exports = {
                             '/flutter/testing.md',
                             '/flutter/localization.md',
                             '/flutter/naming-widgets.md',
+                            '/flutter/handling-errors.md',
                             '/flutter/state-management.md',
                             '/flutter/monarch.md',
                             '/flutter/third-party-packages.md',
