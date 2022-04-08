@@ -117,7 +117,11 @@ module.exports = {
                             '/flutter/linting-rules.md',
                             '/flutter/architecture.md',
                             '/flutter/testing.md',
+                            '/flutter/localization.md',
+                            '/flutter/naming-widgets.md',
+                            '/flutter/handling-errors.md',
                             '/flutter/state-management.md',
+                            '/flutter/monarch.md',
                             '/flutter/third-party-packages.md',
                             '/flutter/recommended-packages.md',
                             '/flutter/codesigning.md',
@@ -128,38 +132,44 @@ module.exports = {
                         ],
                     },
                     {
-                        text: 'iOS',
+                        text: 'Native Apps (Legacy)',
+                        collapsible: true,
                         children: [
                             {
-                                text: 'Introduction',
-                                link: '/ios/README.md',
+                                text: 'iOS',
+                                children: [
+                                    {
+                                        text: 'Introduction',
+                                        link: '/ios/README.md',
+                                    },
+                                    '/ios/architecture.md',
+                                    '/ios/bundler.md',
+                                    '/ios/codesigning.md',
+                                    '/ios/layouts.md',
+                                    '/ios/linting.md',
+                                    '/ios/testing.md',
+                                ],
                             },
-                            '/ios/architecture.md',
-                            '/ios/bundler.md',
-                            '/ios/codesigning.md',
-                            '/ios/layouts.md',
-                            '/ios/linting.md',
-                            '/ios/testing.md',
-                        ],
-                    },
-                    {
-                        text: 'Android',
-                        children: [
                             {
-                                text: 'Introduction',
-                                link: '/android/README.md',
-                            },
-                            '/android/kotlin.md',
-                            '/android/code-style.md',
-                            '/android/error-handling.md',
-                            '/android/mvvm.md',
-                            '/android/dependency-injection.md',
-                            '/android/network-requests.md',
-                            '/android/local-databases.md',
-                            '/android/coroutines.md',
-                            '/android/pull-request-labels.md',
-                        ],
-                    }
+                                text: 'Android',
+                                children: [
+                                    {
+                                        text: 'Introduction',
+                                        link: '/android/README.md',
+                                    },
+                                    '/android/kotlin.md',
+                                    '/android/code-style.md',
+                                    '/android/error-handling.md',
+                                    '/android/mvvm.md',
+                                    '/android/dependency-injection.md',
+                                    '/android/network-requests.md',
+                                    '/android/local-databases.md',
+                                    '/android/coroutines.md',
+                                    '/android/pull-request-labels.md',
+                                ],
+                            }
+                        ]
+                    }  
                 ],
             },
             {
