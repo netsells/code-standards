@@ -12,7 +12,7 @@
   "author": "Rowan Collins <rowan.collins@netsells.co.uk>",
   "license": "ISC",
   "devDependencies": {
-    "glob": "^7.1.6",
+    "glob": "^8.0.1",
     "jest": "^27.0.1",
     "postcss-syntax": "^0.36.2",
     "stylelint": "^14.0.0"
