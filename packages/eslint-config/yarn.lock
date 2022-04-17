@@ -854,10 +854,10 @@
   dependencies:
     case "^1.6.2"
 
-"@netsells/eslint-plugin-require-jsdoc-except@^2.0.1":
-  version "2.0.1"
-  resolved "https://npm.netsells.tools/@netsells%2feslint-plugin-require-jsdoc-except/-/eslint-plugin-require-jsdoc-except-2.0.1.tgz#4dd1c62d9a048e246943cfeac85ccf41dd0a4a75"
-  integrity sha512-Kux8yPtOMz3PgCBj/KPATfWZikS0imF0ez3/FSvfcj1H5ILm47ldV1VCXhnP9hKkk2IZbe/fXqaKYpOKpW99dA==
+"@netsells/eslint-plugin-require-jsdoc-except@^2.0.2":
+  version "2.0.2"
+  resolved "https://npm.netsells.tools/@netsells%2feslint-plugin-require-jsdoc-except/-/eslint-plugin-require-jsdoc-except-2.0.2.tgz#c4cd280356d8eebb61789e0bf87501ec41422d55"
+  integrity sha512-d6WFfjBcnHjxC+aQ+B+dV+S302SDoYYlo9w2hSbUenhI6/IajfLdnQ5+gdSOVxFY9CnbXs1mzfuCXaltWXzARA==
   dependencies:
     lodash.assignin "^4.2.0"
     lodash.get "^4.4.2"

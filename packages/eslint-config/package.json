@@ -11,7 +11,7 @@
     "license": "ISC",
     "dependencies": {
         "@netsells/eslint-plugin-netsells": "^1.2.1",
-        "@netsells/eslint-plugin-require-jsdoc-except": "^2.0.1",
+        "@netsells/eslint-plugin-require-jsdoc-except": "^2.0.2",
         "eslint": "^8.0.0",
         "eslint-plugin-jquery": "^1.5.1",
         "eslint-plugin-jsdoc": "^39.0.0",
@@ -19,6 +19,9 @@
         "eslint-plugin-vue": "^8.0.1",
         "eslint-plugin-vuejs-accessibility": "^1.1.1",
         "glob": "^8.0.1"
+    },
+    "jest": {
+        "resolver": "<rootDir>/jest-resolver.js"
     },
     "devDependencies": {
         "@babel/eslint-parser": "^7.17.0",
