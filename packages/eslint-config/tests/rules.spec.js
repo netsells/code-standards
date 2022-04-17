@@ -3,7 +3,7 @@ const { resolve } = require('path');
 const directory = resolve(__dirname, '../', 'rules');
 const globRules = glob.sync(`${ directory }/**/rule.js`);
 const fs = require('fs');
-const CLIEngine = require('eslint').CLIEngine;
+const { CLIEngine } = require('eslint/lib/cli-engine');
 const config = require('../index');
 
 const testRule = (srcFile, ruleFile) => {
@@ -11,7 +11,8 @@ const testRule = (srcFile, ruleFile) => {
         baseConfig: {
             parserOptions: {
                 ...config.parserOptions,
-                parser: 'babel-eslint',
+                parser: '@babel/eslint-parser',
+                requireConfigFile: false,
             },
             env: config.env,
             plugins: config.plugins,
@@ -23,7 +24,7 @@ const testRule = (srcFile, ruleFile) => {
         configFile: ruleFile,
     });
 
-    return cli.executeOnFiles([srcFile]);
+    return cli.executeOnText(fs.readFileSync(srcFile, 'utf8'), srcFile);
 };
 
 const getFiles = (rulePath, type) => {
@@ -53,42 +54,40 @@ const getFiles = (rulePath, type) => {
     }));
 };
 
-globRules.forEach((file) => {
+const testsConfig = globRules.map((file) => {
     const rulePath = file.replace(`${ directory }/`, '').replace('/rule.js', '');
 
-    describe(rulePath, () => {
-        let correctFiles;
-        try {
-            correctFiles = getFiles(rulePath, 'correct');
-        } catch (err) {}
+    let correct;
+    let incorrect;
 
-        correctFiles.forEach(correctFile => {
+    try {
+        correct = getFiles(rulePath, 'correct');
+    } catch (err) {}
+
+    try {
+        incorrect = getFiles(rulePath, 'incorrect');
+    } catch (err) {}
+
+    return {
+        file,
+        rulePath,
+        correct,
+        incorrect,
+    };
+});
+
+testsConfig.forEach(({ file, rulePath, correct, incorrect }) => {
+    describe(rulePath, () => {
+        correct.forEach((correctFile) => {
             test(`${ correctFile.srcFile } should pass`, () => {
                 const { results } = testRule(correctFile.testFile, file);
 
-                if (!results[0]) {
-                    console.log(correctFile.testFile);
-                    console.dir(results, { depth: null });
-
-                    if (results[0].messages.length) {
-                        console.dir(results[0].messages, { depth: null });
-                    }
-                }
-
-                expect(
-                    results[0].messages.length,
-                    `Expected no errors but these were thrown: ${ JSON.stringify(results[0].messages, null, 4) }`
-                ).toBe(0);
+                expect(results[0].messages)
+                    .toEqual([]);
             });
         });
 
-        let incorrectFiles;
-
-        try {
-            incorrectFiles = getFiles(rulePath, 'incorrect');
-        } catch (err) {}
-
-        incorrectFiles.forEach(incorrectFile => {
+        incorrect.forEach((incorrectFile) => {
             test(`${ incorrectFile.srcFile } should fail`, () => {
                 const { results } = testRule(incorrectFile.testFile, file);
 

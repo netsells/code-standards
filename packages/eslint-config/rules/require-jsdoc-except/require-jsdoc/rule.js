@@ -2,7 +2,7 @@ const _THROW = require('../../../modules/throwables');
 
 module.exports = {
     rules: {
-        'require-jsdoc-except/require-jsdoc': [_THROW.WARNING, {
+        '@netsells/require-jsdoc-except/require-jsdoc': [_THROW.WARNING, {
             require: {
                 FunctionDeclaration: true,
                 MethodDefinition: true,
