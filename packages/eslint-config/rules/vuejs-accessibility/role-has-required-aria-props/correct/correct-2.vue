@@ -10,7 +10,7 @@
 <script>
     export default {
         computed: {
-            //eslint-disable-next-line require-jsdoc-except/require-jsdoc
+            //eslint-disable-next-line @netsells/require-jsdoc-except/require-jsdoc
             role() {
                 return 'button';
             },
