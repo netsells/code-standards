@@ -1,4 +1,7 @@
 node_modules
 docs
-/src/frontend/eslint/
-/src/frontend/stylelint/
+/src/frontend/linting/eslint/
+/src/frontend/linting/stylelint/
+/src/.vuepress/.cache/
+/src/.vuepress/.temp/
+/.vscode

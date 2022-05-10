@@ -22,7 +22,7 @@ An external package maintained by The PHP League. Suitable for complex APIs - ov
 Data in responses should be namespaced under a `data` key. This allows for additional metadata, such as pagination to be returned alongside the response data.
 
 <code-highlight>
-<div slot="incorrect">
+<template v-slot:incorrect>
 
 ```json
 [
@@ -35,11 +35,11 @@ Data in responses should be namespaced under a `data` key. This allows for addit
 ]
 ```
 
-</div>
+</template>
 </code-highlight>
 
 <code-highlight>
-<div slot="correct">
+<template v-slot:correct>
 
 ```json
 {
@@ -55,7 +55,7 @@ Data in responses should be namespaced under a `data` key. This allows for addit
 }
 ```
 
-</div>
+</template>
 </code-highlight>
 
 ## Naming of Properties

@@ -1,20 +1,39 @@
 name: Build and Deploy
-on:
-  push:
-    branches:
-      - master
-jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout
-      uses: actions/checkout@master
 
-    - name: Build and Deploy
-      uses: JamesIves/github-pages-deploy-action@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BASE_BRANCH: master # The branch the action should deploy from.
-        BRANCH: gh-pages # The branch the action should deploy to.
-        FOLDER: docs # The folder the action should deploy.
-        BUILD_SCRIPT: yarn && yarn build
+on:
+    push:
+        branches:
+            - master
+
+jobs:
+    build-and-deploy:
+        runs-on: [ubuntu-latest]
+        timeout-minutes: 15
+        steps:
+            -   name: Reset permissions
+                run: sudo chown -R $USER:$USER $GITHUB_WORKSPACE
+
+            -   name: Checkout
+                uses: actions/checkout@master
+
+            -   name: Use Node.js
+                uses: actions/setup-node@v2-beta
+                with:
+                    node-version: 12
+
+            -   name: Install yarn
+                run: npm install -g yarn
+
+            -   name: Build
+                run: |
+                    yarn
+                    yarn build
+
+            -   name: Build and Deploy
+                uses: JamesIves/github-pages-deploy-action@4.1.1
+                with:
+                    branch: gh-pages # The branch the action should deploy to.
+                    folder: docs # The folder the action should deploy.
+
+            -   name: Uninstall yarn
+                run: npm uninstall -g yarn

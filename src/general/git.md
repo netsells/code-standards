@@ -4,11 +4,11 @@
 
 The points below detail how branches should be structured in order to make reviews and releases more manageable.
 
-::: tip <badge text="master" type="tip" vertical="middle"/> <badge text="restricted" type="error" vertical="middle"/>
+::: tip <badge text="master" type="tip" vertical="middle"/> <badge text="restricted" type="danger" vertical="middle"/>
 All projects should have a ‘master’ branch - this is the branch that will mirror what is currently live on Production. Merging into this branch should always be restricted to senior developers. 
 :::
 
-::: tip <badge text="develop" type="tip" vertical="middle"/> <badge text="restricted" type="error" vertical="middle"/>
+::: tip <badge text="develop" type="tip" vertical="middle"/> <badge text="restricted" type="danger" vertical="middle"/>
 All projects will then have a ‘develop’ branch - develop should contain anything that is completed and ready to go live, but has not yet been deployed to production. This is often the "stable" branch used to show progress to clients. Merging into this branch should always be restricted to senior developers.
 :::
 
@@ -39,7 +39,6 @@ When the QA team are testing a release they will create jira bugs. These should 
 ::: tip <badge text="hotfix/*" type="tip" vertical="middle"/>
 These are the only branches that are branched from and merged in to `master`. Once complete a PR should be created into both `master` and `develop`.
 :::
-
 
 ### Permissions
 

@@ -7,11 +7,11 @@
 
 <code-highlight>
 <% Object.keys(examples).forEach((example) => { %> 
-<div slot="<%= example %>">
+<template v-slot:<%= example %>>
 
-<<< <%= examples[example].importPath %>
+@[code](<%= examples[example].importPath %>)
 
-</div>
+</template>
 
 <% }); %> 
 </code-highlight>

@@ -1,6 +1,6 @@
 {
   "name": "@netsells/stylelint-config",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Stylelint config for the Netsells organisation",
   "main": "index.js",
   "scripts": {
@@ -12,10 +12,10 @@
   "author": "Rowan Collins <rowan.collins@netsells.co.uk>",
   "license": "ISC",
   "devDependencies": {
-    "glob": "^7.1.6",
-    "jest": "^26.0.1",
+    "glob": "^8.0.1",
+    "jest": "^28.0.0",
     "postcss-syntax": "^0.36.2",
-    "stylelint": "^13.2.0"
+    "stylelint": "^14.0.0"
   },
   "gitHead": "6f4def5446469c28459507cf5e1f3f33047a513a"
 }

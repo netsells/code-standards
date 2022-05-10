@@ -4,13 +4,14 @@ const glob = require('glob');
 const template = require('lodash/template');
 
 function getWarningType(directory) {
-    const file = require(`${ directory }/rule.js`);
+    const file = JSON.parse(JSON.stringify(require(`${ directory }/rule.js`)));
 
     let ruleLevel = Object.values(file.rules)[0];
 
     if (Array.isArray(ruleLevel)) {
         if (directory.includes('stylelint')) {
             ruleLevel = ruleLevel.reverse();
+
             return ruleLevel[0].severity.replace('ing', '');
         }
 
@@ -18,11 +19,21 @@ function getWarningType(directory) {
     }
 
     return {
-        0: 'ignore',
-        1: 'warn',
-        2: 'error',
-        'error': 'error',
+        0: 'tip',
+        1: 'warning',
+        2: 'danger',
+        'error': 'danger',
     }[ruleLevel];
+}
+
+function getWarningText(directory) {
+    const type = getWarningType(directory);
+
+    return {
+        tip: 'ignore',
+        danger: 'error',
+        warning: 'warn',
+    }[type] || type;
 }
 
 const generatePages = ({
@@ -68,8 +79,9 @@ const generatePages = ({
             group,
             description: fs.readFileSync(`${ directory }/README.md`, 'utf8'),
             warningType: getWarningType(directory),
+            warningText: getWarningText(directory),
             examples,
-        }
+        };
     }, []).map((page) => ({
         ...page,
         name: page.group === 'core'
@@ -98,7 +110,7 @@ const generatePages = ({
 generatePages({
     rulesFolderPath: `${ __dirname }/../packages/stylelint-config/rules`,
     indexTemplatePath: `${ __dirname }/templates/stylelint-index.md`,
-    outputFolder: `${ __dirname }/../src/frontend/stylelint`,
+    outputFolder: `${ __dirname }/../src/frontend/linting/stylelint`,
     ruleLink: (rule) => {
         return `https://stylelint.io/user-guide/rules/${ rule }`;
     },
@@ -107,7 +119,7 @@ generatePages({
 generatePages({
     rulesFolderPath: `${ __dirname }/../packages/eslint-config/rules`,
     indexTemplatePath: `${ __dirname }/templates/eslint-index.md`,
-    outputFolder: `${ __dirname }/../src/frontend/eslint`,
+    outputFolder: `${ __dirname }/../src/frontend/linting/eslint`,
     ruleLink(rule) {
         if (rule.startsWith('vue/')) {
             rule = rule.replace('vue/', '');

@@ -12,7 +12,7 @@ It's impossible to support every single browser, so depending on market share th
 
 ### Base Support:
 
-The following browsers and versions should be supported at a minimum and should be accounted for during the development and QA stages. Evergreen browsers (always up to date due to self-updating) are listed as latest due to it being almost impossible to test on older versions due to the frequency of updates to these browsers and the fact that users are prompted to update when new versions are updated which often fixes the bugs that they are experiencing.
+The following browsers and versions should be supported at a minimum and should be accounted for during the development and QA stages. Evergreen browsers (always up-to-date due to self-updating) are listed as latest due to it being almost impossible to test on older versions due to the frequency of updates to these browsers and the fact that users are prompted to update when new versions are updated which often fixes the bugs that they are experiencing.
 
 - Internet Explorer: >=11
 - Edge: latest

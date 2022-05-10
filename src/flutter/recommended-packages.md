@@ -1,20 +1,26 @@
 # Recommended Packages
 
-We recommend the use of the following packages in all Flutter projects.
-
-| Package | Purpose | Latest Version |
-| --- | --- | --- |
-| [dio](https://pub.dev/packages/dio) | HTTP Requests | ![Pub Version](https://img.shields.io/pub/v/dio) |
-| [freezed](https://pub.dev/packages/freezed) | Data classes | ![Pub Version](https://img.shields.io/pub/v/freezed) |
-| [get_it](https://pub.dev/packages/get_it) | Service Locator | ![Pub Version](https://img.shields.io/pub/v/get_it) |
-| [injectable](https://pub.dev/packages/injectable) | Code Generator for `get_it` | ![Pub Version](https://img.shields.io/pub/v/injectable) |
-| [bloc](https://pub.dev/packages/bloc) | BLoC pattern | ![Pub Version](https://img.shields.io/pub/v/bloc) |
-| [flutter_bloc](https://pub.dev/packages/flutter_bloc) | Flutter widgets for use with BLoCs | ![Pub Version](https://img.shields.io/pub/v/flutter_bloc) |
-| [bloc_test](https://pub.dev/packages/bloc_test) | Utilities for testing BLoCs | ![Pub Version](https://img.shields.io/pub/v/bloc_test) |
-| [equatable](https://pub.dev/packages/equatable) | Easy peasy equality | ![Pub Version](https://img.shields.io/pub/v/equatable) |
-| [flutter_secure_storage](https://pub.dev/packages/flutter_secure_storage) | Save encrypted key-value pairs | ![Pub Version](https://img.shields.io/pub/v/flutter_secure_storage) |
-| [clock](https://pub.dev/packages/clock) | Make `DateTime` testable! | ![Pub Version](https://img.shields.io/pub/v/clock) |
-| [dartz](https://pub.dev/packages/dartz) | Functional programming in Dart | ![Pub Version](https://img.shields.io/pub/v/dartz) |
-| [quiver](https://pub.dev/packages/quiver) | Some nice utility functions | ![Pub Version](https://img.shields.io/pub/v/quiver) |
-| [mockito](https://pub.dev/packages/mockito) | Mocking framework for testing | ![Pub Version](https://img.shields.io/pub/v/mockito) |
-| [extra_pedantic](https://pub.dev/packages/extra_pedantic) | Linter which enforces the Effective Dart guidelines | ![Pub Version](https://img.shields.io/pub/v/extra_pedantic) |
+| Package                                                                         | Purpose                                                                       | Latest Version                                                         |
+| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [alchemist](https://pub.dev/packages/alchemist)                                 | Functions, extensions and documentation to support golden testing             | [!Pub Version](https://img.shields.io/pub/v/alchemist)                 |
+| [animations](https://pub.dev/packages/animations)                               | Beautiful pre-built Material animations/transitions                           | ![Pub Version](https://img.shields.io/pub/v/animations)                |
+| [dio](https://pub.dev/packages/dio)                                             | HTTP Requests                                                                 | ![Pub Version](https://img.shields.io/pub/v/dio)                       |
+| [retrofit](https://pub.dev/packages/retrofit)                                   | Auto-generate HTTP request code for Dio. Very similar to Retrofit on Android. | ![Pub Version](https://img.shields.io/pub/v/retrofit)                  |
+| [passputter](https://pub.dev/packages/passputter)                               | Easy OAuth 2.0 implementation                                                 | ![Pub Version](https://img.shields.io/pub/v/passputter)                |
+| [freezed](https://pub.dev/packages/freezed)                                     | Data classes and sealed unions                                                | ![Pub Version](https://img.shields.io/pub/v/freezed)                   |
+| [get_it](https://pub.dev/packages/get_it)                                       | Service Locator                                                               | ![Pub Version](https://img.shields.io/pub/v/get_it)                    |
+| [injectable](https://pub.dev/packages/injectable)                               | Code Generator for `get_it`                                                   | ![Pub Version](https://img.shields.io/pub/v/injectable)                |
+| [flutter_bloc](https://pub.dev/packages/flutter_bloc)                           | Flutter widgets for use with BLoCs                                            | ![Pub Version](https://img.shields.io/pub/v/flutter_bloc)              |
+| [hydrated_bloc](https://pub.dev/packages/hydrated_bloc)                         | Easy state persistence for BLoCs                                              | ![Pub Version](https://img.shields.io/pub/v/hydrated_bloc)             |
+| [bloc_test](https://pub.dev/packages/bloc_test)                                 | Bloc pattern                                                                  | ![Pub Version](https://img.shields.io/pub/v/bloc_test)                 |
+| [flutter_secure_storage](https://pub.dev/packages/flutter_secure_storage)       | Save encrypted key-value pairs                                                | ![Pub Version](https://img.shields.io/pub/v/flutter_secure_storage)    |
+| [clock](https://pub.dev/packages/clock)                                         | Make `DateTime` testable!                                                     | ![Pub Version](https://img.shields.io/pub/v/clock)                     |
+| [jiffy](https://pub.dev/packages/jiffy)                                         | Powerful `DateTime` utilities                                                 | ![Pub Version](https://img.shields.io/pub/v/jiffy)                     |
+| [dartx](https://pub.dev/packages/dartx)                                         | Collection of useful static extension methods.                                | ![Pub Version](https://img.shields.io/pub/v/dartx)                     |
+| [timeago](https://pub.dev/packages/timeago)                                     | Create relative time strings (e.g. 2 minutes ago)                             | ![Pub Version](https://img.shields.io/pub/v/timeago)                   |
+| [dartz](https://pub.dev/packages/dartz)                                         | Functional programming in Dart                                                | ![Pub Version](https://img.shields.io/pub/v/dartz)                     |
+| [mocktail](https://pub.dev/packages/mocktail)                                   | Mocking framework for testing                                                 | ![Pub Version](https://img.shields.io/pub/v/mocktail)                  |
+| [modal_bottom_sheet](https://pub.dev/packages/modal_bottom_sheet)               | Platform-adaptive modal bottom sheets                                         | ![Pub Version](https://img.shields.io/pub/v/modal_bottom_sheet)        |
+| [netsells_flutter_analysis](https://pub.dev/packages/netsells_flutter_analysis) | Netsells lint rules                                                           | ![Pub Version](https://img.shields.io/pub/v/netsells_flutter_analysis) |
+| [integration_test](https://pub.dev/packages/integration_test)                   | On-device integration tests                                                   | ![Pub Version](https://img.shields.io/pub/v/integration_test)          |
+| [isar](https://pub.dev/packages/isar)                                           | Local database library                                                        | ![Pub Version](https://img.shields.io/pub/v/isar)                      |

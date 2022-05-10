@@ -1,4 +1,4 @@
-![Netsells Logo](./src/images/netsells-logo-with-slogan.jpg)
+![Netsells Logo](./src/.vuepress/public/images/netsells-logo.png)
 
 # Netsells Code Standards
 

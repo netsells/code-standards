@@ -13,10 +13,11 @@ module.exports = {
     },
     plugins: [
         'vue',
-        'require-jsdoc-except',
+        '@netsells/require-jsdoc-except',
         'jsdoc',
         'jquery',
-        '@netsells/eslint-plugin-netsells',
+        '@netsells/netsells',
+        'vuejs-accessibility',
     ],
     extends: [
         'plugin:vue/base',

@@ -1,4 +1,5 @@
 name: Run tests
+
 on:
     push:
         paths:
@@ -23,9 +24,21 @@ on:
 
 jobs:
     build:
-        runs-on: ubuntu-latest
+        runs-on: [ubuntu-latest]
+        timeout-minutes: 15
         steps:
+            -   name: Reset permissions
+                run: sudo chown -R $USER:$USER $GITHUB_WORKSPACE
+
             -   uses: actions/checkout@v2
+
+            -   name: Use Node.js
+                uses: actions/setup-node@v2-beta
+                with:
+                    node-version: 14
+
+            -   name: Install yarn
+                run: npm install -g yarn
 
             -   name: Get yarn cache directory path
                 id: yarn-cache-dir-path
@@ -48,3 +61,6 @@ jobs:
 
             -   name: Run tests
                 run: yarn test
+
+            -   name: Uninstall yarn
+                run: npm uninstall -g yarn

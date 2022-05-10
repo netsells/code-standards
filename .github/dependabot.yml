@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/packages/eslint-config"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  reviewers:
+  - samturrell
+  ignore:
+  - dependency-name: eslint
+    versions:
+    - 7.19.0
+- package-ecosystem: npm
+  directory: "/packages/stylelint-config"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  reviewers:
+  - samturrell

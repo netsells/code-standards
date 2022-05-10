@@ -1,17 +1,19 @@
 ---
 home: true
-heroImage: https://github.com/netsells/code-standards/raw/master/src/images/netsells-logo-with-slogan.jpg
+heroImage: /images/netsells-logo.png
 heroText: Code Standards
 tagline: How we write quality code
-actionText: Get Started →
-actionLink: /general/
+actions:
+  - text: Get Started → 
+    link: /general/
+    type: primary
 features:
-- title: Quality
-  details: Netsells aims to keep up to date with emerging technologies and ensure that code is structured in a consistent, readable and maintainable way
-- title: Performance
-  details: We aim to build highly performant products, utilising the best methods of tackling complex problems.
-- title: Collaboration
-  details: The set of standards provided herein exist to onboard new developers within the Netsells organisation, and assist in working with external companies on collaborative codebases.
+  - title: Quality
+    details: Netsells aims to keep up to date with emerging technologies and ensure that code is structured in a consistent, readable and maintainable way
+  - title: Performance
+    details: We aim to build highly performant products, utilising the best methods of tackling complex problems.
+  - title: Collaboration
+    details: The set of standards provided herein exist to onboard new developers within the Netsells organisation, and assist in working with external companies on collaborative codebases.
 ---
 
 <hr><br>
