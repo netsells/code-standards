@@ -1,2 +1,2 @@
-let component = 'import \'../../MyComponent/MyComponent\';';
-let plugin = 'import \'../../plugins/MyPlugin\';';
+let component = 'import MyComponent from \'../../MyComponent/MyComponent\';';
+let plugin = 'import MyPlugin from \'../../plugins/MyPlugin\';';
