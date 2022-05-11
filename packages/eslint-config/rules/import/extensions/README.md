@@ -1,0 +1,1 @@
+Enforces consistency across file imports, and ensures extensions are never added.
