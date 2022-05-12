@@ -1,6 +1,6 @@
 {
     "name": "@netsells/eslint-config",
-    "version": "7.0.2",
+    "version": "7.0.3",
     "description": "Eslint config for the Netsells organisation",
     "main": "index.js",
     "scripts": {
