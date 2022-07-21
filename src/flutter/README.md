@@ -1,3 +1,3 @@
-# Flutter
+# Legacy Flutter Projects
 
-This section contains the standard best practices we follow on new Flutter projects.
+This section contains documentation used for legacy-style Flutter projects.
