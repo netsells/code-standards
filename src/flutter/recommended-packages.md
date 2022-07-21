@@ -4,6 +4,7 @@
 | ------------------------------------------------------------ | ----------------------------------------------------------- | ------------------------------------------------------------ |
 | [animations](https://pub.dev/packages/animations)            | Beautiful pre-built Material animations/transitions         | ![Pub Version](https://img.shields.io/pub/v/animations)      |
 | [dio](https://pub.dev/packages/dio)                          | HTTP Requests                                               | ![Pub Version](https://img.shields.io/pub/v/dio)             |
+| [riverpod_oauth_dio](https://pub.dev/packages/riverpod_oauth_dio) | Oven-ready OAuth 2 for Dio and Riverpod                     | ![Pub Version](https://img.shields.io/pub/v/riverpod_oauth_dio) |
 | [http_mock_adapter](https://pub.dev/packages/http_mock_adapter) | Easily mock HTTP requests in tests                          | ![Pub Version](https://img.shields.io/pub/v/http_mock_adapter) |
 | [retrofit](https://pub.dev/packages/retrofit)                | Auto-generate HTTP request code for Dio.                    | ![Pub Version](https://img.shields.io/pub/v/retrofit)        |
 | [oauth_dio](https://pub.dev/packages/oauth_dio)              | Easy OAuth 2.0 implementation                               | ![Pub Version](https://img.shields.io/pub/v/oauth_dio)       |
