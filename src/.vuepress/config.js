@@ -109,17 +109,10 @@ module.exports = {
                     {
                         text: 'Flutter',
                         children: [
-                            {
-                                text: 'Introduction',
-                                link: '/flutter/README.md',
-                            },
                             '/flutter/project-setup.md',
                             '/flutter/linting-rules.md',
-                            '/flutter/architecture.md',
                             '/flutter/testing.md',
-                            '/flutter/localization.md',
                             '/flutter/naming-widgets.md',
-                            '/flutter/handling-errors.md',
                             '/flutter/state-management.md',
                             '/flutter/monarch.md',
                             '/flutter/third-party-packages.md',
@@ -128,7 +121,17 @@ module.exports = {
                             '/flutter/continuous-integration.md',
                             '/flutter/continuous-delivery.md',
                             '/flutter/crash-reporting.md',
-                            '/flutter/multiple-firebase-environments.md'
+                            {
+                                text: "Legacy Flutter Projects",
+                                collapsable: true,
+                                children: [
+                                    '/flutter/legacy/architecture.md',
+                                    '/flutter/legacy/handling-errors.md',
+                                    '/flutter/legacy/localization.md',
+                                    '/flutter/legacy/multiple-firebase-environments.md',
+                                    '/flutter/legacy/state-management.md',
+                                ],
+                            }
                         ],
                     },
                     {

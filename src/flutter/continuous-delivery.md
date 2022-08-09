@@ -8,9 +8,4 @@ Most projects are setup with 2 workflows:
 - `production`, which compiles production versions of the app and delivers them to App Store Connect and Google Play
   - Note that this workflow does not automatically publish the new version; this should be done manually
 
-Our repositories are all set up to run these workflows automatically using the following trigger scheme:
-
-- When code is pushed to a `release/*` or `hotfix/*` branch, the `qa` workflow is triggered
-- When code is pushed to `main`, the `production` workflow is triggered
-
-Workflows can also be triggered manually at any time using the GitHub Actions UI.
+Workflows can be triggered manually at any time using the GitHub Actions UI.
