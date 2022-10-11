@@ -66,7 +66,7 @@ module.exports = {
                     '/frontend/performance.md',
                     {
                         text: 'Recommended Packages',
-                        link: '/frontend/recommended-packages/README.md',
+                        link: '/frontend/recommended-packages.md',
                     },
                     {
                         text: 'Linting',
@@ -100,6 +100,10 @@ module.exports = {
                     '/backend/php.md',
                     '/backend/laravel.md',
                     '/backend/hatchly.md',
+                    {
+                        text: 'Recommended Packages',
+                        link: '/backend/recommended-packages.md',
+                    }
                 ],
             },
             {
@@ -172,7 +176,11 @@ module.exports = {
                                 ],
                             }
                         ]
-                    }  
+                    },
+                    {
+                        text: 'Recommended Packages',
+                        link: '/mobile/recommended-packages.md',
+                    }
                 ],
             },
             {
@@ -184,6 +192,10 @@ module.exports = {
                     },
                     '/dotNet/c-sharp.md',
                     '/dotNet/general-guidelines.md',
+                    {
+                        text: 'Recommended Packages',
+                        link: '/dotNet/recommended-packages.md',
+                    }
                 ],
             },
         ],

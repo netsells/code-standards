@@ -1,6 +1,6 @@
 # Recommended Packages
 
-During frontend development we use a lot of 3rd party packages within our code. To ensure we are using trusted packages which follow all of our frontend policies, we have documented any tried and tested packages below. We recommend you utilise these packages in your project, or add to this list any alternatives that may serve your specialist purpose, while also ensuring they meet our policies.
+During development we use a lot of 3rd party packages within our code. To ensure we are using trusted packages which follow all of our policies, we have documented any tried and tested packages below. We recommend you utilise these packages in your project, or add to this list any alternatives that may serve your specialist purpose, while also ensuring they meet our policies.
 
 ### Carousels
 
@@ -16,3 +16,17 @@ ___
   * Touch, Keyboard, Mouse Wheel, and Navigation support
   * Responsive Breakpoints
 ___
+
+### Misc
+**Package Name:** PixiJs
+___
+**Link:** [GitHub Link](https://github.com/pixijs/pixijs)
+___
+**Description:** A package for 2D rendering
+___
+**Features**
+* API Driven
+* Multi-Platform Support
+___
+**Proof of Concept / Projects used on**
+* Own The Pitch ([GitHub Link](https://github.com/netsells/own-the-pitch-frontend))
