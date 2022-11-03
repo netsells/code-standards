@@ -112,7 +112,7 @@ function quux16 () {
 }
 
 /**
- * @returns {true}
+ * @returns {true|undefined}
  */
 function quux17 () {
     try {
