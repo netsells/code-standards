@@ -122,6 +122,7 @@ module.exports = {
                             '/flutter/third-party-packages.md',
                             '/flutter/recommended-packages.md',
                             '/flutter/codesigning.md',
+                            '/flutter/security-practices.md',
                             '/flutter/continuous-integration.md',
                             '/flutter/continuous-delivery.md',
                             '/flutter/crash-reporting.md',
