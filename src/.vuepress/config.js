@@ -221,10 +221,11 @@ export default defineUserConfig({
     },
 
     plugins: [
-        googleAnalyticsPlugin({
-            id: 'UA-49744331-5',
-        }),
-
+        // Not currently working
+        //googleAnalyticsPlugin({
+        //    id: 'UA-49744331-5',
+        //}),
+        //
         registerComponentsPlugin({
             components: {
                 CodeHighlight: path.resolve(__dirname, './components/CodeHighlight.vue'),
@@ -237,8 +238,9 @@ export default defineUserConfig({
             // options
         //}),
 
-        tocPlugin({
-            // options
-        }),
+        // Not currently working
+        //tocPlugin({
+        //    // options
+        //}),
     ],
 });
