@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-73a024ae","path":"/frontend/linting/eslint/key-spacing.html","title":"key-spacing","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"Examples","slug":"examples","link":"#examples","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/eslint/key-spacing.md"}');export{e as data};

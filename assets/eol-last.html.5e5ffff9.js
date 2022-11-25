@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6a6febae","path":"/frontend/linting/eslint/eol-last.html","title":"eol-last","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"Examples","slug":"examples","link":"#examples","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/eslint/eol-last.md"}');export{e as data};
