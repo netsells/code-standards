@@ -2,31 +2,22 @@
 
 During development we use a lot of 3rd party packages within our code. To ensure we are using trusted packages which follow all of our policies, we have documented any tried and tested packages below. We recommend you utilise these packages in your project, or add to this list any alternatives that may serve your specialist purpose, while also ensuring they meet our policies.
 
-### Carousels
+| Package | Purpose | Used in | Latest Version |
+| --- | --- | --- | --- |
+| [cookie-universal-nuxt](https://www.npmjs.com/package/cookie-universal-nuxt) <br><br> ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) | ![](https://img.shields.io/badge/type-cookies-blue.svg) <br><br> Set, get and remove cookies in both client and server side nuxt apps | [itsu](https://github.com/netsells/itsu-frontend) | ![npm version](https://badgen.net/npm/v/cookie-universal-nuxt) |
+| [nuxt-graphql-request](https://www.npmjs.com/package/nuxt-graphql-request) <br><br> ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) | ![](https://img.shields.io/badge/type-graphQL-blue.svg) <br><br> Easy Minimal GraphQL client integration with Nuxt.js. | [itsu](https://github.com/netsells/itsu-frontend) | ![npm version](https://badgen.net/npm/v/nuxt-graphql-request) |
+| [dayjs](https://www.npmjs.com/package/dayjs) <br><br> ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) | ![](https://img.shields.io/badge/type-dates-blue.svg) <br><br> A minimalist JavaScript library that parses, validates, manipulates, and displays dates and times for modern browsers with a largely Moment.js-compatible API | [itsu](https://github.com/netsells/itsu-frontend) | ![npm version](https://badgen.net/npm/v/dayjs) |
+| [@googlemaps/js-api-loader](https://www.npmjs.com/package/@googlemaps/js-api-loader) <br><br> ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) | ![](https://img.shields.io/badge/type-google%20maps-blue.svg) <br><br> Load the Google Maps JavaScript API script dynamically. Allows to lazy load the apis you need rather than loading up front and slowing pages down. | [itsu](https://github.com/netsells/itsu-frontend) | ![npm version](https://badgen.net/npm/v/@googlemaps%2Fjs-api-loader) |
+| [pixijs](https://www.npmjs.com/package/pixijs) <br><br> ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) | ![](https://img.shields.io/badge/type-canvas-blue.svg) <br><br> A fast lightweight 2D library that works across all devices. The PixiJS renderer allows everyone to enjoy the power of hardware acceleration without prior knowledge of WebGL. | [Own The Pitch](https://github.com/netsells/own-the-pitch-frontend) | ![npm version](https://badgen.net/npm/v/pixijs) |
+| [hooper](https://www.npmjs.com/package/hooper) <br><br> ![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg) | ![](https://img.shields.io/badge/type-carousel-blue.svg) <br><br> Vue.js carousel component, optimized to work with Vue. | [Add Victor](https://github.com/netsells/add-victor-frontend) | ![npm version](https://badgen.net/npm/v/hooper) |
+| [swiper](https://www.npmjs.com/package/swiper) <br><br> ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) | ![](https://img.shields.io/badge/type-swiper-blue.svg) <br><br> The free and most modern mobile touch slider with hardware accelerated transitions and amazing native behavior. | [itsu](https://github.com/netsells/itsu-frontend) | ![npm version](https://badgen.net/npm/v/swiper) |
+| [vue-stripe-elements-plus](https://www.npmjs.com/package/vue-stripe-elements-plus) <br><br> ![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg) | ![](https://img.shields.io/badge/type-stripe-blue.svg) <br><br> Flexible and powerful Vue components for Stripe. It's a glue between Stripe.js and Vue component lifecycle. | [Moonlight Cinema](https://github.com/netsells/moonlight-cinema-frontend) | ![npm version](https://badgen.net/npm/v/vue-stripe-elements-plus) |
+| [vue-stripe](https://www.npmjs.com/package/vue-stripe) <br><br> ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) | ![](https://img.shields.io/badge/type-stripe-blue.svg) <br><br> Stripe Checkout & Elements for Vue.js | - | ![npm version](https://badgen.net/npm/v/vue-stripe) |
+| [vue-markdown-render](https://www.npmjs.com/package/vue-markdown-render) <br><br> ![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg) | ![](https://img.shields.io/badge/type-markdown-blue.svg) <br><br> A simple and lightweight wrapper for markdown-it with full TypeScript support. | [itsu](https://github.com/netsells/itsu-frontend) | ![npm version](https://badgen.net/npm/v/vue-markdown-render) |
+| [vue-social-sharing](https://www.npmjs.com/package/vue-social-sharing) <br><br> ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) | ![](https://img.shields.io/badge/type-social%20sharing-blue.svg) <br><br> A renderless components for sharing links on major social networks | [itsu](https://github.com/netsells/itsu-frontend) | ![npm version](https://badgen.net/npm/v/vue-social-sharing) |
 
-**Package Name:** Hooper
-___
-**Link:** 
-[npm Link](https://www.npmjs.com/package/hooper)
-___
-**Description:** A Vue carousel component
-___
-**Features:**
-* A11y
-  * Touch, Keyboard, Mouse Wheel, and Navigation support
-  * Responsive Breakpoints
-___
-
-### Misc
-**Package Name:** PixiJs
-___
-**Link:** [GitHub Link](https://github.com/pixijs/pixijs)
-___
-**Description:** A package for 2D rendering
-___
-**Features**
-* API Driven
-* Multi-Platform Support
-___
-**Proof of Concept / Projects used on**
-* Own The Pitch ([GitHub Link](https://github.com/netsells/own-the-pitch-frontend))
+<!-- Badges: -->
+<!-- Maintained ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg) -->
+<!-- Not Maintained ![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg) -->
+<!-- Type ![](https://img.shields.io/badge/type-<type>-blue.svg) -->
+<!-- Npm version ![npm version](https://badgen.net/npm/v/<name>) -->

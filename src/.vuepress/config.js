@@ -1,6 +1,12 @@
-const { path } = require('@vuepress/utils');
+import { path } from '@vuepress/utils';
+import { tocPlugin } from '@vuepress/plugin-toc';
+import { defineUserConfig } from 'vuepress';
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
+import { searchPlugin } from '@vuepress/plugin-search';
+import { defaultTheme } from '@vuepress/theme-default'
 
-module.exports = {
+export default defineUserConfig({
     title: 'Netsells Code Standards',
 
     dest: 'docs',
@@ -9,7 +15,7 @@ module.exports = {
         ? '/'
         : '/code-standards/',
 
-    themeConfig: {
+    theme: defaultTheme({
         repo: 'https://github.com/netsells/code-standards',
         editLinks: true,
         editLinkText: 'Edit this page on GitHub',
@@ -36,7 +42,6 @@ module.exports = {
                 link: 'https://netsells.co.uk',
             },
         ],
-
 
         sidebar: [
             {
@@ -127,7 +132,7 @@ module.exports = {
                             '/flutter/continuous-delivery.md',
                             '/flutter/crash-reporting.md',
                             {
-                                text: "Legacy Flutter Projects",
+                                text: 'Legacy Flutter Projects',
                                 collapsable: true,
                                 children: [
                                     '/flutter/legacy/architecture.md',
@@ -200,7 +205,7 @@ module.exports = {
                 ],
             },
         ],
-    },
+    }),
 
     markdown: {
         importCode: {
@@ -216,23 +221,24 @@ module.exports = {
     },
 
     plugins: [
-        [
-            '@vuepress/google-analytics',
-            {
-                id: 'UA-49744331-5',
+        googleAnalyticsPlugin({
+            id: 'UA-49744331-5',
+        }),
+
+        registerComponentsPlugin({
+            components: {
+                CodeHighlight: path.resolve(__dirname, './components/CodeHighlight.vue'),
+                Spoiler: path.resolve(__dirname, './components/Spoiler.vue'),
             },
-        ],
-        [
-            '@vuepress/register-components',
-            {
-                components: {
-                    CodeHighlight: path.resolve(__dirname, './components/CodeHighlight.vue'),
-                    Spoiler: path.resolve(__dirname, './components/Spoiler.vue'),
-                },
-            },
-        ],
-        [
-            '@vuepress/plugin-search',
-        ],
+        }),
+
+        // Not currently working
+        //searchPlugin({
+            // options
+        //}),
+
+        tocPlugin({
+            // options
+        }),
     ],
-};
+});
