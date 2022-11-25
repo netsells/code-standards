@@ -6167,7 +6167,7 @@ vue@^3.2.37, vue@^3.2.41:
     "@vue/server-renderer" "3.2.45"
     "@vue/shared" "3.2.45"
 
-vuepress-vite@2.0.0-beta.50-pre.1, vuepress-vite@2.0.0-beta.53:
+vuepress-vite@2.0.0-beta.53:
   version "2.0.0-beta.53"
   resolved "https://npm.netsells.tools/vuepress-vite/-/vuepress-vite-2.0.0-beta.53.tgz#6724d5edd99df2d494a8145206192e4cc88e9b9a"
   integrity sha512-kITVMM+LcV5mDQXQXAKgK0adAGMm7oyPls6HPTLM9gUvpSs2A19zfwf8zFoxIF9X+ANay4Tg87egtnJOcp8Wcg==
