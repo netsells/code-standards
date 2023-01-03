@@ -1,0 +1,21 @@
+import{_ as i,r as e,o as u,c as r,a as n,d as a,w as t,b as s}from"./app.7ec440ba.js";const p={},d={id:"no-else-return",tabindex:"-1"},k=n("a",{class:"header-anchor",href:"#no-else-return","aria-hidden":"true"},"#",-1),m=n("p",null,"Disallow else blocks after return statements in if statements",-1),_=n("h2",{id:"examples",tabindex:"-1"},[n("a",{class:"header-anchor",href:"#examples","aria-hidden":"true"},"#"),s(" Examples")],-1),b=n("div",{class:"language-javascript line-numbers-mode","data-ext":"js"},[n("pre",{class:"language-javascript"},[n("code",null,[n("span",{class:"token keyword"},"function"),s(),n("span",{class:"token function"},"foo"),n("span",{class:"token punctuation"},"("),n("span",{class:"token punctuation"},")"),s(),n("span",{class:"token punctuation"},"{"),s(`
+    `),n("span",{class:"token keyword"},"if"),s(),n("span",{class:"token punctuation"},"("),s("x"),n("span",{class:"token punctuation"},")"),s(),n("span",{class:"token punctuation"},"{"),s(`
+        `),n("span",{class:"token keyword"},"return"),s(" a"),n("span",{class:"token punctuation"},";"),s(`
+    `),n("span",{class:"token punctuation"},"}"),s(`
+
+    `),n("span",{class:"token keyword"},"if"),s(),n("span",{class:"token punctuation"},"("),s("y"),n("span",{class:"token punctuation"},")"),s(),n("span",{class:"token punctuation"},"{"),s(`
+        `),n("span",{class:"token keyword"},"return"),s(" b"),n("span",{class:"token punctuation"},";"),s(`
+    `),n("span",{class:"token punctuation"},"}"),s(`
+
+    `),n("span",{class:"token keyword"},"return"),s(" c"),n("span",{class:"token punctuation"},";"),s(`
+`),n("span",{class:"token punctuation"},"}"),s(`
+`)])]),n("div",{class:"line-numbers","aria-hidden":"true"},[n("div",{class:"line-number"}),n("div",{class:"line-number"}),n("div",{class:"line-number"}),n("div",{class:"line-number"}),n("div",{class:"line-number"}),n("div",{class:"line-number"}),n("div",{class:"line-number"}),n("div",{class:"line-number"}),n("div",{class:"line-number"}),n("div",{class:"line-number"}),n("div",{class:"line-number"})])],-1),v=n("div",{class:"language-javascript line-numbers-mode","data-ext":"js"},[n("pre",{class:"language-javascript"},[n("code",null,[n("span",{class:"token keyword"},"function"),s(),n("span",{class:"token function"},"foo"),n("span",{class:"token punctuation"},"("),n("span",{class:"token punctuation"},")"),s(),n("span",{class:"token punctuation"},"{"),s(`
+    `),n("span",{class:"token keyword"},"if"),s(),n("span",{class:"token punctuation"},"("),s("x"),n("span",{class:"token punctuation"},")"),s(),n("span",{class:"token punctuation"},"{"),s(`
+        `),n("span",{class:"token keyword"},"return"),s(" a"),n("span",{class:"token punctuation"},";"),s(`
+    `),n("span",{class:"token punctuation"},"}"),s(),n("span",{class:"token keyword"},"else"),s(),n("span",{class:"token keyword"},"if"),s(),n("span",{class:"token punctuation"},"("),s("y"),n("span",{class:"token punctuation"},")"),s(),n("span",{class:"token punctuation"},"{"),s(`
+        `),n("span",{class:"token keyword"},"return"),s(" b"),n("span",{class:"token punctuation"},";"),s(`
+    `),n("span",{class:"token punctuation"},"}"),s(),n("span",{class:"token keyword"},"else"),s(),n("span",{class:"token punctuation"},"{"),s(`
+        `),n("span",{class:"token keyword"},"return"),s(" c"),n("span",{class:"token punctuation"},";"),s(`
+    `),n("span",{class:"token punctuation"},"}"),s(`
+`),n("span",{class:"token punctuation"},"}"),s(`
+`)])]),n("div",{class:"line-numbers","aria-hidden":"true"},[n("div",{class:"line-number"}),n("div",{class:"line-number"}),n("div",{class:"line-number"}),n("div",{class:"line-number"}),n("div",{class:"line-number"}),n("div",{class:"line-number"}),n("div",{class:"line-number"}),n("div",{class:"line-number"}),n("div",{class:"line-number"})])],-1);function h(f,w){const o=e("RouterLink"),c=e("badge"),l=e("code-highlight");return u(),r("div",null,[n("p",null,[a(o,{to:"/frontend/linting/eslint/"},{default:t(()=>[s("← Back")]),_:1})]),n("h1",d,[k,s(" no-else-return "),a(c,{text:"warning",type:"warning",vertical:"middle"})]),m,_,a(l,null,{correct:t(()=>[b]),incorrect:t(()=>[v]),_:1})])}const y=i(p,[["render",h],["__file","no-else-return.html.vue"]]);export{y as default};
