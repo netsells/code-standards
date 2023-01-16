@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-02d166ed","path":"/flutter/codesigning.html","title":"Codesigning","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1673880262000,"contributors":[{"name":"Peter Bryant","email":"peter@ptrbrynt.com","commits":1}]},"filePathRelative":"flutter/codesigning.md"}');export{e as data};

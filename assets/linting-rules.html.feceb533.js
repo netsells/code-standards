@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-66577348","path":"/flutter/linting-rules.html","title":"Linting & Static Analysis Rules","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1673880262000,"contributors":[{"name":"Peter Bryant","email":"peter@ptrbrynt.com","commits":1}]},"filePathRelative":"flutter/linting-rules.md"}');export{t as data};
