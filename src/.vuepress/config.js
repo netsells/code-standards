@@ -119,6 +119,7 @@ export default defineUserConfig({
                         text: 'Flutter',
                         children: [
                             '/flutter/project-setup.md',
+                            '/flutter/multiple-firebase-environments.md',
                             '/flutter/linting-rules.md',
                             '/flutter/testing.md',
                             '/flutter/naming-widgets.md',
@@ -138,7 +139,6 @@ export default defineUserConfig({
                                     '/flutter/legacy/architecture.md',
                                     '/flutter/legacy/handling-errors.md',
                                     '/flutter/legacy/localization.md',
-                                    '/flutter/legacy/multiple-firebase-environments.md',
                                     '/flutter/legacy/state-management.md',
                                 ],
                             }
