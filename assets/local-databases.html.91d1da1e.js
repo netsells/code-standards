@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-631ebf3c","path":"/android/local-databases.html","title":"Local Databases & Persistence","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1673951642000,"contributors":[{"name":"Sam Turrell","email":"sam.turrell@netsells.co.uk","commits":1}]},"filePathRelative":"android/local-databases.md"}');export{a as data};

@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-529e84aa","path":"/android/dependency-injection.html","title":"Dependency Injection","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1673880262000,"contributors":[{"name":"Peter Bryant","email":"peter@ptrbrynt.com","commits":1}]},"filePathRelative":"android/dependency-injection.md"}');export{e as data};
