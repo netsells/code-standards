@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-2d5b4388","path":"/flutter/project-setup.html","title":"Creating a Flutter Project","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1674126174000,"contributors":[{"name":"Sam Turrell","email":"sam.turrell@netsells.co.uk","commits":1}]},"filePathRelative":"flutter/project-setup.md"}');export{t as data};
