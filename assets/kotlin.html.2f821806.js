@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-3e66553f","path":"/android/kotlin.html","title":"Kotlin","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1674211177000,"contributors":[{"name":"Sam Turrell","email":"sam.turrell@netsells.co.uk","commits":1}]},"filePathRelative":"android/kotlin.md"}');export{t as data};
