@@ -52,7 +52,8 @@ function quux7 () {
 }
 
 /**
- * Foo. {@see Math.sin}.
+ * Foo.
+ * @see Math.sin
  */
 function quux8 () {
 
