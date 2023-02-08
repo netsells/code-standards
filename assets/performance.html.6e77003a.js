@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-e0725fa6","path":"/frontend/performance.html","title":"Performance","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1675876314000,"contributors":[{"name":"Sam Turrell","email":"sam.turrell@netsells.co.uk","commits":1}]},"filePathRelative":"frontend/performance.md"}');export{e as data};

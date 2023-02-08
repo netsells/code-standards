@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-e2885e62","path":"/frontend/accessibility.html","title":"Accessibility","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1675876314000,"contributors":[{"name":"Sam Turrell","email":"sam.turrell@netsells.co.uk","commits":1}]},"filePathRelative":"frontend/accessibility.md"}');export{e as data};
