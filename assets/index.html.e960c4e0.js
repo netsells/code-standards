@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-6250ba7a","path":"/flutter/legacy/","title":"","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1676040982000,"contributors":[{"name":"Peter Bryant","email":"peter@ptrbrynt.com","commits":1}]},"filePathRelative":"flutter/legacy/README.md"}');export{t as data};
