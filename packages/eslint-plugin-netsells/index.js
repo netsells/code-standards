@@ -1,7 +1,8 @@
-const glob = require('glob');
+const { globSync } = require('glob');
 const path = require('path');
 
-const globRules = glob.sync(`${ __dirname }/rules/*.js`);
+const globRules = globSync(`${ __dirname }/rules/*.js`);
+
 
 const rules = globRules.reduce((acc, pathToRule) => {
     const ruleName = path.basename(pathToRule, '.js');
