@@ -1,5 +1,5 @@
-const glob = require('glob');
-const globRules = glob.sync(`${ __dirname }/rules/**/rule.js`);
+const { globSync } = require('glob');
+const globRules = globSync(`${ __dirname }/rules/**/rule.js`);
 
 module.exports = {
     parserOptions: {
@@ -16,7 +16,7 @@ module.exports = {
         '@netsells/require-jsdoc-except',
         'jsdoc',
         'jquery',
-        '@netsells/netsells',
+        '@netsells/eslint-plugin-netsells',
         'vuejs-accessibility',
         'import',
     ],

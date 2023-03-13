@@ -1,7 +1,7 @@
-const glob = require('glob');
+const { globSync } = require('glob');
 const { resolve } = require('path');
 const directory = resolve(__dirname, '../', 'rules');
-const globRules = glob.sync(`${ directory }/**/rule.js`);
+const globRules = globSync(`${ directory }/**/rule.js`);
 const fs = require('fs');
 const stylelint = require('stylelint');
 
@@ -61,7 +61,7 @@ globRules.forEach((file) => {
                 const { results } = await testRule(incorrectFiles.testFile, file);
                 const erroredResults = results.filter((result) => result.errored);
                 const warningResults = results.filter((result) => result.warnings.length);
-                
+
                 if (warningResults[0]) {
                     expect(warningResults[0].warnings.map(({ rule }) => rule)).not.toContain('CssSyntaxError');
                 }

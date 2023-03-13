@@ -1,7 +1,7 @@
-const glob = require('glob');
+const { globSync } = require('glob');
 const { resolve } = require('path');
 const directory = resolve(__dirname, '../', 'rules');
-const globRules = glob.sync(`${ directory }/**/rule.js`);
+const globRules = globSync(`${ directory }/**/rule.js`);
 const fs = require('fs');
 const { CLIEngine } = require('eslint/lib/cli-engine');
 const config = require('../index');
@@ -31,7 +31,7 @@ const getFiles = (rulePath, type) => {
     const dir = resolve(directory, rulePath);
     const files = resolve(dir, 'files.js');
 
-    const correctFiles = glob.sync(resolve(dir, `${ type }.{js,vue}`));
+    const correctFiles = globSync(resolve(dir, `${ type }.{js,vue}`));
 
     if (fs.existsSync(files)) {
         const fileConfig = require(files);
