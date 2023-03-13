@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7c84f940","path":"/android/mvvm.html","title":"MVVM","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1678710393000,"contributors":[{"name":"Sam Turrell","email":"sam.turrell@netsells.co.uk","commits":1}]},"filePathRelative":"android/mvvm.md"}');export{e as data};
