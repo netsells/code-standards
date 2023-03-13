@@ -1,6 +1,6 @@
 const fs = require('fs-extra');
 const path = require('path');
-const glob = require('glob');
+const { globSync } = require('glob');
 const template = require('lodash/template');
 
 function getWarningType(directory) {
@@ -44,7 +44,7 @@ const generatePages = ({
     ruleLink,
 }) => {
     const rulesFolder = path.resolve(rulesFolderPath);
-    const ruleReadmes = glob.sync(`${ rulesFolder }/**/README.md`);
+    const ruleReadmes = globSync(`${ rulesFolder }/**/README.md`);
     const templateFile = fs.readFileSync(pageTemplatePath, 'utf8');
     const indexTemplateFile = fs.readFileSync(indexTemplatePath, 'utf8');
 
@@ -61,7 +61,7 @@ const generatePages = ({
         const examples = ['correct', 'incorrect']
             .map((template) => ({
                 template,
-                path: glob.sync(`${ directory }/${template}.*`)[0],
+                path: globSync(`${ directory }/${template}.*`)[0],
             }))
             .filter(({ path }) => path)
             .map((template) => ({
