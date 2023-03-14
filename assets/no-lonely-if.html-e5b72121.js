@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-757de0d8","path":"/frontend/linting/eslint/no-lonely-if.html","title":"no-lonely-if","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Examples","slug":"examples","link":"#examples","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/eslint/no-lonely-if.md"}');export{e as data};

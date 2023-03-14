@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0fe6ee00","path":"/frontend/linting/stylelint/property-case.html","title":"property-case","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Examples","slug":"examples","link":"#examples","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/stylelint/property-case.md"}');export{e as data};

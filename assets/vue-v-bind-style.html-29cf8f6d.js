@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1d166a30","path":"/frontend/linting/eslint/vue-v-bind-style.html","title":"vue/v-bind-style","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Examples","slug":"examples","link":"#examples","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/eslint/vue-v-bind-style.md"}');export{e as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-100a2dc2","path":"/frontend/linting/eslint/arrow-parens.html","title":"arrow-parens","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Examples","slug":"examples","link":"#examples","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/eslint/arrow-parens.md"}');export{e as data};

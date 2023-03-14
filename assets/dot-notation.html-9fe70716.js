@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-91ea676e","path":"/frontend/linting/eslint/dot-notation.html","title":"dot-notation","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Examples","slug":"examples","link":"#examples","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/eslint/dot-notation.md"}');export{t as data};

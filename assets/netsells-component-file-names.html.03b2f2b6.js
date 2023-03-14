@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-6d2165da","path":"/frontend/linting/eslint/netsells-component-file-names.html","title":"netsells/component-file-names","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/eslint/netsells-component-file-names.md"}');export{e as data};

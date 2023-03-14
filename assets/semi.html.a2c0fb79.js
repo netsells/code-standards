@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-00d42fe1","path":"/frontend/linting/eslint/semi.html","title":"semi","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"Examples","slug":"examples","link":"#examples","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/eslint/semi.md"}');export{e as data};

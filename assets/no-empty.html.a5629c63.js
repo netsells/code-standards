@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-fe8f2424","path":"/frontend/linting/eslint/no-empty.html","title":"no-empty","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"Examples","slug":"examples","link":"#examples","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/eslint/no-empty.md"}');export{e as data};

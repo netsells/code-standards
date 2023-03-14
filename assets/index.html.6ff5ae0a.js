@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-e9c8dde2","path":"/frontend/linting/stylelint/","title":"Stylelint","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"Rules","slug":"rules","link":"#rules","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/stylelint/README.md"}');export{e as data};

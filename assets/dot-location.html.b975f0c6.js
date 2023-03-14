@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-12563f14","path":"/frontend/linting/eslint/dot-location.html","title":"dot-location","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"Examples","slug":"examples","link":"#examples","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/eslint/dot-location.md"}');export{t as data};

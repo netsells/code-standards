@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-a9b540f4","path":"/frontend/linting/eslint/vuejs-accessibility-aria-role.html","title":"vuejs-accessibility/aria-role","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/eslint/vuejs-accessibility-aria-role.md"}');export{e as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0aa90808","path":"/frontend/linting/eslint/comma-dangle.html","title":"comma-dangle","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Examples","slug":"examples","link":"#examples","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/eslint/comma-dangle.md"}');export{e as data};

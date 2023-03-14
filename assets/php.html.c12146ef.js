@@ -1,1 +1,0 @@
-import{_ as t,o as a,c,a as e,b as o}from"./app.fcaca519.js";const r={},s=e("h1",{id:"php",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#php","aria-hidden":"true"},"#"),o(" PHP")],-1),n=[s];function _(h,d){return a(),c("div",null,n)}const i=t(r,[["render",_],["__file","php.html.vue"]]);export{i as default};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1a75683e","path":"/frontend/linting/eslint/no-cond-assign.html","title":"no-cond-assign","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Examples","slug":"examples","link":"#examples","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/eslint/no-cond-assign.md"}');export{e as data};

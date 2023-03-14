@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-af372d46","path":"/frontend/linting/eslint/vuejs-accessibility-tabindex-no-positive.html","title":"vuejs-accessibility/tabindex-no-positive","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/eslint/vuejs-accessibility-tabindex-no-positive.md"}');export{t as data};

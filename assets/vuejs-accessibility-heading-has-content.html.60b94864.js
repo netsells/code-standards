@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-3353c5b6","path":"/frontend/linting/eslint/vuejs-accessibility-heading-has-content.html","title":"vuejs-accessibility/heading-has-content","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/eslint/vuejs-accessibility-heading-has-content.md"}');export{t as data};

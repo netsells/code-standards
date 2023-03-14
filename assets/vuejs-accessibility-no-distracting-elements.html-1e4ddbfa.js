@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-9914faa8","path":"/frontend/linting/eslint/vuejs-accessibility-no-distracting-elements.html","title":"vuejs-accessibility/no-distracting-elements","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/eslint/vuejs-accessibility-no-distracting-elements.md"}');export{t as data};

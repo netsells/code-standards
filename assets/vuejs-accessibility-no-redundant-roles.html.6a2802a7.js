@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-3092d461","path":"/frontend/linting/eslint/vuejs-accessibility-no-redundant-roles.html","title":"vuejs-accessibility/no-redundant-roles","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/eslint/vuejs-accessibility-no-redundant-roles.md"}');export{e as data};

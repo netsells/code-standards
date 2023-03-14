@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-ec4208b8","path":"/frontend/linting/eslint/no-console.html","title":"no-console","lang":"en-US","frontmatter":{},"excerpt":"","headers":[{"level":2,"title":"Examples","slug":"examples","link":"#examples","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/eslint/no-console.md"}');export{e as data};

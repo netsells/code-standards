@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-37f858f5","path":"/frontend/linting/eslint/vuejs-accessibility-no-autofocus.html","title":"vuejs-accessibility/no-autofocus","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/eslint/vuejs-accessibility-no-autofocus.md"}');export{t as data};
