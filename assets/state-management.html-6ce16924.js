@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-55f3772e","path":"/flutter/state-management.html","title":"State Management and DI","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1679567002000,"contributors":[{"name":"Sam Turrell","email":"sam.turrell@netsells.co.uk","commits":1}]},"filePathRelative":"flutter/state-management.md"}');export{t as data};
