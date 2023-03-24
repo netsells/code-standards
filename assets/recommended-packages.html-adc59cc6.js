@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-3d0401d4","path":"/frontend/recommended-packages.html","title":"Recommended Packages","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1679567002000,"contributors":[{"name":"Sam Turrell","email":"sam.turrell@netsells.co.uk","commits":1}]},"filePathRelative":"frontend/recommended-packages.md"}');export{e as data};
