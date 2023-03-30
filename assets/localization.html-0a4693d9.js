@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-22e0faa6","path":"/flutter/legacy/localization.html","title":"Localizing Flutter Apps","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1680180806000,"contributors":[{"name":"Peter Bryant","email":"peter@ptrbrynt.com","commits":1}]},"filePathRelative":"flutter/legacy/localization.md"}');export{t as data};
