@@ -15,33 +15,33 @@ This ensures that classes are decoupled from Riverpod.
 <code-highlight>
 
 <template v-slot:incorrect>
-```dart
-// Riverpod-coupled Repository
-class BlogPostRepository {
-    const BlogPostRepository({required this.ref});
+    ```dart
+    // Riverpod-coupled Repository
+    class BlogPostRepository {
+        const BlogPostRepository({required this.ref});
 
-    final WidgetRef ref;
+        final WidgetRef ref;
 
-    Future<BlogPost> getBlogPost(int id) => ref.watch(blogPostApi).getPost(id);
-}
+        Future<BlogPost> getBlogPost(int id) => ref.watch(blogPostApi).getPost(id);
+    }
 
-final blogPostRepositoryProvider => Provider((ref) => BlogPostRepository(ref: ref));
-```
+    final blogPostRepositoryProvider => Provider((ref) => BlogPostRepository(ref: ref));
+    ```
 </template>
 
 <template v-slot:correct>
-```dart
-// Riverpod-free Repository
-class BlogPostRepository {
-    const BlogPostRepository({required this.api});
+    ```dart
+    // Riverpod-free Repository
+    class BlogPostRepository {
+        const BlogPostRepository({required this.api});
 
-    final BlogPostApi api;
+        final BlogPostApi api;
 
-    Future<BlogPost> getBlogPost(int id) => api.getPost(id);
-}
+        Future<BlogPost> getBlogPost(int id) => api.getPost(id);
+    }
 
-final blogPostRepositoryProvider => Provider((ref) => BlogPostRepository(ref.watch(blogPostApiProvider)));
-```
+    final blogPostRepositoryProvider => Provider((ref) => BlogPostRepository(ref.watch(blogPostApiProvider)));
+    ```
 </template>
 
 </code-highlight>
