@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-67bfbd0d","path":"/android/pull-request-labels.html","title":"Pull Request Labelling","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1680180625000,"contributors":[{"name":"Peter Bryant","email":"peter@ptrbrynt.com","commits":1}]},"filePathRelative":"android/pull-request-labels.md"}');export{e as data};

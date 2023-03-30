@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-3798263d","path":"/android/network-requests.html","title":"Network Requests","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1680180448000,"contributors":[{"name":"Peter Bryant","email":"peter@ptrbrynt.com","commits":1}]},"filePathRelative":"android/network-requests.md"}');export{e as data};

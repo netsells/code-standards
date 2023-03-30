@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-539bafa3","path":"/flutter/naming-widgets.html","title":"Naming Widgets","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1680180625000,"contributors":[{"name":"Peter Bryant","email":"peter@ptrbrynt.com","commits":1}]},"filePathRelative":"flutter/naming-widgets.md"}');export{t as data};
