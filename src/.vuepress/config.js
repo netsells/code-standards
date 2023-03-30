@@ -112,31 +112,10 @@ export default defineUserConfig({
       {
         text: "Mobile",
         children: [
-          "/mobile/pull-requests.md",
-          "/flutter/project-setup.md",
-          "/flutter/multiple-firebase-environments.md",
           "/flutter/linting-rules.md",
           "/flutter/testing.md",
           "/flutter/naming-widgets.md",
           "/flutter/state-management.md",
-          "/flutter/monarch.md",
-          "/flutter/third-party-packages.md",
-          "/flutter/recommended-packages.md",
-          "/flutter/codesigning.md",
-          "/flutter/security-practices.md",
-          "/flutter/continuous-integration.md",
-          "/flutter/continuous-delivery.md",
-          "/flutter/crash-reporting.md",
-          {
-            text: "Legacy Flutter Projects",
-            collapsable: true,
-            children: [
-              "/flutter/legacy/architecture.md",
-              "/flutter/legacy/handling-errors.md",
-              "/flutter/legacy/localization.md",
-              "/flutter/legacy/state-management.md",
-            ],
-          },
         ],
       },
       {
