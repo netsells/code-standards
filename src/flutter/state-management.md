@@ -14,7 +14,8 @@ This ensures that classes are decoupled from Riverpod.
 
 <code-highlight>
 
-<template v-slot:incorrect>
+<template v -slot:incorrect>
+
     ```dart
     // Riverpod-coupled Repository
     class BlogPostRepository {
@@ -27,9 +28,11 @@ This ensures that classes are decoupled from Riverpod.
 
     final blogPostRepositoryProvider => Provider((ref) => BlogPostRepository(ref: ref));
     ```
+
 </template>
 
 <template v-slot:correct>
+
     ```dart
     // Riverpod-free Repository
     class BlogPostRepository {
@@ -42,6 +45,7 @@ This ensures that classes are decoupled from Riverpod.
 
     final blogPostRepositoryProvider => Provider((ref) => BlogPostRepository(ref.watch(blogPostApiProvider)));
     ```
+    
 </template>
 
 </code-highlight>
