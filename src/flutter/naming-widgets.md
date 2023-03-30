@@ -14,7 +14,6 @@ All widget class names should take the form `[Subject]Widget`.
 
 <template v-slot:incorrect>
 
-
   ```dart
 class LoginPage extends StatelessWidget {}
   ```
