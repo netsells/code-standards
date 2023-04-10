@@ -19,7 +19,7 @@
         "eslint-plugin-nuxt": "^4.0.0",
         "eslint-plugin-vue": "^9.0.0",
         "eslint-plugin-vuejs-accessibility": "^2.0.0",
-        "glob": "^9.2.1"
+        "glob": "^10.0.0"
     },
     "jest": {
         "resolver": "<rootDir>/jest-resolver.js"
