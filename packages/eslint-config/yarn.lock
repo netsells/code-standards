@@ -1704,10 +1704,10 @@ eslint-plugin-jquery@^1.5.1:
   resolved "https://registry.yarnpkg.com/eslint-plugin-jquery/-/eslint-plugin-jquery-1.5.1.tgz#d6bac643acf9484ce76394e27e2b07baca06662e"
   integrity sha512-L7v1eaK5t80C0lvUXPFP9MKnBOqPSKhCOYyzy4LZ0+iK+TJwN8S9gAkzzP1AOhypRIwA88HF6phQ9C7jnOpW8w==
 
-eslint-plugin-jsdoc@^41.1.1:
-  version "41.1.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-41.1.2.tgz#41d758a603aa59ae7bc34da88da2ca526466890e"
-  integrity sha512-MePJXdGiPW7AG06CU5GbKzYtKpoHwTq1lKijjq+RwL/cQkZtBZ59Zbv5Ep0RVxSMnq6242249/n+w4XrTZ1Afg==
+eslint-plugin-jsdoc@^42.0.0:
+  version "42.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-42.0.0.tgz#161eb412245c8c12c5729550769f0aac85ca9f99"
+  integrity sha512-qXYr45G8atPKowZbIOdmABukMzu9IMjAlj6j5Fe0iuUItznWSXUDiBj57ejXcbt8bkPrg83333nuz+cqGKFgcQ==
   dependencies:
     "@es-joy/jsdoccomment" "~0.37.0"
     are-docs-informative "^0.0.2"
