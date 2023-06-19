@@ -11,6 +11,7 @@ on:
       - 'packages/stylelint-config/**/**.lock'
       - 'packages/stylelint-config/**/**.css'
       - 'packages/stylelint-config/**/**.scss'
+      - '.github/**/*'
   pull_request:
     paths:
       - 'packages/eslint-config/**/**.json'
