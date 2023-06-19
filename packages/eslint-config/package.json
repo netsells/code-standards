@@ -13,13 +13,14 @@
         "@netsells/eslint-plugin-netsells": "^1.2.2",
         "@netsells/eslint-plugin-require-jsdoc-except": "^2.0.2",
         "eslint": "^8.43.0",
-        "eslint-plugin-import": "^2.26.0",
+        "eslint-plugin-import": "^2.27.5",
         "eslint-plugin-jquery": "^1.5.1",
         "eslint-plugin-jsdoc": "^46.2.6",
         "eslint-plugin-nuxt": "^4.0.0",
         "eslint-plugin-vue": "^9.15.0",
-        "eslint-plugin-vuejs-accessibility": "^2.0.0",
-        "glob": "^10.2.7"
+        "eslint-plugin-vuejs-accessibility": "^2.1.0",
+        "glob": "^10.2.7",
+        "postcss-html": "^1.5.0"
     },
     "jest": {
         "resolver": "<rootDir>/jest-resolver.js"

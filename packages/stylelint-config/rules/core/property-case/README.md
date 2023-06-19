@@ -1,1 +1,0 @@
-Specify lowercase for properties.
