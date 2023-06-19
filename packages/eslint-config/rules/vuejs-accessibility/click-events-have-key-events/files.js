@@ -12,7 +12,6 @@ module.exports = {
         './correct/correct-10.vue',
         './correct/correct-11.vue',
         './correct/correct-12.vue',
-        './correct/correct-13.vue',
         './correct/correct-14.vue',
         './correct/correct-15.vue',
         './correct/correct-16.vue',

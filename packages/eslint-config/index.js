@@ -3,7 +3,8 @@ const globRules = globSync(`${ __dirname }/rules/**/rule.js`);
 
 module.exports = {
     parserOptions: {
-        ecmaVersion: 8,
+        parser: '@babel/eslint-parser',
+        ecmaVersion: 2020,
         sourceType: 'module',
     },
     env: {
@@ -12,7 +13,6 @@ module.exports = {
         jquery: true,
     },
     plugins: [
-        'vue',
         '@netsells/require-jsdoc-except',
         'jsdoc',
         'jquery',
@@ -21,12 +21,76 @@ module.exports = {
         'import',
     ],
     extends: [
-        'plugin:vue/base',
+        'plugin:vue/vue3-essential',
         'plugin:nuxt/recommended',
         // Help move us away from jQuery
         'plugin:jquery/deprecated',
 
         // extends the all js files in the `./rules` directory
         ...globRules.map(require.resolve),
+    ],
+    overrides: [
+        {
+            files: [
+                './**/*.vue',
+            ],
+            rules: {
+                'indent': 'off',
+            },
+        },
+        {
+            files: [
+                './**/*.spec.js',
+            ],
+            rules: {
+                '@netsells/require-jsdoc-except/require-jsdoc': 'off',
+                'jsdoc/check-tag-names': 'off',
+                'no-empty-function': 'off',
+            },
+        },
+        {
+            files: [
+                './tests/utils.js',
+            ],
+            rules: {
+                'jsdoc/no-undefined-types': 'off',
+            },
+        },
+        {
+            files: [
+                './**/*.stories.js',
+            ],
+            rules: {
+                'valid-jsdoc': 'off',
+                'jsdoc/require-returns': 'off',
+                'jsdoc/require-param': 'off',
+                '@netsells/require-jsdoc-except/require-jsdoc': 'off',
+            },
+        },
+        {
+            files: [
+                './pages/**/*.vue"',
+                './layouts/**/*.vue"',
+                './tests/mocks/components/**/*.vue"',
+                './error.vue"',
+                './app.vue',
+            ],
+            rules: {
+                '@netsells/netsells/component-file-names': 'off',
+            },
+        },
+        {
+            files: [
+                './plugins/components.js"',
+                './error.vue"',
+                './pages/**/*.vue"',
+                './layouts/**/*.vue"',
+                './app.vue',
+            ],
+            rules: {
+                'vue/match-component-file-name': 'off',
+                'vue/multi-word-component-names': 'off',
+            },
+        },
     ],
 };

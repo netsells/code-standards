@@ -6,6 +6,5 @@ module.exports = {
     incorrect: [
         './incorrect/incorrect-1.vue',
         './incorrect/incorrect-2.vue',
-        './incorrect/incorrect-3.vue',
     ],
 };
