@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-29a733bf","path":"/frontend/linting/stylelint/indentation.html","title":"indentation","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Examples","slug":"examples","link":"#examples","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/stylelint/indentation.md"}');export{t as data};
