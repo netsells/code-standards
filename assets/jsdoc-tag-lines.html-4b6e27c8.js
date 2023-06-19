@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6578a815","path":"/frontend/linting/eslint/jsdoc-tag-lines.html","title":"jsdoc/tag-lines","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Examples","slug":"examples","link":"#examples","children":[]}],"git":{"updatedTime":null,"contributors":[]},"filePathRelative":"frontend/linting/eslint/jsdoc-tag-lines.md"}');export{e as data};
