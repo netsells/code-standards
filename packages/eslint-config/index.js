@@ -69,10 +69,10 @@ module.exports = {
         },
         {
             files: [
-                './pages/**/*.vue"',
-                './layouts/**/*.vue"',
-                './tests/mocks/components/**/*.vue"',
-                './error.vue"',
+                './pages/**/*.vue',
+                './layouts/**/*.vue',
+                './tests/mocks/components/**/*.vue',
+                './error.vue',
                 './app.vue',
             ],
             rules: {
@@ -81,10 +81,10 @@ module.exports = {
         },
         {
             files: [
-                './plugins/components.js"',
-                './error.vue"',
-                './pages/**/*.vue"',
-                './layouts/**/*.vue"',
+                './plugins/components.js',
+                './error.vue',
+                './pages/**/*.vue',
+                './layouts/**/*.vue',
                 './app.vue',
             ],
             rules: {
