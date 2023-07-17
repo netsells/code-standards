@@ -7,7 +7,7 @@
     "lint:eslint": "eslint ./index.js ./rules/**/*.js --fix",
     "lint:stylelint": "stylelint 'rules/**/correct.css' --fix",
     "lint": "npm run lint:stylelint && npm run lint:eslint",
-    "test": "jest ./tests"
+    "test": "vitest ./tests"
   },
   "author": "Sam Turrell <sam@samturrell.co.uk> (http://samturrell.co.uk)",
   "license": "ISC",
@@ -19,7 +19,7 @@
     "stylelint-config-recommended-vue": "^1.4.0"
   },
   "devDependencies": {
-    "jest": "^29.0.0"
+    "vitest": "^0.33.0"
   },
   "gitHead": "6f4def5446469c28459507cf5e1f3f33047a513a"
 }

@@ -1,9 +1,11 @@
-const { globSync } = require('glob');
-const { resolve } = require('path');
+import { globSync } from 'glob';
+import { resolve } from 'path';
+import fs from 'fs';
+import stylelint from 'stylelint';
+import { describe, test, expect } from 'vitest';
+
 const directory = resolve(__dirname, '../', 'rules');
 const globRules = globSync(`${ directory }/**/rule.js`);
-const fs = require('fs');
-const stylelint = require('stylelint');
 
 const testRule = async (srcFile, ruleFile) => {
     return await stylelint.lint({
