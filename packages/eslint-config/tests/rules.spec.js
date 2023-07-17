@@ -1,13 +1,15 @@
-const { globSync } = require('glob');
-const { resolve } = require('path');
+import { globSync } from 'glob';
+import { resolve } from 'path';
+import fs from 'fs';
+import config from '../index';
+import { ESLint } from 'eslint';
+import { describe, test, expect } from 'vitest';
+
 const directory = resolve(__dirname, '../', 'rules');
 const globRules = globSync(`${ directory }/**/rule.js`);
-const fs = require('fs');
-const { CLIEngine } = require('eslint/lib/cli-engine');
-const config = require('../index');
 
 const testRule = (srcFile, ruleFile) => {
-    const cli = new CLIEngine({
+    const cli = new ESLint({
         baseConfig: {
             parserOptions: {
                 ...config.parserOptions,
@@ -21,10 +23,12 @@ const testRule = (srcFile, ruleFile) => {
 
         extensions: ['.js', '.vue'],
         useEslintrc: false,
-        configFile: ruleFile,
+        overrideConfigFile: ruleFile,
     });
 
-    return cli.executeOnText(fs.readFileSync(srcFile, 'utf8'), srcFile);
+    return cli.lintText(fs.readFileSync(srcFile, 'utf8'), {
+        filePath: srcFile,
+    });
 };
 
 const getFiles = (rulePath, type) => {
@@ -79,8 +83,8 @@ const testsConfig = globRules.map((file) => {
 testsConfig.forEach(({ file, rulePath, correct, incorrect }) => {
     describe(rulePath, () => {
         correct.forEach((correctFile) => {
-            test(`${ correctFile.srcFile } should pass`, () => {
-                const { results } = testRule(correctFile.testFile, file);
+            test(`${ correctFile.srcFile } should pass`, async () => {
+                const results = await testRule(correctFile.testFile, file);
 
                 expect(results[0].messages)
                     .toEqual([]);
@@ -88,8 +92,8 @@ testsConfig.forEach(({ file, rulePath, correct, incorrect }) => {
         });
 
         incorrect.forEach((incorrectFile) => {
-            test(`${ incorrectFile.srcFile } should fail`, () => {
-                const { results } = testRule(incorrectFile.testFile, file);
+            test(`${ incorrectFile.srcFile } should fail`, async () => {
+                const results = await testRule(incorrectFile.testFile, file);
 
                 const failed = results.filter(({ messages }) => messages.length);
 
