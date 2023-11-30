@@ -1183,9 +1183,9 @@ eslint-plugin-nuxt@^4.0.0:
     vue-eslint-parser "^9.0.3"
 
 eslint-plugin-vue@^9.15.0, eslint-plugin-vue@^9.4.0:
-  version "9.18.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-9.18.1.tgz#73cf29df7450ce5913296465f8d1dc545344920c"
-  integrity sha512-7hZFlrEgg9NIzuVik2I9xSnJA5RsmOfueYgsUGUokEDLJ1LHtxO0Pl4duje1BriZ/jDWb+44tcIlC3yi0tdlZg==
+  version "9.19.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-9.19.1.tgz#b0f553e59ec20a29ebd8906e86cd600ac577ba97"
+  integrity sha512-2+DZhbD1HrHXGcKW7roJhPZW6m+gU5/9uRNoT7dxlLlIhcStsECoYr5WFFtn6UY4IWIrC7Gzp7Y2kK47wdSPVQ==
   dependencies:
     "@eslint-community/eslint-utils" "^4.4.0"
     natural-compare "^1.4.0"
