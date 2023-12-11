@@ -19,7 +19,7 @@
     "stylelint-config-recommended-vue": "^1.4.0"
   },
   "devDependencies": {
-    "vitest": "^0.34.1"
+    "vitest": "^1.0.4"
   },
   "gitHead": "6f4def5446469c28459507cf5e1f3f33047a513a"
 }
