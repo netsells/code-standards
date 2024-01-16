@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-e5d488aa","path":"/ios/layouts.html","title":"Layouts","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1705400452000,"contributors":[{"name":"Sam Turrell","email":"sam@samturrell.co.uk","commits":1}]},"filePathRelative":"ios/layouts.md"}');export{t as data};
