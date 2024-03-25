@@ -1,6 +1,6 @@
 {
   "name": "@netsells/eslint-plugin-netsells",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "main": "index.js",
   "dependencies": {
     "case": "^1.6.2",
