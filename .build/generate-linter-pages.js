@@ -38,7 +38,7 @@ function getWarningText(directory) {
 
 const generatePages = ({
     rulesFolderPath,
-    pageTemplatePath = `${ __dirname }/templates/linter-rule-page.md`,
+    pageTemplatePath = `${ __dirname.replace(/\\/g, '/') }/templates/linter-rule-page.md`,
     indexTemplatePath,
     outputFolder,
     ruleLink,
@@ -108,18 +108,18 @@ const generatePages = ({
 };
 
 generatePages({
-    rulesFolderPath: `${ __dirname }/../packages/stylelint-config/rules`,
-    indexTemplatePath: `${ __dirname }/templates/stylelint-index.md`,
-    outputFolder: `${ __dirname }/../src/frontend/linting/stylelint`,
+    rulesFolderPath: `${ __dirname.replace(/\\/g, '/') }/../packages/stylelint-config/rules`,
+    indexTemplatePath: `${ __dirname.replace(/\\/g, '/') }/templates/stylelint-index.md`,
+    outputFolder: `${ __dirname.replace(/\\/g, '/') }/../src/frontend/linting/stylelint`,
     ruleLink: (rule) => {
         return `https://stylelint.io/user-guide/rules/${ rule }`;
     },
 });
 
 generatePages({
-    rulesFolderPath: `${ __dirname }/../packages/eslint-config/rules`,
-    indexTemplatePath: `${ __dirname }/templates/eslint-index.md`,
-    outputFolder: `${ __dirname }/../src/frontend/linting/eslint`,
+    rulesFolderPath: `${ __dirname.replace(/\\/g, '/') }/../packages/eslint-config/rules`,
+    indexTemplatePath: `${ __dirname.replace(/\\/g, '/') }/templates/eslint-index.md`,
+    outputFolder: `${ __dirname.replace(/\\/g, '/') }/../src/frontend/linting/eslint`,
     ruleLink(rule) {
         if (rule.startsWith('vue/')) {
             rule = rule.replace('vue/', '');

@@ -1,5 +1,5 @@
 const { globSync } = require('glob');
-const globRules = globSync(`${ __dirname }/rules/**/rule.js`);
+const globRules = globSync(`${ __dirname.replace(/\\/g, '/') }/rules/**/rule.js`);
 
 module.exports = {
     //extends the all js files in the `./rules` directory
