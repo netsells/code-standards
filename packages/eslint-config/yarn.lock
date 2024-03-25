@@ -429,10 +429,10 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@netsells/eslint-plugin-netsells@^1.2.2":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@netsells/eslint-plugin-netsells/-/eslint-plugin-netsells-1.2.2.tgz#7974595d8f54b2e9515a711ebae5667513d8435f"
-  integrity sha512-m1HMm1My8G8U0IzTMD0B31z8yoFn9FNMRPCoFefujyGLbpe3WPWzkm1rljYZMNlq9KX53FrM/vF6z7f24torPA==
+"@netsells/eslint-plugin-netsells@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@netsells/eslint-plugin-netsells/-/eslint-plugin-netsells-1.2.3.tgz#c2cb530678ebcc4f043616ef7ee1aed13fefa271"
+  integrity sha512-vYPvua9YOC5DEmZUteH3puBpjBOgGc00ttPCxrN3zpwMTdi3R6mZCIvPt6p1mGvSoBRByc6ns2eJezgyg05big==
   dependencies:
     case "^1.6.2"
     glob "^9.2.1"

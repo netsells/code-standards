@@ -11,7 +11,7 @@
     "license": "ISC",
     "dependencies": {
         "@babel/core": "^7.22.9",
-        "@netsells/eslint-plugin-netsells": "^1.2.2",
+        "@netsells/eslint-plugin-netsells": "^1.2.3",
         "@netsells/eslint-plugin-require-jsdoc-except": "^2.0.2",
         "eslint": "^8.43.0",
         "eslint-plugin-import": "^2.27.5",
